@@ -1,7 +1,1433 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<html xml:lang="en" lang="en" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EP Intranet</title>
+    <meta name="description" content="EP Intranet" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png">
+    <!-- CSS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/ep-styles.min.css" rel="stylesheet">
+     
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+		<script src="javascript/html5shiv.js"></script>
+		<script src="javascript/respond.min.js"></script>
+		<![endif]-->
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <!--[if lt IE 8]>
+		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+    <header role="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-2 col-sm-1 col-md-4">
+                    <!-- Control for accesibility -->
+                    <div id="skip">
+                        <ul>
+                            <li><a href="#skip-content">Go to content</a></li>
+                            <li><a href="#search-desktop">Go to search</a></li>
+                            <li><a href="#nav-left">Go to navigation</a></li>
+                            <li>
+                                <button id="contrast" class="btn" title="Change the contrast">
+                                    Contrast
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Btn menu mobile -->
+                    <button type="button" class="navbar-toggle visible-sm visible-xs" aria-expanded="false" aria-controls="nav-left">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="sr-only">Toggle navigation</span>
+                    </button>
+                    <!-- Logo desktop -->
+                    <a class="ep-logo hidden-sm hidden-xs" href="#" title="Go to homepage">
+                        <img src="img/logo.svg" alt="">
+                        <span class="title">EP Intranet</span>
+                    </a>
+                </div>
+                <div class="col-xs-11 col-sm-12 col-md-8">
+                    <!-- Logo mobile -->
+                    <div class="ep-logo visible-xs visible-sm">
+                        <img src="img/logo.svg" alt="">
+                        <span class="title">EP Intranet</span>
+                    </div>
+                    <!-- Search bar -->
+                    <div class="search" role="search">
+                        <form method="get" id="s" action="/">
+                            <input type="text" id="search-desktop" placeholder="Search for people, documents, forms..." title="Search for people, documents, forms...">
+                            <button aria-label="Search" type="submit" class="icon-search">
+                            </button>
+                        </form>
+                        <!-- Panel auto suggestion -->
+                        <ul aria-hidden="true" class="animated flipInX auto-suggestion arrow">
+                            <li class="header-title">Best results - <small>56 results in total</small></li>
+                            <li class="item"><a href="#"><span class="title">EP Delegation <mark>trav</mark>els to Climate Change Conference</span>
+                                <span class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus urna</span>
+</a></li>
+                            <li class="item"><a href="#"><span class="title">EP Delegation <mark>trav</mark>els to Climate Change Conference</span>
+                                <span class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus urna</span>
+</a></li>
+                            <li class="item"><a href="#"><span class="title">EP Delegation <mark>trav</mark>els to Climate Change Conference</span>
+                                <span class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus urna</span>
+</a></li>
+                            <li class="header-title">Documents - <small>2 results in total <a class="pull-right" href="#">All results for documents</a></small></li>
+                            <li class="item">
+                                <a href="#">
+                                    <i class="icon-doc pdf"></i>
+                                    <span class="right">
+                                        <span class="title">EP Delegation <mark>trav</mark>els to Climate Change Conference</span>
+                                    <span class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus urna</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="header-title">Peoples - <small>1 result in total <a class="pull-right" href="#">All results for peoples</a></small></li>
+                            <li class="item">
+                                <a href="#">
+                                    <img class="img-circle" src="img/tmp/avatar01.jpg" alt="...">
+                                    <span class="right">
+                                                                    <span class="title">Mr Marcel DE<mark>GRA</mark>AFF</span>
+                                    <p>Member of the European Parliament
+                                        <br>
+                                        <span class="label" title="EP > Parliament's Secretariat > ... breadcrumb">Intranet Service</span>
+                                    </p>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li class="text-center"><a class="btn" role="button" href="#">View all</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-4 text-right">
+                    <!-- Languages -->
+                    <!-- Dropdown custom -->
+                    <div class="btn-group lang hidden-xs">
+                        <button type="button" class="btn-select btn-sm dropdown-toggle" data-toggle="dropdown" aria-label="Change language" aria-haspopup="true" aria-expanded="false">
+                            EN<i class="icon-arrow-down2"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a href="#">EN</a>
+                            </li>
+                            <li><a href="#">FR</a>
+                            </li>
+                            <li><a href="#">DE</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- User menu -->
+                    <div class="dropdown profile">
+                        <!-- Avatar -->
+                        <a class="btn dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true" aria-label="Show my personal menu" href="#">
+                            <div class="user-picture">
+                                <img class="img-circle" src="img/tmp/avatar01.jpg" alt="">
+                                <!--<span>JS</span>-->
+                            </div>
+                            <span aria-label="Nb of notifications" class="badge">12</span>
+                            <span class="title">John</span>
+                            <i aria-hidden="true" class="icon-arrow-down2"></i>
+                        </a>
+                        <!-- Menu popover user -->
+                        <ul class="navuser dropdown-menu dropdown-menu-right arrow ">
+                            <li class="lang-mobile visible-xs visible-sm">
+                                <!-- Dropdown custom -->
+                                <div class="btn-group lang">
+                                    <button type="button" class="btn-select btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        EN <i class="icon-arrow-down2"></i>
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-right">
+                                        <li><a href="#">EN</a>
+                                        </li>
+                                        <li><a href="#">FR</a>
+                                        </li>
+                                        <li><a href="#">DE</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#"><i aria-hidden="true" class="icon-setting"></i>My Settings</a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i aria-hidden="true" class="icon-contacts"></i>My Contacts
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i aria-hidden="true" class="icon-book"></i>My Bookmarks
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i aria-hidden="true" class="icon-suscribe"></i>My Suscriptions
+                                </a>
+                            </li>
+                            <li><a href="#"><i aria-hidden="true" class="icon-notif"></i>My Notifications</a>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i aria-hidden="true" class="icon-page"></i> Page
+                                            <span class="badge animated bounceIn">2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i aria-hidden="true" class="icon-doc2"></i> Documents
+                                            <span class="badge animated bounceIn">1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i aria-hidden="true" class="icon-meeting"></i> Meetings
+                                            <span class="badge animated bounceIn">3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i aria-hidden="true" class="icon-km"></i> KM Portal
+                                            <span class="badge animated bounceIn">6</span>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <!--<li class="notifications">
+                                <div class="alert alert-notif alert-dismissible" role="alert">
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <i aria-hidden="true" class="icon-page"></i>
+                                    <strong>Karen updated the page :</strong>
+                                    <br>
+                                    <a href="#">
+                                    How to access the car park</a>
+                                    <time datetime="2016-04-02"><i aria-hidden="true" class="icon-clock"></i> 02.04.2016
+                                    </time>
+                                </div>
+                            </li>-->
+                            <li role="separator" class="divider"></li>
+                            <li class="logout">
+                                <a href="#">
+                                    <i aria-hidden="true" class="icon-power"></i> Log out from EPNet
+                                    <span class="timeout">Session: 03:55:35</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="content" class="container">
+        <div class="row">
+            <!-- Nav left -->
+            <div class="col-md-4 col-lg-3">
+                <nav role="navigation" id="nav-left" class="navmenu">
+                    <ul class="nav">
+                        <li>
+                            <!-- Selectbox browseas -->
+                            <div class="browseas">
+                                <p>Browse As:</p>
+                                <!-- Dropdown custom -->
+                                <div class="btn-group">
+                                    <button type="button" class="btn-select dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Administrative staff <i aria-hidden="true" class="icon-arrow-down2"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Administrative staff</a>
+                                        </li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Member of Parliament</a>
+                                        </li>
+                                        <li><a href="#">Parliamentary assistant</a>
+                                        </li>
+                                        <li><a href="#">External staff</a>
+                                        </li>
+                                        <li><a href="#">Trainee</a>
+                                        </li>
+                                        <li><a href="#">Retired staff</a>
+                                        </li>
+                                        <li><a href="#">Retired Member</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <i aria-hidden="true" class="icon-arrow-down2"></i>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/human-resources.svg">Human resources</a>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/buildings.svg">Buildings and offices</a>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/meetings.svg">Meetings and events</a>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/missions.svg">Missions and travel</a>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/finance.svg">Finance</a>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/training.svg">Training</a>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/communication.svg">Communication </a>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/it-support.svg">IT support</a>
+                        </li>
+                    </ul>
+                    <ul class="nav2 nav-accordion" role="tablist" aria-multiselectable="true">
+                        <li class="panel" role="presentation">
+                            <button role="tab" type="button" data-toggle="collapse" data-target="#nav-collapse1" data-parent=".nav-accordion" aria-expanded="false" class="collapsed">DG<small>s</small> and Services<i aria-hidden="true" class="icon-arrow-down2"></i>
+                            </button>
+                            <ul id="nav-collapse1" class="collapse" role="tabpanel">
+                                <li><a href="#">DG PERS</a></li>
+                                <li><a href="#">DG COMM</a></li>
+                                <li><a href="#">DG ITEC</a></li>
+                                <li><a href="#">DG PRES</a></li>
+                                <li><a href="#">DG FINS</a></li>
+                                <li><a href="#">DG SAFE</a></li>
+                                <li><a href="#">DG INTE</a></li>
+                                <li><a href="#">DG INLO</a></li>
+                                <li><a href="#">DG IPOL</a></li>
+                                <li><a href="#">DG EPRS</a></li>
+                                <li><a href="#">DG EXPO</a></li>
+                                <li><a href="#">DG TRAD</a></li>
+                                <li><a href="#">Legal Service</a></li>
+                                <li><a href="#">Secretary-General</a></li>
+                                <li><a href="#">Deputy Secretary-General</a></li>
+                                <li><a href="#">Staff Committee</a></li>
+                                <li><a href="#">Organisation chart</a></li>
+                            </ul>
+                        </li>
+                        <li class="panel" role="presentation">
+                            <button role="tab" type="button" data-toggle="collapse" data-target="#nav-collapse2" data-parent=".nav-accordion" aria-expanded="false" class="collapsed">Parliamentary life<i aria-hidden="true" class="icon-arrow-down2"></i></button>
+                            <ul id="nav-collapse2" class="collapse" role="tabpanel">
+                                <li><a href="#">Today in Parliament</a></li>
+                                <li><a href="#">Today's press</a></li>
+                                <li><a href="#">Plenary session</a></li>
+                                <li><a href="#">President and Members</a></li>
+                                <li><a href="#">Conference of Presidents</a></li>
+                                <li><a href="#">Bureau and Quaestors</a></li>
+                                <li><a href="#">Conference of Committee Chairs</a></li>
+                                <li><a href="#">Committees</a></li>
+                                <li><a href="#">Delegations</a></li>
+                                <li><a href="#">Parliament's secretariat</a></li>
+                                <li><a href="#">Political groups</a></li>
+                                <li><a href="#">Legislative activities</a></li>
+                                <li><a href="#">Documents</a></li>
+                            </ul>
+                        </li>
+                        <li class="panel" role="presentation">
+                            <button role="tab" type="button" data-toggle="collapse" data-target="#nav-collapse3" data-parent=".nav-accordion" aria-expanded="false" class="collapsed">Life outside work<i aria-hidden="true" class="icon-arrow-down2"></i></button>
+                            <ul id="nav-collapse3" class="collapse" role="tabpanel">
+                                <li><a href="#">In Brussels</a></li>
+                                <li><a href="#">In Luxembourg</a></li>
+                                <li><a href="#">In Strasbourg</a></li>
+                                <li><a href="#">Small ads</a></li>
+                            </ul>
+                        </li>
+                        <li class="panel" role="presentation">
+                            <button role="tab" type="button" data-toggle="collapse" data-target="#nav-collapse4" data-parent=".nav-accordion" aria-expanded="false" class="collapsed">EP Intranet Help centre<i aria-hidden="true" class="icon-arrow-down2"></i></button>
+                            <ul id="nav-collapse4" class="collapse" role="tabpanel">
+                                <li><a href="#">Features and customisation</a></li>
+                                <li><a href="#">Contributing to EP Intranet</a></li>
+                                <li><a href="#">EP Intranet mobile</a></li>
+                                <li><a href="#">EP Directory</a></li>
+                                <li><a href="#">EP Intranet team</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Sidebar right -->
+            <aside class="col-md-4 col-lg-4 col-md-push-8 col-lg-push-9" role="complementary">
+                <!-- Welcome tour alert -->
+                <div class="alert alert-welcome-tour alert-dismissible hidden-sm hidden-xs" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <a href="#">
+                        <div class="media welcome-tour">
+                            <div class="media-left">
+                                <img alt="" src="img/welcome-tour.png">
+                            </div>
+                            <div class="media-body">
+                                Découvrez
+                                <br> le nouvel Intranet !
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Btn for mobile collapse widgets -->
+                <div class="text-center">
+                    <button type="button" data-toggle="collapse" data-target="#collapse-widgets" class="btn-widgets hidden-md hidden-lg collapsed"><i class="icon-grid"></i><span class="show-txt">Show my widgets</span><span class="hide-txt">Hide my widgets</span></button>
+                </div>
+                <div id="collapse-widgets" class="widgets collapse">
+                    <!-- Widgets -->
+                    <div class="jahietArea">
+                        <ul id="widgetsList">
+                            <!-- Widget TODO list -->
+                            <li class="widget">
+                                <h3 class="icon-todo">TODO List</h3>
+                                <div role="toolbar" class="controls hidden-xs">
+                                    <a href="#" class="setting" data-toggle="modal" data-target="#TodoModal" data-placement="top" data-delay="400" title="Configure this widget"><i class="icon-setting"></i><span class="sr-only">Setting</span></a>
+                                    <a aria-hidden="true" href="#" class="move" data-toggle="tooltip" data-placement="top" data-delay="400" title="Move this widget"><i class="icon-move"></i><span class="sr-only">Move</span></a>
+                                    <a href="#" class="remove" data-toggle="tooltip" data-placement="top" data-delay="400" title="Delete this widget"><i class="icon-remove"></i><span class="sr-only">Delete</span></a>
+                                </div>
+                                <div class="content todoList">
+                                    <div class="row">
+                                        <div class="col-md-10">
+                                            <button class="btn btn-sm" role="button" data-toggle="modal" data-target="#AddTodoModal"><i aria-hidden="true" class="icon-plus"></i>&nbsp;Add new todo</button>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <select id="filterTodoList" class="form-control">
+                                                <option value="all">All</option>
+                                                <option value="completed">Completed</option>
+                                                <option value="uncompleted">Uncompleted</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <ul class="todo">
+                                        <li>
+                                            <!-- Actions -->
+                                            <div class="controls">
+                                                <a href="#" type="button" class="edit" role="button" data-toggle="modal" data-target="#EditTodoModal"><i class="icon-edit"></i><span class="sr-only">Edit</span></a>
+                                                <a href="#" type="button" class="remove"><i class="icon-delete"></i><span class="sr-only">Delete</span></a>
+                                            </div>
+                                            <!-- Checkbox -->
+                                            <input type="checkbox" checked id="todo1" class="check sr-only">
+                                            <label class="label-hidden" for="todo1">Send e-mail to Mark</label>
+                                            <span class="date"><i aria-hidden="true" class="icon-clock"></i>09.06.2016 - 09h15</span>
+                                            <span data-toggle="tooltip" data-placement="top" data-delay="400" data-original-title="Priority: normal" class="priority normal"></span>
+                                        </li>
+                                        <li>
+                                            <!-- Actions -->
+                                            <div class="controls">
+                                                <a href="#" type="button" class="edit"><i class="icon-edit"></i><span class="sr-only">Edit</span></a>
+                                                <a href="#" type="button" class="remove"><i class="icon-delete"></i><span class="sr-only">Delete</span></a>
+                                            </div>
+                                            <!-- Checkbox -->
+                                            <input type="checkbox" id="todo2" class="check sr-only">
+                                            <label class="label-hidden" for="todo2">Resolve issue</label>
+                                            <span class="date"><i aria-hidden="true" class="icon-clock"></i>11.08.2016 - 15h00</span>
+                                            <span data-toggle="tooltip" data-placement="top" data-delay="400" data-original-title="Priority: high" class="priority high"></span>
+                                        </li>
+                                        <li>
+                                            <!-- Actions -->
+                                            <div class="controls">
+                                                <a href="#" type="button" class="edit"><i class="icon-edit"></i><span class="sr-only">Edit</span></a>
+                                                <a href="#" type="button" class="remove"><i class="icon-delete"></i><span class="sr-only">Delete</span></a>
+                                            </div>
+                                            <!-- Checkbox -->
+                                            <input type="checkbox" id="todo3" class="check sr-only">
+                                            <label class="label-hidden" for="todo3">Make a backup</label>
+                                            <span class="date"><i aria-hidden="true" class="icon-clock"></i>19.08.2016 - 09h00</span>
+                                            <span data-toggle="tooltip" data-placement="top" data-delay="400" data-original-title="Priority: Very high" class="priority veryHigh"></span>
+                                        </li>
+                                        <li>
+                                            <!-- Actions -->
+                                            <div class="controls">
+                                                <a href="#" type="button" class="edit"><i class="icon-edit"></i><span class="sr-only">Edit</span></a>
+                                                <a href="#" type="button" class="remove"><i class="icon-delete"></i><span class="sr-only">Delete</span></a>
+                                            </div>
+                                            <!-- Checkbox -->
+                                            <input type="checkbox" id="todo4" class="check sr-only">
+                                            <label class="label-hidden unresolved" for="todo4">Buy a ticket</label>
+                                            <span class="date"><i aria-hidden="true" class="icon-clock"></i>09.06.2016 - 09h15</span>
+                                            <span data-toggle="tooltip" data-placement="top" data-delay="400" data-original-title="Priority: normal" class="priority normal"></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- Modal -->
+                                <div class="modal fade" id="TodoModal" tabindex="-1" role="dialog" aria-labelledby="TodoModalLabel">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                <h4 class="modal-title" id="TodoModalLabel">My TODO list</h4>
+                                            </div>
+                                            <form class="form-horizontal">
+                                                <div class="modal-body">
+                                                    <div class="form-group">
+                                                        <label class="col-sm-6 control-label" for="TodoModalTitle">My widget title:</label>
+                                                        <div class="col-sm-8">
+                                                            <input type="text" class="form-control" id="TodoModalTitle" value="TODO List">
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-primary">Update</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Modal add a Todo -->
+                                <div class="modal fade" id="AddTodoModal" role="dialog" aria-labelledby="AddTodoModalLabel">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                <h4 class="modal-title" id="AddTodoModalLabel">Add a todo</h4>
+                                            </div>
+                                            <form class="form-horizontal">
+                                                <div class="modal-body">
+
+                                                        <div class="form-group has-error">
+                                                            <label class="col-sm-4 control-label" for="TodoTitle">Title:</label>
+                                                            <div class="col-sm-9">
+                                                                <input type="text" class="form-control" id="TodoTitle" value="" aria-describedby="helpBlock1">
+                                                                <span id="helpBlock1" class="help-block">Error, this field must be not empty.</span>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form-group">
+                                                                    <label class="col-sm-4 control-label" for="todoDate-end">Date:</label>
+                                                                    <!-- Date input(v2) with time -->
+                                                                    <div class="date-input col-sm-6">
+                                                                        <input type="text" class="datetimepicker" id="todoDate-end" placeholder="JJ/MM/YY h:m" title="Date: (JJ/MM/YY h:m)">
+                                                                        <button type="button" class="icon-calendar" aria-label="Show calendar">
+                                                                        </button>
+                                                                    </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                                    <label class="col-sm-4 control-label" for="todoPriority">Priority:</label>
+                                                                    <div class="col-sm-6">
+                                                                        <select id="todoPriority">
+                                                                            <option value="veryHigh">Very Important</option>
+                                                                            <option value="high">Important</option>
+                                                                            <option value="normal" selected>Normal</option>
+                                                                            <option value="low">Low</option>
+                                                                        </select>
+                                                                    </div>
+                                                        </div>
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                                    <button type="button" class="btn btn-primary">Save</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                 <!-- Modal edit a Todo -->
+                                <div class="modal fade" id="EditTodoModal" role="dialog" aria-labelledby="EditTodoModalLabel">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                <h4 class="modal-title" id="EditTodoModalLabel">Edit todo</h4>
+                                            </div>
+                                            <form class="form-horizontal">
+                                                <div class="modal-body">
+
+                                                        <div class="form-group has-error">
+                                                            <label class="col-sm-4 control-label" for="TodoTitle">Title:</label>
+                                                            <div class="col-sm-9">
+                                                                <input type="text" class="form-control" id="TodoTitle" value="" aria-describedby="helpBlock1">
+                                                                <span id="helpBlock1" class="help-block">Error, this field must be not empty.</span>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form-group">
+                                                                    <label class="col-sm-4 control-label" for="todoDate-end">Date:</label>
+                                                                    <!-- Date input(v2) with time -->
+                                                                    <div class="date-input col-sm-6">
+                                                                        <input type="text" class="datetimepicker" id="todoDate-end2" placeholder="JJ/MM/YY h:m" title="Date: (JJ/MM/YY h:m)">
+                                                                        <button type="button" class="icon-calendar" aria-label="Show calendar">
+                                                                        </button>
+                                                                    </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                                    <label class="col-sm-4 control-label" for="todoPriority">Priority:</label>
+                                                                    <div class="col-sm-6">
+                                                                        <select id="todoPriority">
+                                                                            <option value="veryHigh">Very Important</option>
+                                                                            <option value="high">Important</option>
+                                                                            <option value="normal" selected>Normal</option>
+                                                                            <option value="low">Low</option>
+                                                                        </select>
+                                                                    </div>
+                                                        </div>
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                                    <button type="button" class="btn btn-primary">Save</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- Widget applications -->
+                            <li class="widget">
+                                <div role="toolbar" class="controls hidden-xs">
+                                    <a href="#" role="button" class="setting" data-toggle="modal" data-target="#myApplicationsModal" data-placement="top" data-delay="400" title="Configure this widget"><i aria-hidden="true" class="icon-setting"></i><span class="sr-only">Setting</span></a>
+                                    <a aria-hidden="true" href="#" class="move" data-toggle="tooltip" data-placement="top" data-delay="400" title="Move this widget"><i aria-hidden="true" class="icon-move"></i><span class="sr-only">Move</span></a>
+                                    <a href="#" class="remove" data-toggle="tooltip" data-placement="top" data-delay="400" title="Delete this widget"><i aria-hidden="true" class="icon-remove"></i><span class="sr-only">Delete</span></a>
+                                </div>
+                                <h3 class="icon-application">Applications</h3>
+                                <div class="content">
+                                    <ul class="applications">
+                                        <li>
+                                            <a href="#">
+                                                <img alt="" src="img/icons/applications/streamline.jpg">
+                                                <br>streamline</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img alt="" src="img/icons/applications/rcam.jpg">
+                                                <br>RCAM/JSIS</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img alt="" src="img/icons/applications/km.jpg">
+                                                <br>KM Portal</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img alt="" src="img/icons/applications/learnEP.jpg">
+                                                <br>learn.EP</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img alt="" src="img/icons/applications/ecommittee.jpg">
+                                                <br>eCommittee</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img alt="" src="img/icons/applications/eubookshop.jpg">
+                                                <br>EU Bookshop</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- Modal -->
+                                <div class="modal fade" id="myApplicationsModal" tabindex="-1" role="dialog" aria-labelledby="myApplicationsModalLabel">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                <h4 class="modal-title" id="myApplicationsModalLabel">Applications widget</h4>
+                                            </div>
+                                            <form class="form-horizontal">
+                                                <div class="modal-body">
+                                                    <div class="row">
+                                                        <div class="form-group">
+                                                            <label class="col-sm-6 control-label" for="myApplicationsModalTitle">My widget title:</label>
+                                                            <div class="col-sm-8">
+                                                                <input type="text" class="form-control" id="myApplicationsModalTitle" value="My applications">
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="col-xs-16 text-center">
+                                                            <p>Drag & drop items to configure your widgets</p>
+                                                        </div>
+                                                        <!-- Start listes sortable -->
+                                                        <div class="col-xs-8">
+                                                            <div class="box-applications">
+                                                                <h5>Available applications:</h5>
+                                                                <span class="filter">Filter:
+                                                            <select>
+                                                            <option value="all">All</option>
+                                                            <option value="mep">Member of Parliament</option>
+                                                            <option value="administrative-staff">Administrative staff</option>
+                                                            <option value="external-staff">External staff</option>
+                                                        </select>
+                                                    </span>
+                                                                <div class="content">
+                                                                    <ul id="sortable1" class="applications connectedSortable">
+                                                                        <li data-persona="mep">
+                                                                            <div id="UID5">
+                                                                                <img alt="" src="img/icons/applications/ecommittee.jpg">
+                                                                                <br>eCommittee
+                                                                                <input type="hidden" name="UID5" value="1" />
+                                                                            </div>
+                                                                        </li>
+                                                                        <li data-persona="administrative-staff, external-staff">
+                                                                            <div id="UID6"><img alt="" src="img/icons/applications/eubookshop.jpg">
+                                                                                <br>EU Bookshop
+                                                                                <input type="hidden" name="UID6" value="2" />
+                                                                            </div>
+                                                                        </li>
+                                                                        <li data-persona="mep">
+                                                                            <div id="UID1"><img alt="" src="img/icons/applications/streamline.jpg">
+                                                                                <br>StreamLine
+                                                                                <input type="hidden" name="UID1" value="3" />
+                                                                            </div>
+                                                                        </li>
+                                                                        <li data-persona="mep">
+                                                                            <div id="UID1"><img alt="" src="img/icons/applications/streamline.jpg">
+                                                                                <br>StreamLine
+                                                                                <input type="hidden" name="UID1" value="4" />
+                                                                            </div>
+                                                                        </li>
+                                                                        <li data-persona="mep">
+                                                                            <div id="UID1"><img alt="" src="img/icons/applications/streamline.jpg">
+                                                                                <br>StreamLine
+                                                                                <input type="hidden" name="UID1" value="5" />
+                                                                            </div>
+                                                                        </li>
+                                                                        <li data-persona="mep">
+                                                                            <div id="UID1"><img alt="" src="img/icons/applications/streamline.jpg">
+                                                                                <br>StreamLine
+                                                                                <input type="hidden" name="UID1" value="6" />
+                                                                            </div>
+                                                                        </li>
+                                                                        <li data-persona="mep">
+                                                                            <div id="UID1"><img alt="" src="img/icons/applications/streamline.jpg">
+                                                                                <br>StreamLine
+                                                                                <input type="hidden" name="UID1" value="7" />
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-8">
+                                                            <div class="box-applications">
+                                                                <h5>My Applications:</h5>
+                                                                <div class="content">
+                                                                    <ul id="sortable2" class="applications connectedSortable">
+                                                                        <li data-persona="mep">
+                                                                            <div id="UID1"><img alt="" src="img/icons/applications/streamline.jpg">
+                                                                                <br>StreamLine
+                                                                                <input type="hidden" name="UID1" value="1" />
+                                                                            </div>
+                                                                        </li>
+                                                                        <li data-persona="administrative-staff, external-staff">
+                                                                            <div id="UID2"><img alt="" src="img/icons/applications/rcam.jpg">
+                                                                                <br>RCAM/JSIS
+                                                                                <input type="hidden" name="UID1" value="2" />
+                                                                            </div>
+                                                                        </li>
+                                                                        <li data-persona="administrative-staff, external-staff">
+                                                                            <div id="UID3"><img alt="" src="img/icons/applications/km.jpg">
+                                                                                <br>KM Portal
+                                                                                <input type="hidden" name="UID1" value="3" />
+                                                                            </div>
+                                                                        </li>
+                                                                        <li data-persona="administrative-staff, external-staff">
+                                                                            <div id="UID4"><img alt="" src="img/icons/applications/learnEP.jpg">
+                                                                                <br>Learn.EP
+                                                                                <input type="hidden" name="UID1" value="4" />
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- End listes sortable -->
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <!-- Widget Last updated -->
+                            <li class="widget">
+                                <h3 class="icon-refresh">Last updated</h3>
+                                <div role="toolbar" class="controls hidden-xs">
+                                    <a href="#" class="setting" data-toggle="modal" data-target="#LastUpdatedContentModal" data-placement="top" data-delay="400" title="Configure this widget"><i class="icon-setting"></i><span class="sr-only">Setting</span></a>
+                                    <a aria-hidden="true" href="#" class="move" data-toggle="tooltip" data-placement="top" data-delay="400" title="Move this widget"><i class="icon-move"></i><span class="sr-only">Move</span></a>
+                                    <a href="#" class="remove" data-toggle="tooltip" data-placement="top" data-delay="400" title="Delete this widget"><i class="icon-remove"></i><span class="sr-only">Delete</span></a>
+                                </div>
+                                <div class="content">
+                                    <ol class="lastupdated">
+                                        <li><a href="#">Parliamentarium - The European Parliament's Visitors' Centre <span class="date"><i aria-hidden="true" class="icon-clock"></i>09.06.2016</span></a></li>
+                                        <li><a href="#">The library, the reading rooms<span class="date"><i aria-hidden="true" class="icon-clock"></i>07.06.2016</span></a></li>
+                                        <li><a href="#">Conseil et stratégie de communication interne <span class="date"><i aria-hidden="true" class="icon-clock"></i>02.06.2016</span></a></li>
+                                        <li><a href="#">e-Communication <span class="date"><i aria-hidden="true" class="icon-clock"></i>25.05.2016</span></a></li>
+                                        <li><a href="#">Publication and distribution <span class="date"><i aria-hidden="true" class="icon-clock"></i>23.05.2016</span></a></li>
+                                    </ol>
+                                </div>
+                                <!-- Modal -->
+                                <div class="modal fade" id="LastUpdatedContentModal" tabindex="-1" role="dialog" aria-labelledby="LastUpdatedContentModalLabel">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                <h4 class="modal-title" id="LastUpdatedContentModalLabel">Last updated content</h4>
+                                            </div>
+                                            <form class="form-horizontal">
+                                                <div class="modal-body">
+                                                    <div class="form-group">
+                                                        <label class="col-sm-6 control-label" for="LastUpdatedContentModalTitle">My widget title:</label>
+                                                        <div class="col-sm-8">
+                                                            <input type="text" class="form-control" id="LastUpdatedContentModalTitle" value="Last updated content">
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-6 control-label" for="nbrOfContentsToShow">Number of items to show:</label>
+                                                        <div class="col-sm-8">
+                                                            <input type="number" class="form-control" id="nbrOfContentsToShow" value="4">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-6 control-label" for="nbrOfContentsToShow">Filtre audience:</label>
+                                                        <div class="col-sm-8">
+                                                            <select class="selectpicker" multiple>
+                                                                <option>Administrative staff</option>
+                                                                <option>Member of Parliament</option>
+                                                                <option>External staff</option>
+                                                                <option>Administrative staff</option>
+                                                                <option>Member of Parliament</option>
+                                                                <option>Parliamentary assistant</option>
+                                                                <option>External staff</option>
+                                                                <option>Trainee</option>
+                                                                <option>Retired staff</option>
+                                                                <option>Retired Member</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-primary">Update</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- Widget Bookmarks 
+                            <li class="widget">
+                                <h3 class="icon-book">My favorite bookmarks</h3>
+                                <div role="toolbar" class="controls hidden-xs">
+                                    <a href="#" class="setting" data-toggle="modal" data-target="#LastUpdatedContentModal" data-placement="top" data-delay="400" title="Configure this widget"><i class="icon-setting"></i><span class="sr-only">Setting</span></a>
+                                    <a aria-hidden="true" href="#" class="move" data-toggle="tooltip" data-placement="top" data-delay="400" title="Move this widget"><i class="icon-move"></i><span class="sr-only">Move</span></a>
+                                    <a href="#" class="remove" data-toggle="tooltip" data-placement="top" data-delay="400" title="Delete this widget"><i class="icon-remove"></i><span class="sr-only">Delete</span></a>
+                                </div>
+                                <div class="content">
+                                    <ul class="bookmarks">
+                                        <li><i class="icon-bookmark"></i> <a href="#">Parliamentarium - The European Parliament's Visitors' Centre</a></li>
+                                        <li><i class="icon-bookmark"></i> <a href="#">Google</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            -->
+                            <!-- Widget calendar -->
+                            <!--<li class="widget">
+                                <h3 class="icon-calendar">Agenda</h3>
+                                <div role="toolbar" class="controls hidden-xs">
+                                    <a href="#" class="setting" data-toggle="tooltip" data-placement="top" data-delay="400" title="Configure this widget"><i class="icon-setting"></i><span class="sr-only">Setting</span></a>
+                                    <a aria-hidden="true" href="#" class="move" data-toggle="tooltip" data-placement="top" data-delay="400" title="Move this widget"><i class="icon-move"></i><span class="sr-only">Move</span></a>
+                                    <a href="#" class="remove" data-toggle="tooltip" data-placement="top" data-delay="400" title="Delete this widget"><i class="icon-remove"></i><span class="sr-only">Delete</span></a>
+                                </div>
+                                <div class="content text-center calendar">
+                                    <img alt="Agenda" src="img/tmp/agenda.jpg">
+                                </div>
+                            </li>-->
+                            <li class="widget">
+                                <h3 class="icon-restaurant">Restaurant menu</h3>
+                                <div role="toolbar" class="controls hidden-xs">
+                                    <a href="#" class="setting" data-toggle="tooltip" data-placement="top" data-delay="400" title="Configure this widget"><i class="icon-setting"></i><span class="sr-only">Setting</span></a>
+                                    <a aria-hidden="true" href="#" class="move" data-toggle="tooltip" data-placement="top" data-delay="400" title="Move this widget"><i class="icon-move"></i><span class="sr-only">Move</span></a>
+                                    <a href="#" class="remove" data-toggle="tooltip" data-placement="top" data-delay="400" data-dismiss="widget" title="Delete this widget"><i class="icon-remove"></i><span class="sr-only">Delete</span></a>
+                                </div>
+                                <div class="content nopadding">
+                                    <a href="#">
+                                        <img alt="Menu" src="img/lunch.jpg">
+                                    </a>
+                                </div>
+                            </li>
+                            <!-- 
+                            <li class="widget">
+                                <h3 id="TitleSmallads" class="icon-ads">Small ads</h3>
+                                <div role="toolbar" class="controls hidden-xs">
+                                    <a href="#" class="setting" data-toggle="tooltip" data-placement="top" data-delay="400" title="Configure this widget"><i class="icon-setting"></i><span class="sr-only">Setting</span></a>
+                                    <a aria-hidden="true" href="#" class="move" data-toggle="tooltip" data-placement="top" data-delay="400" title="Move this widget"><i class="icon-move"></i><span class="sr-only">Move</span></a>
+                                    <a href="#" class="remove" data-toggle="tooltip" data-placement="top" data-delay="400" title="Delete this widget"><i class="icon-remove"></i><span class="sr-only">Delete</span></a>
+                                </div>
+                                <div class="content">
+                                    <ul class="smallads">
+                                        <li>
+                                            <a href="#">
+                                                <img alt="" src="img/icons/small-ads/house.svg">
+                                                <div class="desc">
+                                                    <h4>Etterbeek - Apartment</h4>
+                                                    <p>Properties for rent
+                                                        <br><i class="text-secondary">Today</i>
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img alt="" src="img/icons/small-ads/goods.svg">
+                                                <div class="desc">
+                                                    <h4>Electric Bike</h4>
+                                                    <p>Goods
+                                                        <br><i class="text-secondary">19.08.2015</i>
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img alt="" src="img/icons/small-ads/services.svg">
+                                                <div class="desc">
+                                                    <h4>Cour de yoga prénatal</h4>
+                                                    <p>Services
+                                                        <br><i class="text-secondary">17.08.2015</i>
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="text-center">
+                                        <div class="search">
+                                            <input type="text" id="search-smallads" placeholder="Search" title="Search for a small ads">
+                                            <button type="submit" class="icon-search"><span class="sr-only">Search</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>-->
+                        </ul>
+                        <div class="widgetsListControls">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn resetjahiets" data-toggle="modal" data-target="#myWidgetsModal">Reset widgets</button>
+                            <button type="button" class="btn btn-primary icon-plus addjahiets" data-toggle="modal" data-target="#myWidgetsModal">Add a widget</button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="myWidgetsModal" tabindex="-1" role="dialog" aria-labelledby="myWidgetsModalLabel">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                            <h4 class="modal-title" id="myWidgetsModalLabel">Modal title</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Content</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <!-- Main content -->
+            <div id="skip-content" role="main" class="col-md-8 col-lg-9 col-md-pull-4 col-lg-pull-4">
+                <!-- Carousel new version Blueimp -->
+                <section class="news-carousel">
+                    <h1 class="sr-only">Highlighted content</h1>
+                    <!-- tabs carousel -->
+                    <ul id="news-headlines" role="tablist">
+                        <li class="selected" aria-selected="true" role="tab">
+                            <a href="url1" data-image="img/tmp/img-news6.jpg" data-target="_blank" title="Online access to world press at the EPRS">
+                                Online access to world press at the EPRS
+                                <div class="description">Read your favourite journal on the Library in the <strong>Lucas Pires Reading Room</strong></div>
+                            </a>
+                        </li>
+                        <li role="tab" aria-selected="false">
+                            <a href="url2" data-target="" data-image="img/tmp/img-slide2.jpg" title="Testez l'EP Intranet !">
+                                Testez l'EP Intranet !
+                                <div class="description">Des tests utilisateurs seront accessibles en ligne, les 5 et 6 octobre</div>
+                            </a>
+                        </li>
+                        <li role="tab" aria-selected="false">
+                            <a href="url3" data-image="img/tmp/img-slide3.jpg" title="Une appli mobile pour les situations d'urgence">
+                                Une appli mobile pour les situations d'urgence
+                                <div class="description">Suite aux alertes à la bombe répétées, nos services informatiques ont conçu une application mobile pour diffuser des informations en temps réel.</div>
+                            </a>
+                        </li>
+                        <!-- li.highlight gets inserted here -->
+                    </ul>
+                    <!-- panels carousel -->
+                    <div id="news-carousel" data-interval='8000' aria-hidden="true" class="blueimp-gallery blueimp-gallery-carousel blueimp-gallery-controls">
+                        <div class="slides"></div>
+                        <div class="news-caption">
+                            <h3 class="title"></h3>
+                            <p class="description"></p>
+                        </div>
+                        <a class="play-pause"></a>
+                        <ol class="indicator"></ol>
+                    </div>
+                </section>
+                <!-- News -->
+                <section class="box news">
+                    <div class="header-title">
+                        <h1><a href="#" title="See all recent news">Recent  <strong>News</strong></a></h1>
+                        <a aria-hidden="true" class="more" href="newslist.html">All recent news <i aria-hidden="true" class="icon-more"></i></a>
+                    </div>
+                    <div class="content">
+                        <div class="row">
+                            <article class="col-sm-3ths col-md-3ths col-lg-3ths">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <img src="img/tmp/img-1200x600.jpg" alt="...">
+                                        <div class="caption">
+                                            <small>
+                                            <time datetime="2016-04-08"><i aria-hidden="true" class="icon-clock"></i> 06.04.2016
+                                            </time>
+                                            </small>
+                                            <h3>Tai shi at the EP</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                            </article>
+                            <article class="col-sm-3ths col-md-3ths col-lg-3ths">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <img src="img/tmp/img-news3.jpg" alt="...">
+                                        <div class="caption">
+                                            <time datetime="2016-04-05"><i aria-hidden="true" class="icon-clock"></i> 05.04.2016
+                                            </time>
+                                            <h3>New opening hours at the EP</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                            </article>
+                            <article class="col-sm-3ths col-md-3ths col-lg-3ths">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <img src="img/tmp/img-news2.jpg" alt="...">
+                                        <div class="caption">
+                                            <time datetime="2016-04-02"><i aria-hidden="true" class="icon-clock"></i> 02.04.2016
+                                            </time>
+                                            <h3>News ECAS login</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+                <!-- Last updated content
+                <section class="box lastupdated">
+                     <div class="header-title">
+                        <h1>Last updated content</h1>
+                    </div>
+                    <div class="content">
+                        <ol class="lastupdated">
+                                    <li><a href="#">Parliamentarium - The European Parliament's Visitors' Centre <span class="date"><i aria-hidden="true" class="icon-clock"></i>09.06.2016</span></a></li>
+                                    <li><a href="#">The library, the reading rooms<span class="date"><i aria-hidden="true" class="icon-clock"></i>07.06.2016</span></a></li>
+                                    <li><a href="#">Conseil et stratégie de communication interne <span class="date"><i aria-hidden="true" class="icon-clock"></i>02.06.2016</span></a></li>
+                                    <li><a href="#">e-Communication <span class="date"><i aria-hidden="true" class="icon-clock"></i>25.05.2016</span></a></li>
+                                    <li><a href="#">Publication and distribution <span class="date"><i aria-hidden="true" class="icon-clock"></i>23.05.2016</span></a></li>
+                                </ol>
+                            </div>
+                </section> -->
+                <!-- DG News -->
+                <section class="box dgnews">
+                    <div class="header-title">
+                        <h1><a href="#" title="See all news from DGs">News from <strong>DGs</strong></a></h1>
+                        <a aria-hidden="true" class="more" href="#">All DGs news <i aria-hidden="true" class="icon-more"></i></a>
+                    </div>
+
+                    <div class="content">
+                        <div class="row">
+                            <article class="col-sm-3ths col-md-3ths col-lg-3ths">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <span class="label label-color3">DG PRES</span>
+                                        <time datetime="2016-04-08">04.08.2016
+                                        </time>
+                                        <h4>EP 2016 calendar of plenary sessions approved</h4>
+                                    </a>
+                                </div>
+                            </article>
+                            <article class="col-sm-3ths col-md-3ths col-lg-3ths">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <span class="label label-color1">DG EPRS</span>
+                                        <time datetime="2016-02-14">14.02.2016
+                                        </time>
+                                        <h4>The second EU-CELAC Summit</h4>
+                                    </a>
+                                </div>
+                            </article>
+                            <article class="col-sm-3ths col-md-3ths col-lg-3ths">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <span class="label label-color3">DG EPRS</span>
+                                        <time datetime="2016-04-08">04.08.2016
+                                        </time>
+                                        <h4>EP 2016 calendar of plenary sessions approved</h4>
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="row">
+                            <article class="col-sm-3ths col-md-3ths col-lg-3ths">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <span class="label label-color2">DG COMM</span>
+                                        <time datetime="2016-04-08">04.08.2016
+                                        </time>
+                                        <h4>Save water for life</h4>
+                                    </a>
+                                </div>
+                            </article>
+                            <article class="col-sm-3ths col-md-3ths col-lg-3ths">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <span class="label label-color1">DG EPRS</span>
+                                        <time datetime="2016-05-23">23.05.2016
+                                        </time>
+                                        <h4>Illud tamen te esse admonitum volo</h4>
+                                    </a>
+                                </div>
+                            </article>
+                            <article class="col-sm-3ths col-md-3ths col-lg-3ths">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <span class="label label-color2">DG EPRS</span>
+                                        <time datetime="2016-05-21">21.05.2016
+                                        </time>
+                                        <h4>Save water for life</h4>
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                </section>
+                <!-- Multimedia -->
+                <section class="box multimedia">
+                    <div class="header-title">
+                        <h1><a href="#" title="See all recent photos & videos">Recent <strong>Photos & Videos</strong></a></h1>
+                        <a aria-hidden="true" class="more" href="#">All galeries <i aria-hidden="true" class="icon-more"></i></a>
+                    </div>
+                    <div class="content">
+                        <div class="row">
+                            <div class="col-xs-8 col-sm-4">
+
+                                <a href="img/tmp/citizen-prize.jpg" class="img-thumbnail" title="Multimedia Long description" data-gallery="#1">
+                                    <span class="hover icon-search"></span>
+                                    <img src="img/tmp/citizen-prize.jpg" alt="Multimedia Title">
+                                    <span class="caption">
+                                        <span class="desc">
+                                            <i aria-hidden="true" class="icon-photo"></i>
+                                            Multimedia Legend
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="col-xs-8 col-sm-4">
+                                <!-- START Exemple Collection -->
+                                <a href="img/tmp/Forum_1.JPG" class="img-thumbnail" title="Multimedia Long description 1" data-gallery="collection1">
+                                    <span class="hover icon-search"></span>
+                                    <img src="img/thumb-collection.jpg" alt="Titre Multimedia 1">
+                                    <span class="caption">
+                                        <span class="desc">
+                                            <i aria-hidden="true" class="icon-collection"></i>
+                                            Collection Legend
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="img/tmp/img-media1.jpg" class="hidden" title="Multimedia Long description 2" data-title="Titre Multimedia 2" data-gallery="collection1">
+                                </a>
+                                <!-- END Exemple Collection -->
+                            </div>
+                            <div class="col-xs-8 col-sm-4">
+                                <a href="img/tmp/com_decision.jpg" class="img-thumbnail" title="Multimedia Long description" data-gallery>
+                                    <span class="hover icon-search"></span>
+                                    <img src="img/tmp/com_decision.jpg" alt="Multimedia Title">
+                                    <span class="caption">
+                                        <span class="desc">
+                                            <i aria-hidden="true" class="icon-music"></i>
+                                            Multimedia Legend
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="col-xs-8 col-sm-4">
+                                <a href="https://archive.org/download/Sintel/sintel-2048-surround_512kb.mp4" class="img-thumbnail" title="Video Long description" type="video/mp4" data-autoplay="autoplay" data-poster="img/tmp/human-rights-food-land-rights-thumb.jpg" data-gallery>
+                                    <span class="hover icon-search"></span>
+                                    <img src="img/tmp/human-rights-food-land-rights-thumb.jpg" alt="Video Title">
+                                    <span class="caption">
+                                        <span class="desc">
+                                            <i class="icon-video"></i>
+                                            Video Legend
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-8 col-sm-4">
+                                <a href="img/tmp/audio1.mp3" data-autoplay="autoplay" type="audio" class="img-thumbnail" title="Multimedia Long description" data-gallery>
+                                    <span class="hover icon-search"></span>
+                                    <img src="img/thumb-audio.jpg" alt="Audio Title">
+                                    <span class="caption">
+                                        <span class="desc">
+                                            <i aria-hidden="true" class="icon-music"></i>
+                                            Audio Legend
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="col-xs-8 col-sm-4">
+                                <a href="img/tmp/human-rights-food-land-rights.jpg" class="img-thumbnail" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et volutpat neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean suscipit fermentum sagittis. Suspendisse efficitur, sem at suscipit dapibus, tortor ex volutpat lorem, ut dignissim nibh purus ac ex. Proin iaculis diam a sodales eleifend. Morbi bibendum consectetur diam, sit amet ultrices odio facilisis quis." data-gallery>
+                                    <span class="hover icon-search"></span>
+                                    <img src="img/tmp/human-rights-food-land-rights-thumb.jpg" alt="Multimedia Title">
+                                    <span class="caption">
+                                        <span class="desc">
+                                            <i aria-hidden="true" class="icon-photo"></i>
+                                            Multimedia Legend
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="col-xs-8 col-sm-4">
+                                <a href="img/tmp/lux_eupresid_logo.jpg" class="img-thumbnail" title="Multimedia Long description" data-gallery>
+                                    <span class="hover icon-search"></span>
+                                    <img src="img/tmp/lux_eupresid_logo_thumb.jpg" alt="Multimedia Title">
+                                    <span class="caption">
+                                        <span class="desc">
+                                            <i aria-hidden="true" class="icon-photo"></i>
+                                            Multimedia Legend
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="col-xs-8 col-sm-4">
+                                <a href="https://archive.org/download/Sintel/sintel-2048-surround_512kb.mp4" class="img-thumbnail" title="Video Long description" type="video/mp4" data-poster="img/tmp/img-media3.jpg" data-gallery>
+                                    <span class="hover icon-search"></span>
+                                    <img src="img/tmp/emas_mobilityweek2015_18sept_thumb.jpg" alt="Video Title">
+                                    <span class="caption">
+                                        <span class="desc">
+                                            <i aria-hidden="true" class="icon-video"></i>
+                                            Video Legend
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <footer role="contentinfo">
+        <div class="footer1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h2>Phone numbers</h2>
+                        <ul>
+                            <li>Emergencies <span class="pull-right">85112</span>
+                            </li>
+                            <li>IT support <span class="pull-right">46480</span>
+                            </li>
+                            <li>Info Desks <span class="pull-right">41600</span>
+                            </li>
+                        </ul>
+                        <a class="btn btn-primary" href="#">Other EU directories</a>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2 id="SearchForm">Search for a form</h2>
+                        <p>More than 200 administrative forms</p>
+                        <!-- Search bar -->
+                        <div class="search">
+                            <input type="text" id="search-form" placeholder="Type topic or keyword" aria-labelledby="SearchForm">
+                            <button type="submit" class="icon-search"><span class="sr-only">Search</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2 id="SearchEPDir">Search EP Directory</h2>
+                        <p>More than 900 people and services</p>
+                        <!-- Search bar -->
+                        <div class="search">
+                            <input type="text" id="search-epdir" placeholder="Type name, job or service" aria-labelledby="SearchEPDir">
+                            <button type="submit" class="icon-search"><span class="sr-only">Search</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2>Help</h2>
+                        <p>Questions about EP Intranet ?</p>
+                        <a class="btn btn-primary" href="#">Visit the Help Centre</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        The Intranet of the European Parliament - ©2016
+                    </div>
+                    <div class="col-sm-8 text-right">
+                        <a href="#">Legal mentions</a> - <a href="#">Cookie usage</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Button Scroll to top -->
+    <button aria-hidden="true" type="button" class="btn scrollToTop"><i aria-hidden="true" class="icon-arrow-up"></i><span class="sr-only">Scroll to top</span>
+    </button>
+    <!-- The Bootstrap Image Gallery lightbox DIV, should be a child element of the document body -->
+    <div id="blueimp-gallery" role="dialog" aria-label="Gallery" class="blueimp-gallery blueimp-gallery-controls">
+        <!-- The container for the modal slides -->
+        <div class="slides"></div>
+        <h3 class="title"><span class="sr-only">title</span></h3>
+        <p class="description"></p>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+        <a class="play-pause"></a>
+        <ol class="indicator"></ol>
+    </div>
+
+    <!-- This stucture is for the Tour demo -->
+    <ol aria-hidden="true" id="WelcomeTour" class="hidden">
+        <!-- Tips for welcome -->
+        <li class="WelcomeTour-start animated zoomIn" data-text="Découvrir les nouveautés">
+            <div class="media">
+                <div class="media-left">
+                    <img alt="" class="animated slideInUp" src="img/welcome-tour2.png">
+                </div>
+                <div class="media-body">
+                    <h2 class="animated slideInRight">Nouvel intranet !</h2>
+                    <p>Bienvenue sur votre nouvel intranet, découvrez le
+                        <mark>nouveau contenu</mark> et la
+                        <mark>nouvelle interface !</mark>
+                    </p>
+                </div>
+            </div>
+        </li>
+        <!-- Tips for navitation -->
+        <li data-id="nav-left" data-options="tipLocation:right" data-button="Suivant" data-button-prev="Retour">
+            <h2>Une navigation filtrée !</h2>
+            <p>Un contenu plus simple d'accès !
+                <br>Et vous pouvez filtrer le contenu en fonction du profil désiré,
+                <mark>seul le contenu correspondant à ce profil sera alors visible.</mark>
+            </p>
+
+            <!-- Selectbox browseas -->
+            <div class="alert alert-important">
+                <p><strong>Définissez votre profil par defaut</strong>
+                    <br><small>(vous pourrez changer ce paramêtre par la suite dans votre profil)</small>:
+                </p>
+                <!-- Dropdown custom -->
+                <div class="btn-group">
+                    <button type="button" class="btn-select dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Administrative staff <i class="icon-arrow-down2"></i>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Administrative staff</a>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Member of Parliament</a>
+                        </li>
+                        <li><a href="#">Parliamentary assistant</a>
+                        </li>
+                        <li><a href="#">External staff</a>
+                        </li>
+                        <li><a href="#">Trainee</a>
+                        </li>
+                        <li><a href="#">Retired staff</a>
+                        </li>
+                        <li><a href="#">Retired Member</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+        <!-- Tips for Search -->
+        <li data-id="search-desktop" data-options="tipLocation:bottom" data-button="Suivant" data-button-prev="Retour">
+            <h2>Nouveau moteur de recherche !</h2>
+            <p>Recherchez des personnes, des documents, des formulaires ou tout autre contenu de l'Intranet et
+                <mark>obtenez instantanément les resultats !</mark>
+            </p>
+        </li>
+        <!-- Tips for widgets -->
+        <li data-class="widgets" data-options="tipLocation:left" data-button="Suivant" data-button-prev="Retour">
+            <h2>Widgets</h2>
+            <p>Vos nouveaux
+                <mark>widgets</mark>! Vous pouvez les déplacer, les supprimer, les personnaliser ou encore en ajouter d'autres.</p>
+        </li>
+        <!-- Tips for profile -->
+        <li data-class="img-circle" data-options="tipLocation:left" data-button="Suivant" data-button-prev="Retour">
+            <h2>Votre profil</h2>
+            <p>Retrouvez ici
+                <mark>vos paramètres</mark>,
+                <mark>vos notifications</mark> de pages ou de documents que vous suivez.
+                <br>Retrouver également votre fiche
+                <mark>EP Directory</mark>.</p>
+        </li>
+        <!-- Tips for content -->
+        <li data-class="news-carousel" data-options="tipLocation:top" data-button="Suivant" data-button-prev="Retour">
+            <h2>A la une !</h2>
+            <p>Retrouvez les dernières informations ou évènements les plus importants</p>
+        </li>
+        <!-- Tips for news -->
+        <li data-class="news" data-options="tipLocation:top" data-button="Suivant" data-button-prev="Retour">
+            <h2>News</h2>
+            <p>Les dernières actualités au Parlement Européen</p>
+        </li>
+        <!-- Tips for dg news -->
+        <li data-class="dgnews" data-options="tipLocation:top" data-button="Suivant" data-button-prev="Retour">
+            <h2>News from DGs</h2>
+            <p>Retrouvez les dernières informations de votre DG ainsi que les actus des autres DGs</p>
+        </li>
+        <!-- Tips for multimedia -->
+        <li data-class="multimedia" data-options="tipLocation:top" data-button="Terminé !" data-button-prev="Retour">
+            <h2>Multimedia</h2>
+            <p>Les derniers meetings
+                <mark>vidéo</mark>, photos d'évènements ou
+                <mark>galleries photos</mark>, vous les trouverez ici !</p>
+        </li>
+    </ol>
+
+    <!-- JS -->
+    <script src="javascript/jquery-1.11.3.min.js"></script>
+    <script src="javascript/jquery-ui-1.11.4.custom.min.js"></script>
+    <script src="javascript/jquery-ui-timepicker-addon.min.js"></script>    
+    <!-- Jquery sortable in tree (dependance jquery ui) -->
+    <script src="javascript/jquery.mjs.nestedSortable.js"></script>
+    <script src="javascript/bootstrap.min.js"></script>
+    <!-- custom Select dropdown for Bootstrap -->
+    <script src="javascript/bootstrap-select.js"></script>
+    <script src="javascript/modernizr.custom.js"></script>
+    <!-- jpanelmenu for Off canvas menu (mobile) -->
+    <script src="javascript/jquery.jpanelmenu-custom.js"></script>
+    <!-- jRespond for manage javascript on responsive (used with jpanelmenu) -->
+    <script src="javascript/jRespond.min.js"></script>
+    <!-- Blueimp-gallery for gallery, lightbox and sliders -->
+    <script src="javascript/jquery.blueimp-gallery.min.js"></script>
+    <!-- JS for cookies -->
+    <script src="javascript/jquery.cookie.js"></script>
+    <!-- Joyride Tour plugin -->
+    <script src="javascript/jquery.joyride-2.1.js"></script>
+    <!-- Scripts for EP Intranet -->
+    <script src="javascript/ep-scripts.js"></script>
+
 </body>
+
 </html>

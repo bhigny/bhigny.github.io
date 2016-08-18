@@ -1,0 +1,1332 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<html xml:lang="en" lang="en" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Content - EP Intranet</title>
+    <meta name="description" content="EP Intranet" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png">
+    <!-- CSS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/ep-styles.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+		<script src="javascript/html5shiv.js"></script>
+		<script src="javascript/respond.min.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+    <header role="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-2 col-sm-1 col-md-4">
+                    <!-- Control for accesibility -->
+                    <div id="skip">
+                        <ul>
+                            <li><a href="#skip-content">Go to content</a></li>
+                            <li><a href="#search-desktop">Go to search</a></li>
+                            <li><a href="#nav-left">Go to navigation</a></li>
+                            <li>
+                                <button id="contrast" class="btn" title="Change the contrast">
+                                    Contrast
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Btn menu mobile -->
+                    <button type="button" class="navbar-toggle visible-sm visible-xs" aria-expanded="false" aria-controls="nav-left">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="sr-only">Toggle navigation</span>
+                    </button>
+                    <!-- Logo desktop -->
+                    <a class="ep-logo hidden-sm hidden-xs" href="#" title="Go to homepage">
+                        <img src="img/logo.svg" alt="">
+                        <span class="title">EP Intranet</span>
+                    </a>
+                </div>
+                <div class="col-xs-11 col-sm-12 col-md-8">
+                    <!-- Logo mobile -->
+                    <div class="ep-logo visible-xs visible-sm">
+                        <img src="img/logo.svg" alt="">
+                        <span class="title">EP Intranet</span>
+                    </div>
+                    <!-- Search bar -->
+                    <div class="search" role="search">
+                        <form method="get" id="s" action="/">
+                            <input type="text" id="search-desktop" placeholder="Search for people, documents, forms..." title="Search for people, documents, forms...">
+                            <button aria-label="Search" type="submit" class="icon-search">
+                            </button>
+                        </form>
+                        <!-- Panel auto suggestion -->
+                        <ul aria-hidden="true" class="animated flipInX auto-suggestion arrow">
+                            <li class="header-title">Best results - <small>56 results in total</small></li>
+                            <li class="item"><a href="#"><span class="title">EP Delegation <mark>trav</mark>els to Climate Change Conference</span>
+                                <span class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus urna</span>
+</a></li>
+                            <li class="item"><a href="#"><span class="title">EP Delegation <mark>trav</mark>els to Climate Change Conference</span>
+                                <span class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus urna</span>
+</a></li>
+                            <li class="item"><a href="#"><span class="title">EP Delegation <mark>trav</mark>els to Climate Change Conference</span>
+                                <span class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus urna</span>
+</a></li>
+                            <li class="header-title">Documents - <small>2 results in total <a class="pull-right" href="#">All results for documents</a></small></li>
+                            <li class="item">
+                                <a href="#">
+                                    <i class="icon-doc pdf"></i>
+                                    <span class="right">
+                                        <span class="title">EP Delegation <mark>trav</mark>els to Climate Change Conference</span>
+                                    <span class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus urna</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="header-title">Peoples - <small>1 result in total <a class="pull-right" href="#">All results for peoples</a></small></li>
+                            <li class="item">
+                                <a href="#">
+                                    <img class="img-circle" src="img/tmp/avatar01.jpg" alt="...">
+                                    <span class="right">
+                                                                    <span class="title">Mr Marcel DE<mark>GRA</mark>AFF</span>
+                                    <p>Member of the European Parliament
+                                        <br>
+                                        <span class="label" title="EP > Parliament's Secretariat > ... breadcrumb">Intranet Service</span>
+                                    </p>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li class="text-center"><a class="btn" role="button" href="#">View all</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-4 text-right">
+                    <!-- Languages -->
+                    <!-- Dropdown custom -->
+                    <div class="btn-group lang hidden-xs">
+                        <button type="button" class="btn-select btn-sm dropdown-toggle" data-toggle="dropdown" aria-label="Change language" aria-haspopup="true" aria-expanded="false">
+                            EN<i class="icon-arrow-down2"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a href="#">EN</a>
+                            </li>
+                            <li><a href="#">FR</a>
+                            </li>
+                            <li><a href="#">DE</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- User menu -->
+                    <div class="dropdown profile">
+                        <!-- Avatar -->
+                        <a class="btn dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true" aria-label="Show my personal menu" href="#">
+                            <div class="user-picture">
+                                <img class="img-circle" src="img/tmp/avatar01.jpg" alt="">
+                                <!--<span>JS</span>-->
+                            </div>
+                            <span aria-label="Nb of notifications" class="badge">12</span>
+                            <span class="title">John</span>
+                            <i aria-hidden="true" class="icon-arrow-down2"></i>
+                        </a>
+                        <!-- Menu popover user -->
+                        <ul class="navuser dropdown-menu dropdown-menu-right arrow ">
+                            <li class="lang-mobile visible-xs visible-sm">
+                                <!-- Dropdown custom -->
+                                <div class="btn-group lang">
+                                    <button type="button" class="btn-select btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        EN <i class="icon-arrow-down2"></i>
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-right">
+                                        <li><a href="#">EN</a>
+                                        </li>
+                                        <li><a href="#">FR</a>
+                                        </li>
+                                        <li><a href="#">DE</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#"><i aria-hidden="true" class="icon-setting"></i>My Settings</a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i aria-hidden="true" class="icon-contacts"></i>My Contacts
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i aria-hidden="true" class="icon-book"></i>My Bookmarks
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i aria-hidden="true" class="icon-suscribe"></i>My Suscriptions
+                                </a>
+                            </li>
+                            <li><a href="#"><i aria-hidden="true" class="icon-notif"></i>My Notifications</a>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i aria-hidden="true" class="icon-page"></i> Page
+                                            <span class="badge animated bounceIn">2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i aria-hidden="true" class="icon-doc2"></i> Documents
+                                            <span class="badge animated bounceIn">1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i aria-hidden="true" class="icon-meeting"></i> Meetings
+                                            <span class="badge animated bounceIn">3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i aria-hidden="true" class="icon-km"></i> KM Portal
+                                            <span class="badge animated bounceIn">6</span>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <!--<li class="notifications">
+                                <div class="alert alert-notif alert-dismissible" role="alert">
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <i aria-hidden="true" class="icon-page"></i>
+                                    <strong>Karen updated the page :</strong>
+                                    <br>
+                                    <a href="#">
+                                    How to access the car park</a>
+                                    <time datetime="2016-04-02"><i aria-hidden="true" class="icon-clock"></i> 02.04.2016
+                                    </time>
+                                </div>
+                            </li>-->
+                            <li role="separator" class="divider"></li>
+                            <li class="logout">
+                                <a href="#">
+                                    <i aria-hidden="true" class="icon-power"></i> Log out from EPNet
+                                    <span class="timeout">Session: 03:55:35</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="content" class="container">
+        <div class="row">
+            <!-- Nav left -->
+            <div class="col-md-4 col-lg-3">
+                <nav role="navigation" id="nav-left" class="navmenu">
+                    <ul class="nav">
+                        <li>
+                            <!-- Selectbox browseas -->
+                            <div class="browseas">
+                                <p>Browse As:</p>
+                                <!-- Dropdown custom -->
+                                <div class="btn-group">
+                                    <button type="button" class="btn-select dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Administrative staff <i aria-hidden="true" class="icon-arrow-down2"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Administrative staff</a>
+                                        </li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Member of Parliament</a>
+                                        </li>
+                                        <li><a href="#">Parliamentary assistant</a>
+                                        </li>
+                                        <li><a href="#">External staff</a>
+                                        </li>
+                                        <li><a href="#">Trainee</a>
+                                        </li>
+                                        <li><a href="#">Retired staff</a>
+                                        </li>
+                                        <li><a href="#">Retired Member</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <i aria-hidden="true" class="icon-arrow-down2"></i>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/human-resources.svg">Human resources</a>
+                        </li>
+                        <li class="active">
+                            <a href="#"><img alt="" src="img/icons/buildings.svg">Buildings and offices</a>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/meetings.svg">Meetings and events</a>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/missions.svg">Missions and travel</a>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/finance.svg">Finance</a>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/training.svg">Training</a>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/communication.svg">Communication </a>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/it-support.svg">IT support</a>
+                        </li>
+                    </ul>
+                    <ul class="nav2 nav-accordion" role="tablist" aria-multiselectable="true">
+                        <li class="panel" role="presentation">
+                            <button role="tab" type="button" data-toggle="collapse" data-target="#nav-collapse1" data-parent=".nav-accordion" aria-expanded="false" class="collapsed">DG<small>s</small> and Services<i aria-hidden="true" class="icon-arrow-down2"></i>
+                            </button>
+                            <ul id="nav-collapse1" class="collapse" role="tabpanel">
+                                <li><a href="#">DG PERS</a></li>
+                                <li><a href="#">DG COMM</a></li>
+                                <li><a href="#">DG ITEC</a></li>
+                                <li><a href="#">DG PRES</a></li>
+                                <li><a href="#">DG FINS</a></li>
+                                <li><a href="#">DG SAFE</a></li>
+                                <li><a href="#">DG INTE</a></li>
+                                <li><a href="#">DG INLO</a></li>
+                                <li><a href="#">DG IPOL</a></li>
+                                <li><a href="#">DG EPRS</a></li>
+                                <li><a href="#">DG EXPO</a></li>
+                                <li><a href="#">DG TRAD</a></li>
+                                <li><a href="#">Legal Service</a></li>
+                                <li><a href="#">Secretary-General</a></li>
+                                <li><a href="#">Deputy Secretary-General</a></li>
+                                <li><a href="#">Staff Committee</a></li>
+                                <li><a href="#">Organisation chart</a></li>
+                            </ul>
+                        </li>
+                        <li class="panel" role="presentation">
+                            <button role="tab" type="button" data-toggle="collapse" data-target="#nav-collapse2" data-parent=".nav-accordion" aria-expanded="false" class="collapsed">Parliamentary life<i aria-hidden="true" class="icon-arrow-down2"></i></button>
+                            <ul id="nav-collapse2" class="collapse" role="tabpanel">
+                                <li><a href="#">Today in Parliament</a></li>
+                                <li class="active"><a href="#">Today's press</a></li>
+                                <li><a href="#">Plenary session</a></li>
+                                <li><a href="#">President and Members</a></li>
+                                <li><a href="#">Conference of Presidents</a></li>
+                                <li><a href="#">Bureau and Quaestors</a></li>
+                                <li><a href="#">Conference of Committee Chairs</a></li>
+                                <li><a href="#">Committees</a></li>
+                                <li><a href="#">Delegations</a></li>
+                                <li><a href="#">Parliament's secretariat</a></li>
+                                <li><a href="#">Political groups</a></li>
+                                <li><a href="#">Legislative activities</a></li>
+                                <li><a href="#">Documents</a></li>
+                            </ul>
+                        </li>
+                        <li class="panel" role="presentation">
+                            <button role="tab" type="button" data-toggle="collapse" data-target="#nav-collapse3" data-parent=".nav-accordion" aria-expanded="false" class="collapsed">Life outside work<i aria-hidden="true" class="icon-arrow-down2"></i></button>
+                            <ul id="nav-collapse3" class="collapse" role="tabpanel">
+                                <li><a href="#">In Brussels</a></li>
+                                <li><a href="#">In Luxembourg</a></li>
+                                <li><a href="#">In Strasbourg</a></li>
+                                <li><a href="#">Small ads</a></li>
+                            </ul>
+                        </li>
+                        <li class="panel" role="presentation">
+                            <button role="tab" type="button" data-toggle="collapse" data-target="#nav-collapse4" data-parent=".nav-accordion" aria-expanded="false" class="collapsed">EP Intranet Help centre<i aria-hidden="true" class="icon-arrow-down2"></i></button>
+                            <ul id="nav-collapse4" class="collapse" role="tabpanel">
+                                <li><a href="#">Features and customisation</a></li>
+                                <li><a href="#">Contributing to EP Intranet</a></li>
+                                <li><a href="#">EP Intranet mobile</a></li>
+                                <li><a href="#">EP Directory</a></li>
+                                <li><a href="#">EP Intranet team</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Content right -->
+            <div class="col-md-12 col-lg-13">
+                <!-- Start message error 
+                <div class="alert alert-danger alert-dismissible" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <strong><i class="icon-alert"></i> Avertissement :</strong> cet élément de structure se situe à un endroit inapproprié.
+                </div>
+                <div class="alert alert-danger alert-dismissible" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <strong><i class="icon-alert"></i> Avertissement :</strong> To acces this page you need to navigate as one of the following profiles:
+                    <ul>
+                        <li>Member of Parliament</li>
+                        <li>Parliament assistant</li>
+                        <li>Administrative staff</li>
+                        <li>External staff</li>
+                        <li>Trainee</li>
+                    </ul>
+                </div>-->
+                <!-- End message error -->
+                <div class="alert alert-warning alert-overlay alert-dismissible animated fadeInDown" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <strong><h2><i class="icon-alert"></i>&nbsp;Avertissement</h2></strong> Cette page n'est pas destinée au profil utilisateur actuellement selectionné. Pour continuer la navigation, veuillez employer l'un des profils suivants: <ul class="persona"><li><a class="label" href="#">Member of Parliament</a></li><li><a class="label" href="#">Retired Member</a></li></ul>
+                </div>
+                <!-- Breadcrumb -->
+                <ul class="breadcrumb">
+                    <li class="sr-only">You are here :</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Buildings and offices</a></li>
+                    <li>Access to the Car Park</li>
+                </ul>
+                <div class="bg-content">
+                    <!-- Main content -->
+                    <div id="skip-content" role="main" class="main-content col-md-11 col-lg-11 ">
+                        <div class="content-page">
+                            <h1>Access to the Car Park</h1>
+                            <p class="lead">In order not to make advance payments on missions and wait for reimbursement afterwards, staff members may apply for a Mastercard Corporate Credit Card with personal liability.</p>
+                            <ul role="directory" class="summary">
+                                <li><a class="scrollTo" href="#content1">Am I eligible for a car park?</a></li>
+                                <li><a class="scrollTo" href="#content2">Where should I place my car sticker?</a></li>
+                                <li><a class="scrollTo" href="#content3">Where are car parks located?</a></li>
+                                <li><a class="scrollTo" href="#content4">What are the opening hours and limit period?</a></li>
+                            </ul>
+                            <h2 id="content1">Am I eligible for a car park?</h2>
+                            <p>This card can be issued to officials, temporary agents, contractual agents, accredited parliamentary assistants and <strong>detached national experts</strong> wherever they are based and for as long as they are employed by the European Parliament.</p>
+                            <p>Stay calm and follow the fire emergency procedure:</p>
+                            <ol>
+                                <li>Activate the fire alarm in the glass case (red button), 2 are available on each floor.</li>
+                                <li>Call emergency number 85112, available 7/7 and 24/24.</li>
+                                <li>Try to put it out using the extinguishers available.
+                                    <ol>
+                                        <li>Item 1</li>
+                                        <li>Item 2</li>
+                                        <li>Item 3</li>
+                                    </ol>
+                                </li>
+                                <li>Leave the building when the alarm sounds.</li>
+                                <li>Close all windows before leaving your office.</li>
+                                <li>Close the door but do not use the key.</li>
+                                <li>Follow the signs leading to the emergency.&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                                <li>If you find yourself stuck in a disaster, call 85112 and draw attention to yourself at the window.</li>
+                                <li>If there is smoke:
+                                    <ul>
+                                        <li>Keep low, as any fresh air will be near the ground (a wet cloth will help).</li>
+                                        <li>Keep your hand against the wall, so you are not disoriented by smoke.</li>
+                                        <li>Block openings in the doors, if possible with wet cloths, to prevent smoke from getting in.</li>
+                                    </ul>
+                                </li>
+                                <li>Do not use the lifts or escalators.</li>
+                                <li>Do not re-enter the building before receiving authorisation to do so.</li>
+                            </ol>
+                            <blockquote>
+                                <p>Ceci est une citation. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt est fermentum maximus vehicula. Vestibulum venenatis, lacus nec aliquet eleifend.</p>
+                                <cite title="Source Title">Source Title</cite>
+                            </blockquote>
+                            <h3>Card activation required in certain countries</h3>
+                            <p>For safety reasons, in certain countries, the United States in particular, it might be necessary to activate the card at an automatic teller, prior to any payment.</p>
+                            <h3>Example of a dropdown searchable list with automatic redirection :</h3>
+                            <label for="country">Country:</label>
+                            <select id="country" title="Choose a country" class="selectpicker selectpicker-redirect fit-width" data-style="btn-select" data-live-search="true" data-live-search-style="startsWith">
+                                <optgroup label="A">
+                                    <option value="url to the page">Afghanistan </option>
+                                    <option value="url to the page" data-target="_blank">Albania </option>
+                                    <option value="url to the page">Algeria </option>
+                                    <option value="url to the page">American Samoa </option>
+                                    <option value="ad">Andorra </option>
+                                    <option value="ao">Angola </option>
+                                    <option value="ai">Anguilla </option>
+                                    <option value="aq">Antarctica </option>
+                                    <option value="ag">Antigua and Barbuda </option>
+                                    <option value="ar">Argentina </option>
+                                    <option value="am">Armenia </option>
+                                    <option value="aw">Aruba </option>
+                                    <option value="au">Australia </option>
+                                    <option value="at">Austria </option>
+                                    <option value="az">Azerbaijan </option>
+                                </optgroup>
+                                <optgroup label="B">
+                                    <option value="bs">Bahamas </option>
+                                    <option value="bh">Bahrain </option>
+                                    <option value="bd">Bangladesh </option>
+                                    <option value="bb">Barbados </option>
+                                    <option value="by">Belarus </option>
+                                    <option value="be">Belgium </option>
+                                    <option value="bz">Belize </option>
+                                    <option value="bj">Benin </option>
+                                    <option value="bm">Bermuda </option>
+                                    <option value="bt">Bhutan </option>
+                                    <option value="bo">Bolivia </option>
+                                    <option value="ba">Bosnia and Herzegovina </option>
+                                    <option value="bw">Botswana </option>
+                                    <option value="bv">Bouvet Island </option>
+                                    <option value="br">Brazil </option>
+                                    <option value="io">British Indian Ocean Territory </option>
+                                    <option value="vg">British Virgin Islands </option>
+                                    <option value="bn">Brunei </option>
+                                    <option value="bg">Bulgaria </option>
+                                    <option value="bf">Burkina Faso </option>
+                                    <option value="bi">Burundi </option>
+                                </optgroup>
+                                <optgroup label="C">
+                                    <option value="kh">Cambodia </option>
+                                    <option value="cm">Cameroon </option>
+                                    <option value="ca">Canada </option>
+                                    <option value="cv">Cape Verde </option>
+                                    <option value="ky">Cayman Islands </option>
+                                    <option value="cf">Central African Republic </option>
+                                    <option value="td">Chad </option>
+                                    <option value="cl">Chile </option>
+                                    <option value="cn">China </option>
+                                    <option value="cx">Christmas Island </option>
+                                    <option value="cc">Cocos Islands </option>
+                                    <option value="co">Colombia </option>
+                                    <option value="km">Comoros </option>
+                                    <option value="cg">Congo </option>
+                                    <option value="ck">Cook Islands </option>
+                                    <option value="cr">Costa Rica </option>
+                                    <option value="hr">Croatia </option>
+                                    <option value="cu">Cuba </option>
+                                    <option value="cy">Cyprus </option>
+                                    <option value="cz">Czech Republic </option>
+                                </optgroup>
+                                <optgroup label="D">
+                                    <option value="dk">Denmark </option>
+                                    <option value="dj">Djibouti </option>
+                                    <option value="dm">Dominica </option>
+                                    <option value="do">Dominican Republic </option>
+                                </optgroup>
+                                <optgroup label="E">
+                                    <option value="tp">East Timor </option>
+                                    <option value="ec">Ecuador </option>
+                                    <option value="eg">Egypt </option>
+                                    <option value="sv">El Salvador </option>
+                                    <option value="gq">Equatorial Guinea </option>
+                                    <option value="er">Eritrea </option>
+                                    <option value="ee">Estonia </option>
+                                    <option value="et">Ethiopia </option>
+                                </optgroup>
+                                <optgroup label="F">
+                                    <option value="fk">Falkland Islands </option>
+                                    <option value="fo">Faroe Islands </option>
+                                    <option value="fj">Fiji </option>
+                                    <option value="fi">Finland </option>
+                                    <option value="fr">France </option>
+                                    <option value="gf">French Guiana </option>
+                                    <option value="pf">French Polynesia </option>
+                                    <option value="tf">French Southern Territories </option>
+                                </optgroup>
+                                <optgroup label="G">
+                                    <option value="ga">Gabon </option>
+                                    <option value="gm">Gambia </option>
+                                    <option value="ge">Georgia </option>
+                                    <option value="de">Germany </option>
+                                    <option value="gh">Ghana </option>
+                                    <option value="gi">Gibraltar </option>
+                                    <option value="gr">Greece </option>
+                                    <option value="gl">Greenland </option>
+                                    <option value="gd">Grenada </option>
+                                    <option value="gp">Guadeloupe </option>
+                                    <option value="gu">Guam </option>
+                                    <option value="gt">Guatemala </option>
+                                    <option value="gn">Guinea </option>
+                                    <option value="gw">Guinea-Bissau </option>
+                                    <option value="gy">Guyana </option>
+                                </optgroup>
+                                <optgroup label="H">
+                                    <option value="ht">Haiti </option>
+                                    <option value="hm">Heard and McDonald Islands </option>
+                                    <option value="hn">Honduras </option>
+                                    <option value="hk">Hong Kong </option>
+                                    <option value="hu">Hungary </option>
+                                </optgroup>
+                                <optgroup label="I">
+                                    <option value="is">Iceland </option>
+                                    <option value="in">India </option>
+                                    <option value="id">Indonesia </option>
+                                    <option value="ir">Iran </option>
+                                    <option value="iq">Iraq </option>
+                                    <option value="ie">Ireland </option>
+                                    <option value="il">Israel </option>
+                                    <option value="it">Italy </option>
+                                    <option value="ci">Ivory Coast </option>
+                                </optgroup>
+                                <optgroup label="J">
+                                    <option value="jm">Jamaica </option>
+                                    <option value="jp">Japan </option>
+                                    <option value="jo">Jordan </option>
+                                </optgroup>
+                                <optgroup label="F">
+                                    <option value="kz">Kazakhstan </option>
+                                    <option value="ke">Kenya </option>
+                                    <option value="ki">Kiribati </option>
+                                    <option value="kp">Korea, North </option>
+                                    <option value="kr">Korea, South </option>
+                                    <option value="kw">Kuwait </option>
+                                    <option value="kg">Kyrgyzstan </option>
+                                </optgroup>
+                                <optgroup label="L">
+                                    <option value="la">Laos </option>
+                                    <option value="lv">Latvia </option>
+                                    <option value="lb">Lebanon </option>
+                                    <option value="ls">Lesotho </option>
+                                    <option value="lr">Liberia </option>
+                                    <option value="ly">Libya </option>
+                                    <option value="li">Liechtenstein </option>
+                                    <option value="lt">Lithuania </option>
+                                    <option value="lu">Luxembourg </option>
+                                </optgroup>
+                                <optgroup label="M">
+                                    <option value="mo">Macau </option>
+                                    <option value="mk">Macedonia, Yugoslav Republic of </option>
+                                    <option value="mg">Madagascar </option>
+                                    <option value="mw">Malawi </option>
+                                    <option value="my">Malaysia </option>
+                                    <option value="mv">Maldives </option>
+                                    <option value="ml">Mali </option>
+                                    <option value="mt">Malta </option>
+                                    <option value="mh">Marshall Islands </option>
+                                    <option value="mq">Martinique </option>
+                                    <option value="mr">Mauritania </option>
+                                    <option value="mu">Mauritius </option>
+                                    <option value="yt">Mayotte </option>
+                                    <option value="mx">Mexico </option>
+                                    <option value="fm">Micronesia, Federated States of </option>
+                                    <option value="md">Moldova </option>
+                                    <option value="mc">Monaco </option>
+                                    <option value="mn">Mongolia </option>
+                                    <option value="ms">Montserrat </option>
+                                    <option value="ma">Morocco </option>
+                                    <option value="mz">Mozambique </option>
+                                    <option value="mm">Myanmar </option>
+                                </optgroup>
+                                <optgroup label="N">
+                                    <option value="na">Namibia </option>
+                                    <option value="nr">Nauru </option>
+                                    <option value="np">Nepal </option>
+                                    <option value="nl">Netherlands </option>
+                                    <option value="an">Netherlands Antilles </option>
+                                    <option value="nc">New Caledonia </option>
+                                    <option value="nz">New Zealand </option>
+                                    <option value="ni">Nicaragua </option>
+                                    <option value="ne">Niger </option>
+                                    <option value="ng">Nigeria </option>
+                                    <option value="nu">Niue </option>
+                                    <option value="nf">Norfolk Island </option>
+                                    <option value="mp">Northern Mariana Islands </option>
+                                    <option value="no">Norway </option>
+                                </optgroup>
+                                <optgroup label="O">
+                                    <option value="om">Oman </option>
+                                </optgroup>
+                                <optgroup label="P">
+                                    <option value="pk">Pakistan </option>
+                                    <option value="pw">Palau </option>
+                                    <option value="pa">Panama </option>
+                                    <option value="pg">Papua New Guinea </option>
+                                    <option value="py">Paraguay </option>
+                                    <option value="pe">Peru </option>
+                                    <option value="ph">Philippines </option>
+                                    <option value="pn">Pitcairn Island </option>
+                                    <option value="pl">Poland </option>
+                                    <option value="pt">Portugal </option>
+                                    <option value="pr">Puerto Rico </option>
+                                </optgroup>
+                                <optgroup label="Q">
+                                    <option value="qa">Qatar </option>
+                                </optgroup>
+                                <optgroup label="R">
+                                    <option value="re">Reunion </option>
+                                    <option value="ro">Romania </option>
+                                    <option value="ru">Russia </option>
+                                    <option value="rw">Rwanda </option>
+                                </optgroup>
+                                <optgroup label="S">
+                                    <option value="gs">S. Georgia and S. Sandwich Isls. </option>
+                                    <option value="kn">Saint Kitts &amp; Nevis </option>
+                                    <option value="lc">Saint Lucia </option>
+                                    <option value="vc">Saint Vincent and The Grenadines </option>
+                                    <option value="ws">Samoa </option>
+                                    <option value="sm">San Marino </option>
+                                    <option value="st">Sao Tome and Principe </option>
+                                    <option value="sa">Saudi Arabia </option>
+                                    <option value="sn">Senegal </option>
+                                    <option value="sc">Seychelles </option>
+                                    <option value="sl">Sierra Leone </option>
+                                    <option value="sg">Singapore </option>
+                                    <option value="sk">Slovakia </option>
+                                    <option value="si">Slovenia </option>
+                                    <option value="so">Somalia </option>
+                                    <option value="za">South Africa </option>
+                                    <option value="es">Spain </option>
+                                    <option value="lk">Sri Lanka </option>
+                                    <option value="sh">St. Helena </option>
+                                    <option value="pm">St. Pierre and Miquelon </option>
+                                    <option value="sd">Sudan </option>
+                                    <option value="sr">Suriname </option>
+                                    <option value="sj">Svalbard and Jan Mayen Islands </option>
+                                    <option value="sz">Swaziland </option>
+                                    <option value="se">Sweden </option>
+                                    <option value="ch">Switzerland </option>
+                                    <option value="sy">Syria </option>
+                                </optgroup>
+                                <optgroup label="T">
+                                    <option value="tw">Taiwan </option>
+                                    <option value="tj">Tajikistan </option>
+                                    <option value="tz">Tanzania </option>
+                                    <option value="th">Thailand </option>
+                                    <option value="tg">Togo </option>
+                                    <option value="tk">Tokelau </option>
+                                    <option value="to">Tonga </option>
+                                    <option value="tt">Trinidad and Tobago </option>
+                                    <option value="tn">Tunisia </option>
+                                    <option value="tr">Turkey </option>
+                                    <option value="tm">Turkmenistan </option>
+                                    <option value="tc">Turks and Caicos Islands </option>
+                                    <option value="tv">Tuvalu </option>
+                                </optgroup>
+                                <optgroup label="U">
+                                    <option value="um">U.S. Minor Outlying Islands </option>
+                                    <option value="ug">Uganda </option>
+                                    <option value="ua">Ukraine </option>
+                                    <option value="ae">United Arab Emirates </option>
+                                    <option value="uk">United Kingdom </option>
+                                    <option value="us">United States of America</option>
+                                    <option value="uy">Uruguay </option>
+                                    <option value="uz">Uzbekistan </option>
+                                </optgroup>
+                                <optgroup label="V">
+                                    <option value="vu">Vanuatu </option>
+                                    <option value="va">Vatican City </option>
+                                    <option value="ve">Venezuela </option>
+                                    <option value="vn">Vietnam </option>
+                                    <option value="vi">Virgin Islands </option>
+                                </optgroup>
+                                <optgroup label="W">
+                                    <option value="wf">Wallis and Futuna Islands </option>
+                                    <option value="eh">Western Sahara </option>
+                                </optgroup>
+                                <optgroup label="Y">
+                                    <option value="ye">Yemen </option>
+                                    <option value="yu">Yugoslavia (Former) </option>
+                                </optgroup>
+                                <optgroup label="Z">
+                                    <option value="zr">Zaire </option>
+                                    <option value="zm">Zambia </option>
+                                    <option value="zw">Zimbabwe </option>
+                                </optgroup>
+
+                            </select>
+
+                            <table>
+                                <caption>Passagers du vol 377</caption>
+                                <thead>
+                                    <!-- En-tête du tableau -->
+                                    <tr>
+                                        <th scope="col">Nom</th>
+                                        <th scope="col">Âge</th>
+                                        <th scope="col">Pays</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <!-- Corps du tableau -->
+                                    <tr>
+                                        <td>Carmen</td>
+                                        <td>33 ans</td>
+                                        <td>Espagne</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Michelle</td>
+                                        <td>26 ans</td>
+                                        <td>États-Unis</td>
+                                    </tr>
+                                    <tr>
+                                        <td>François</td>
+                                        <td>43 ans</td>
+                                        <td>France</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Martine</td>
+                                        <td>34 ans</td>
+                                        <td>France</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <table class="col">
+                                <caption>Passagers du vol 377</caption>
+                                <thead>
+                                    <!-- En-tête du tableau -->
+                                    <tr>
+                                        <th scope="col">Nom</th>
+                                        <th scope="col">Âge</th>
+                                        <th scope="col">Pays</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <!-- Corps du tableau -->
+                                    <tr>
+                                        <td>Carmen</td>
+                                        <td>33 ans</td>
+                                        <td>Espagne</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Michelle</td>
+                                        <td>26 ans</td>
+                                        <td>États-Unis</td>
+                                    </tr>
+                                    <tr>
+                                        <td>François</td>
+                                        <td>43 ans</td>
+                                        <td>France</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+
+                            <!-- Bloc persona -->
+                            <div class="target panel">
+                                <button class="btn panel-heading collapsed" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false">
+                                    <i aria-hidden="true" class="icon-contacts"></i>
+                                    <h3 class="sr-only">Audience information :</h3>
+                                    <h3>Specific information for <ul class="persona"><li><span class="label">External staff</span></li><li><span class="label">Trainee</span></li><li><span class="label">Retired staff</span></li></ul>
+                                    <i aria-hidden="true" class="icon-arrow-down2"></i>
+                                    </h3>
+                                </button>
+                                 <div class="panel-body collapse" id="collapseExample">
+                                     <p>In Belgium, Luxembourg, the Netherlands, France, Germany, and Italy, direct debits are mandatory on bank accounts.</p><p>For all other European countries where future cardholders may have a bank account, direct debits are not applicable and the full due amount needs to be paid manually by bank transfer.  </p>
+                                </div>
+                            </div>
+                            
+                            <h2 id="content2">Where are the car park located?</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem.</p>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2584.9651159156533!2d6.142395153967284!3d49.6172623133942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47954f312a84de23%3A0x51771cbc38cbc59!2sTrois+Glands!5e0!3m2!1sfr!2sfr!4v1442994086660" height="300" style="border:0; width:100%;" allowfullscreen></iframe>
+
+                            <h2 id="content4">What are the opining hours and limit period?</h2>
+                            <a href="img/tmp/emas_mobilityweek2015_18sept.jpg" class="img-thumbnail media-left" title="A Image" data-gallery="#1">
+                                <span class="hover icon-search"></span>
+                                <img src="img/tmp/emas_mobilityweek2015_18sept.jpg" alt="Multimedia long description">
+                                <span class="caption">
+                                    <span class="desc">
+                                        <i aria-hidden="true" class="icon-photo"></i>
+                                        Multimedia left 
+                                    </span>
+                                </span>
+                            </a>
+                            <span class="media-center">
+                                <a href="img/tmp/emas_mobilityweek2015_18sept.jpg" class="img-thumbnail" title="A Image" data-gallery="#1">
+                                    <span class="hover icon-search"></span>
+                                    <img  width="150" src="img/tmp/emas_mobilityweek2015_18sept.jpg" alt="Multimedia long description">
+                                    <span class="caption">
+                                        <span class="desc">
+                                            <i aria-hidden="true" class="icon-photo"></i>
+                                            Multimedia center 
+                                        </span>
+                                    </span>
+                                </a>
+                            </span>
+                            <h4>Apply for a Mastercard Corporate Credit Card</h4>
+                            <ul>
+                                <li>Send an e-mail to the <a href="#">Missions Unit.</a></li>
+                                <li>You will receive a link in your mailbox which will guide you further through the process.</li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem.
+                                <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem.</p>
+                            <figure>
+                                <img src="img/tmp/Forum_4.JPG" alt="Multimedia title" />
+                                <figcaption>Légende associée</figcaption>
+                            </figure>
+
+                            <!-- Bloc important -->
+                            <div class="important">
+                                <i aria-hidden="true" class="icon-alert"></i>
+                                <h3 class="sr-only">Important information :</h3>
+                                <h3>Card activation required in certain countries</h3>
+                                <p>For safety reasons, in certain countries, the United States in particular, it might be necessary to activate the card at an automatic teller, prior to any payment.
+                                    <br>For further information see <a href="#">Fraud countermeasures – Skimming<span class="sr-only">(PDF)</span><i aria-hidden="true" class="icon-doc pdf small"></i></a><span class="btn-group btn-lang">
+                                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EN <span class="caret"></span>
+                                    </button>
+                                    <span class="dropdown-menu" role="menu">
+                                        <span class="title">Other languages :</span>
+                                    <a href="#">BG</a>
+                                    <a href="#">ES</a>
+                                    <a href="#">CS</a>
+                                    <a class="disabled" href="#">DA</a>
+                                    <a href="#">DE</a>
+                                    <a href="#">ET</a>
+                                    <a href="#">EL</a>
+                                    <a class="disabled" href="#">EN</a>
+                                    <a class="disabled" href="#">FR</a>
+                                    <a href="#">GA</a>
+                                    <a href="#">HR</a>
+                                    <a href="#">IT</a>
+                                    <a href="#">LV</a>
+                                    <a href="#">LT</a>
+                                    <a href="#">HU</a>
+                                    <a href="#">MT</a>
+                                    <a href="#">NL</a>
+                                    <a href="#">PL</a>
+                                    <a href="#">PT</a>
+                                    <a href="#">RO</a>
+                                    <a href="#">SK</a>
+                                    <a href="#">SL</a>
+                                    <a href="#">FI</a>
+                                    <a href="#">SV</a>
+                                    </span>
+                                    </span>
+                                </p>
+
+                            </div>
+                            <h2 id="content3">Features</h2>
+                            <ul>
+                                <li>Holders of the credit card are personally liable</li>
+                                <li>all payments are initiated by the cardholder.</li>
+                                <li>The credit limit per calendar month is:
+                                    <ul>
+                                        <li>€2 500 for agents with grades 1 to 8 and for all contractual agents, detached national experts and accredited parliamentary assistants from grades 1 to 16; </li>
+                                        <li>€4 000 for agents with grades 9 to 16 and for accredited parliamentary assistants from grades 17 to 19;</li>
+                                        <li>in exceptional, substantiated circumstances, however, the limits may be reviewed at the <a href="#" target="_blank">cardholder's request by email.<span class="sr-only">(Open in new windows)</span><i aria-hidden="true" class="icon-external"></i></a></li>
+                                    </ul>
+                                </li>
+                                <li>In Belgium, Luxembourg, the Netherlands, France, Germany, and Italy, direct debits are mandatory on bank accounts. For all other European countries where future cardholders may have a bank account, direct debits are not applicable and the full due amount needs to be paid manually by bank transfer.  </li>
+                                <li>The
+                                    <!-- Contact dropdown -->
+                                    <span class="btn-group btn-contact">
+                                                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Missions Unit <i aria-hidden="true" class="icon-arrow-down2"></i>
+                                                </button>
+                                                <span class="dropdown-menu" role="menu">
+                                                    <span class="title">
+                                                        <img class="img-circle" src="img/tmp/avatar01.jpg" alt="">
+                                                    Karen MCCLUSKEY :
+                                                    </span>
+
+                                    <span><i aria-hidden="true" class="icon-desk"></i> LUX - SCH 02A015</span>
+                                    <span> <a href="tel:"><i aria-hidden="true" class="icon-tel"></i> +352 4300 27137</a></span>
+                                    <span> <a href="mailto:karen.mccluskey@europarl.europa.eu"><i aria-hidden="true" class="icon-mail"></i>karen.mccluskey@europarl.europa.eu</a></span>
+                                    <span><a href="#"><i aria-hidden="true" class="icon-profile"></i>EP Directory profile</a></span>
+                                    </span>
+                                    </span>
+                                    can reimburse withdrawal charges incurred on the credit card during a mission outside the euro zone - on the basis of the issuer's invoice - when mission expenses are settled.</li>
+                                <li>Exchange rates are based on the daily interbank exchange rate, with a 1.75% mark-up to cover the card issuer's costs.</li>
+                            </ul>
+
+                            <!-- Bloc news -->
+                            <div class="new">
+                                <i class="icon-new">New <span>Since 14.03.2016</span></i>
+                                <h3 class="sr-only">New information :</h3>
+                                <h3>New procedure</h3>
+                                <p>This a new information, procedure, contact, etc., inside the page.
+                                    <br> It might be graphically highlighted in the text.
+                                </p>
+                            </div>
+
+                            <p>Button primary : <a class="btn btn-primary" href="#" role="button">Application form <span class="sr-only">(PDF)</span> <i aria-hidden="true" class="icon-doc small pdf"></i></a></p>
+                            <p>Button secondary : <a class="btn btn-secondary" href="#" role="button">Application form <span class="sr-only">(XLS)</span><i aria-hidden="true" class="icon-doc small xls"></i></a></p>
+                            <p>Button primary simple : <a class="btn btn-primary" href="#" role="button">Application form</a></p>
+                            <p>Button secondary simple : <a class="btn btn-secondary" href="#" role="button">Application form</a></p>
+                            <p>Simple link with icon : <a href="tel:0304050607">0304050607 <i aria-hidden="true" class="icon-tel"></i></a></p>
+                            <p>Simple link with icon : <a href="#">Application form <span class="sr-only">(XLS)</span><i aria-hidden="true" class="icon-doc small xls"></i></a></p>
+                            <!-- Call to action -->
+                            <div class="calltoaction">
+                                <h2>I want to obtain a car park sticker:</h2>
+                                <p>Shipping is calculated during checkout after you enter your shipping address; you will be able to review the shipping charges before placing your order.
+                                    <br>
+                                    <a class="btn btn-primary" href="#" role="button">Application form<span class="sr-only">(PDF)</span><i aria-hidden="true" class="icon-doc pdf"></i></a>
+                                </p>
+                            </div>
+                            <hr>
+                            <section>
+                                <!-- Bloc contact -->
+                                <div class="box infos2">
+                                    <h2>Contacts</h2>
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <div class="content">
+                                                <p><strong>BCC Corporate</strong></p>
+                                                <p>Weekday: 8h30 to 18h
+                                                    <br>Saturday: 9h to 17h
+                                                    <br><a href="tel:"><i aria-hidden="true" class="icon-tel"></i> +32 (0) 2 205 87 75</a>
+                                                    <br>
+                                                    <a href="mailto:european.institutions@bcccorporate.be"><i aria-hidden="true" class="icon-mail"></i>european.institutions@bcccorporate.be</a>
+                                                    <br><i>All servicing will be done in English.</i></p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="content">
+                                                <p><strong>DG Fin</strong></p>
+                                                <p><a href="tel:72166"><i aria-hidden="true" class="icon-tel"></i>72166</a>
+                                                    <br>
+                                                    <a href="mailto:pers-card@ep.europa.eu"><i aria-hidden="true" class="icon-mail"></i>pers-card@ep.europa.eu</a>
+                                                    <br><i>All servicing will be done in English.</i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Bloc documents -->
+                                <div class="box infos2">
+                                    <h2>Official documents</h2>
+                                    <div class="content">
+                                        <ul class="doc">
+                                            <li><a href="#">Exclusive MasterCard for all staff members of the European Institutions<span class="sr-only">(DOC)</span><i aria-hidden="true" class="icon-doc word small"></i></a>
+                                                <!-- Lang dropdown --><span class="btn-group btn-lang">
+                                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EN <span class="caret"></span>
+                                                </button>
+                                                <span class="dropdown-menu" role="menu">
+                                                <span class="title">
+                                                Other languages :
+                                                </span>
+                                                <a href="#">EN</a>
+                                                <a href="#">FR</a>
+                                                <a href="#">DE</a>
+                                                </span>
+                                                </span>
+                                            </li>
+                                            <li><a href="#">MasterCard accident insurance<span class="sr-only">(PDF)</span><i aria-hidden="true" class="icon-doc pdf small"></i></a>
+                                            </li>
+                                            <li><a href="#">MasterCard travel assistance<span class="sr-only">(DOC)</span><i aria-hidden="true" class="icon-doc pdf small"></i></a>
+                                            </li>
+                                            <li><a href="#">MasterCard travel inconvenience<span class="sr-only">(DOC)</span><i aria-hidden="true" class="icon-doc pdf small"></i></a>
+                                            </li>
+                                            <li><a href="#">General conditions of the Mastercard Corporate with private liability<span class="sr-only">(DOC)</span><i aria-hidden="true" class="icon-doc pdf small"></i></a>
+                                            </li>
+                                            <li><a href="#">Fraud countermeasures to make card use safer<span class="sr-only">(DOC)</span><i aria-hidden="true" class="icon-doc pdf small"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- Bloc related links -->
+                                <div class="box infos2">
+                                    <h2>Related links</h2>
+                                    <div class="content">
+                                        <ul>
+                                            <li><a href="#">Travel expenses on missions</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <hr>
+                                <!-- Bloc Legal references (tabs version) -->
+                                <div class="box infos3">
+                                    <ul class="nav nav-tabs3" role="tablist">
+                                        <li role="presentation" class="active">
+                                            <a href="#legalReferences" aria-controls="legalReferences" role="tab" data-toggle="tab">
+                                                <h2>Legal references</h2>
+                                            </a>
+                                        </li>
+                                        <li role="presentation">
+                                            <a href="#references" aria-controls="references" role="tab" data-toggle="tab">
+                                                <h2>Others References</h2>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <!-- Tab panel -->
+                                    <div class="tab-content">
+                                        <!-- Legal references -->
+                                        <div role="tabpanel" class="tab-pane fade active in" id="legalReferences">
+
+                                            <div class="content">
+                                                <ul>
+                                                    <li><a href="#">Personalised stationery - Web2Print application<span class="sr-only">(DOC)</span> <i aria-hidden="true" class="icon-doc small pdf"></i></a>
+                                                    </li>
+                                                    <li><a href="#">Quaestors note 21/14 on the new application for personalised stationery for MEPs, 26 June<span class="sr-only">(PDF)</span><i aria-hidden="true" class="icon-doc pdf small"></i></a>
+                                                        <!-- Lang dropdown --><span class="btn-group btn-lang">
+                                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EN <span class="caret"></span>
+                                                        </button>
+                                                        <span class="dropdown-menu" role="menu">
+                                                <span class="title">
+                                                Other languages :
+                                                </span>
+                                                        <a href="#">EN</a>
+                                                        <a href="#">FR</a>
+                                                        <a href="#">DE</a>
+                                                        </span>
+                                                        </span>
+                                                    </li>
+                                                    <li><a href="#">Quaestors note 41/12 on changes to amounts available free of charge (Stationery), 2 October 2012</a>
+                                                    </li>
+                                                    <li><a href="#">Stationery provided to the Members, Notice to Members 36/2009, The Quaestors, 29 October 2009</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                        <!-- References -->
+                                        <div role="tabpanel" class="tab-pane fade" id="references">
+                                             <div class="content">
+                                                <ul>
+                                                    <li><a href="#">Personalised stationery <span class="sr-only">(DOC)</span> <i aria-hidden="true" class="icon-doc small doc"></i></a>
+                                                    </li>
+                                                    
+                                                    <li><a href="#">Quaestors note 41/12 on changes to amounts available free of charge (Stationery), 2 October 2012</a>
+                                                    </li>
+                                                   
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Bloc Related procedures -->
+                                <div class="box infos3">
+                                    <h2>Related procedures</h2>
+                                    <div class="content">
+                                        <ul>
+                                            <li><a href="#">Order standard letterheads, follow-up paper, EP envelopes, MEP Diaries, greeting cards</a>
+                                            </li>
+                                            <li><a href="#">Send personalised season’s greeting e-cards</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <hr>
+                        <!-- Bloc published by -->
+                        <div class="publishedby">
+                            <div class="row">
+                                <div class="col-xs-10 col-md-11">
+                                    <small>Published by : 
+                                        <!-- Start Contact dropdown -->
+                                        <span class="btn-group btn-contact">
+                                                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Karen MCCLUSKEY <i aria-hidden="true" class="icon-arrow-down2"></i>
+                                                </button>
+                                                <span class="dropdown-menu" role="menu">
+                                                    <span class="title">
+                                                        <img class="img-circle" src="img/tmp/avatar01.jpg" alt="">
+                                                    Karen MCCLUSKEY :
+                                                    </span>
+
+                                        <span><i aria-hidden="true" class="icon-desk"></i> LUX - SCH 02A015</span>
+                                        <span> <a href="tel:"><i aria-hidden="true" class="icon-tel"></i> +352 4300 27137</a></span>
+                                        <span> <a href="mailto:karen.mccluskey@europarl.europa.eu"><i aria-hidden="true" class="icon-mail"></i>karen.mccluskey@europarl.europa.eu</a></span>
+                                        <span><a href="#"><i aria-hidden="true" class="icon-profile"></i>EP Directory profile</a></span>
+                                        </span>
+                                        </span>
+                                        <!-- End Contact dropdown -->
+                                        and
+                                        <!-- Start Contact dropdown -->
+                                        <span class="btn-group btn-contact">
+                                                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Karen MCCLUSKEY2 <i aria-hidden="true" class="icon-arrow-down2"></i>
+                                                </button>
+                                                <span class="dropdown-menu" role="menu">
+                                                    <span class="title">
+                                                        <img class="img-circle" src="img/tmp/avatar01.jpg" alt="">
+                                                    Karen MCCLUSKEY :
+                                                    </span>
+
+                                        <span><i aria-hidden="true" class="icon-desk"></i> LUX - SCH 02A015</span>
+                                        <span> <a href="tel:"><i aria-hidden="true" class="icon-tel"></i> +352 4300 27137</a></span>
+                                        <span> <a href="mailto:karen.mccluskey@europarl.europa.eu"><i aria-hidden="true" class="icon-mail"></i>karen.mccluskey@europarl.europa.eu</a></span>
+                                        <span><a href="#"><i aria-hidden="true" class="icon-profile"></i>EP Directory profile</a></span>
+                                        </span>
+                                        </span>
+                                        <!-- End Contact dropdown -->
+                                    </small>
+                                </div>
+                                <div class="col-xs-6 col-md-5 text-right">
+                                    <small><i>Last update: 15 September 2015</i></small>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Bloc poll -->
+                        <div class="poll" role="form">
+                            <span class="question">Did you find what you were looking for? </span>
+                            <ul class="radiogroup" role="radiogroup">
+                                <li>
+                                    <input type="radio" name="optionsRadios" id="optionsRadios1" class="check sr-only" value="yes">
+                                    <label for="optionsRadios1">
+                                        <strong>Yes</strong>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="optionsRadios" id="optionsRadios2" class="check sr-only" value="no">
+                                    <label for="optionsRadios2">
+                                        <strong>No</strong>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Sidebar right content -->
+                    <aside class="col-md-5 col-lg-5" role="complementary">
+                        <div class="box">
+                            <ul class="tools">
+                                <li><i aria-hidden="true" class="icon-rss"></i> <a href="#">Follow this topic</a></li>
+                                <li><i aria-hidden="true" class="icon-bookmark"></i> <a href="#">Bookmark this page</a></li>
+                                <li><i aria-hidden="true" class="icon-edit"></i> <a href="#">Suggest a change</a></li>
+                                <li><i aria-hidden="true" class="icon-doc pdf small"></i> <a href="#">Export as PDF</a></li>
+                            </ul>
+                        </div>
+                        <div class="box">
+                            <h3><i aria-hidden="true" class="icon-page"></i> Related</h3>
+                            <p>This could interest you:</p>
+                            <ul class="summary">
+                                <li><a href="#">Parliament’s buildings and floor plans</a></li>
+                                <li><a href="#">Access authoriation ruless and procedure</a></li>
+                                <li><a href="#">Acces to the car parks</a></li>
+                            </ul>
+                        </div>
+                        <div class="box">
+                            <h3><i aria-hidden="true" class="icon-help"></i> Help</h3>
+                            <p>For any question about Buildings:</p>
+                            <ul class="contact">
+                                <li>
+                                    <h4>DG Inlo <small>(Infrastructure and Logistics)</small></h4></li>
+                                <li><a href="tel:00352621288814"><i aria-hidden="true" class="icon-tel"></i> (00352) 621 288 814</a></li>
+                                <li><a href="#"><i aria-hidden="true" class="icon-profile"></i>DG INlo Direcrotry</a></li>
+                                <li><a href="#"><i aria-hidden="true" class="icon-web"></i>DG INlo intranet</a></li>
+                            </ul>
+                        </div>
+                        <div class="box">
+                            <h3><i aria-hidden="true" class="icon-news"></i> Related news</h3>
+                            <ul class="row news">
+                                <li class="col-sm-3ths">
+                                    <div class="thumbnail left">
+                                        <a href="#" title="Tai shi at the EP">
+                                            <img src="img/tmp/img-news3.jpg" alt="">
+                                            <div class="caption">
+                                                <h5>New opening hours at the EP</h5>
+                                                <time datetime="2016-04-08"><i aria-hidden="true" class="icon-clock"></i> 06.04.2016
+                                                </time>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="col-sm-3ths">
+                                    <div class="thumbnail left">
+                                        <a href="#" title="New opening hours at the EP New opening hours at the EP">
+                                            <img src="img/tmp/img-news9.jpg" alt="">
+                                            <div class="caption">
+                                                <h5>Willy Brandt Building - Electrical maintenance work</h5>
+                                                <time datetime="2016-04-08"><i aria-hidden="true" class="icon-clock"></i> 06.04.2016
+                                                </time>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <!-- related event (not use)
+                        <div class="box">
+                            <h3><i aria-hidden="true" class="icon-calendar"></i> Related News</h3>
+                            <ul class="date">
+                                <li><i aria-hidden="true" class="icon-calendar2"><span>21</span></i><a href="#">Until 21 april 2015</a> Due to public roadwork, you have to access Kirchberg by the E24 (downtown is not accessible)</li>
+                            </ul>
+                        </div>
+-->
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer role="contentinfo">
+        <div class="footer1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h2>Phone numbers</h2>
+                        <ul>
+                            <li>Emergencies <span class="pull-right">85112</span>
+                            </li>
+                            <li>IT support <span class="pull-right">46480</span>
+                            </li>
+                            <li>Info Desks <span class="pull-right">41600</span>
+                            </li>
+                        </ul>
+                        <a class="btn btn-primary" href="#">Other EU directories</a>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2 id="SearchForm">Search for a form</h2>
+                        <p>More than 200 administrative forms</p>
+                        <!-- Search bar -->
+                        <div class="search">
+                            <input type="text" id="search-form" placeholder="Type topic or keyword" aria-labelledby="SearchForm">
+                            <button type="submit" class="icon-search"><span class="sr-only">Search</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2 id="SearchEPDir">Search EP Directory</h2>
+                        <p>More than 900 people and services</p>
+                        <!-- Search bar -->
+                        <div class="search">
+                            <input type="text" id="search-epdir" placeholder="Type name, job or service" aria-labelledby="SearchEPDir">
+                            <button type="submit" class="icon-search"><span class="sr-only">Search</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2>Help</h2>
+                        <p>Questions about EP Intranet ?</p>
+                        <a class="btn btn-primary" href="#">Visit the Help Centre</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        The Intranet of the European Parliament - ©2016
+                    </div>
+                    <div class="col-sm-8 text-right">
+                        <a href="#">Legal mentions</a> - <a href="#">Cookie usage</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Button Scroll to top -->
+    <button aria-hidden="true" type="button" class="btn scrollToTop"><i aria-hidden="true" class="icon-arrow-up"></i><span class="sr-only">Scroll to top</span>
+    </button>
+    <!-- The Bootstrap Image Gallery lightbox DIV, should be a child element of the document body -->
+    <div id="blueimp-gallery" role="dialog" aria-label="Gallery" class="blueimp-gallery blueimp-gallery-controls">
+        <!-- The container for the modal slides -->
+        <div class="slides"></div>
+        <h3 class="title"><span class="sr-only">title</span></h3>
+        <p class="description"></p>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+        <a class="play-pause"></a>
+        <ol class="indicator"></ol>
+    </div>
+
+
+    <!-- JS -->
+    <script src="javascript/jquery-1.11.3.min.js"></script>
+    <script src="javascript/jquery-ui-1.11.4.custom.min.js"></script>
+    <script src="javascript/jquery-ui-timepicker-addon.min.js"></script>  
+    <!-- Jquery sortable in tree (dependance jquery ui) -->
+    <script src="javascript/jquery.mjs.nestedSortable.js"></script>
+    <script src="javascript/bootstrap.min.js"></script>
+    <!-- custom Select dropdown for Bootstrap -->
+    <script src="javascript/bootstrap-select.js"></script>
+    <script src="javascript/modernizr.custom.js"></script>
+    <!-- jpanelmenu for Off canvas menu (mobile) -->
+    <script src="javascript/jquery.jpanelmenu-custom.js"></script>
+    <!-- jRespond for manage javascript on responsive (used with jpanelmenu) -->
+    <script src="javascript/jRespond.min.js"></script>
+    <!-- Blueimp-gallery for gallery, lightbox and sliders -->
+    <script src="javascript/jquery.blueimp-gallery.min.js"></script>
+    <!-- JS for cookies -->
+    <script src="javascript/jquery.cookie.js"></script>
+    <!-- Joyride Tour plugin -->
+    <script src="javascript/jquery.joyride-2.1.js"></script>
+    <!-- Scripts for EP Intranet -->
+    <script src="javascript/ep-scripts.js"></script>
+
+</body>
+
+</html>

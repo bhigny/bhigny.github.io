@@ -1,0 +1,3513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organisationchart>
+    <lvl1>
+        <title link='ROOT_EP_PRESIDENT'>President of the European Parliament</title>
+        <responsible link='1911'>Mr. Martin SCHULZ</responsible>
+        <lvl2>
+            <title link='CP'>President's Office</title>
+            <responsible link='28750'>Mr. Markus WINKLER</responsible>
+        </lvl2>
+    </lvl1>
+    <lvl1>
+        <title link='ROOT_EP_MEMBERS'>Members of the European Parliament</title>
+        <lvl2>
+            <title link='4273'>EPP</title>
+            <responsible link='28229'>Mr. Manfred WEBER</responsible>
+        </lvl2>
+        <lvl2>
+            <title link='4284'>S&amp;D</title>
+            <responsible link='4436'>Mr. Gianni PITTELLA</responsible>
+        </lvl2>
+        <lvl2>
+            <title link='4275'>ECR</title>
+            <responsible link='33569'>Mr. Syed KAMALL</responsible>
+        </lvl2>
+        <lvl2>
+            <title link='4283'>ALDE</title>
+            <responsible link='97058'>Mr. Guy VERHOFSTADT</responsible>
+        </lvl2>
+        <lvl2>
+            <title link='4281'>GUE/NGL</title>
+            <responsible link='28248'>Ms. Gabriele ZIMMER</responsible>
+        </lvl2>
+        <lvl2>
+            <title link='4285'>Greens/EFA</title>
+            <responsible link='28233'>Ms. Rebecca HARMS</responsible>
+            <responsible link='96648'>Mr. Philippe LAMBERTS</responsible>
+        </lvl2>
+        <lvl2>
+            <title link='4880'>EFDD</title>
+            <responsible link='124796'>Mr. David BORRELLI</responsible>
+            <responsible link='4525'>Mr. Nigel FARAGE</responsible>
+        </lvl2>
+        <lvl2>
+            <title link='4908'>ENF</title>
+            <responsible link='125025'>Mr. Marcel DE GRAAFF</responsible>
+            <responsible link='28210'>Ms. Marine LE PEN</responsible>
+        </lvl2>
+        <lvl2>
+            <title link='3968'>NI</title>
+        </lvl2>
+    </lvl1>
+    <lvl1>
+        <title link='ROOT_EP_BODIES'>Political bodies of the European Parliament</title>
+        <lvl2>
+            <title link='3969'>Conference of Presidents</title>
+        </lvl2>
+        <lvl2>
+            <title link='3970'>Parliament's Bureau</title>
+            <lvl3>
+                <title link='VP'>Vice-Presidents' Secretariat</title>
+            </lvl3>
+        </lvl2>
+        <lvl2>
+            <title link='3973'>Quaestors</title>
+            <lvl3>
+                <title link='QS'>Quaestors' Secretariat</title>
+            </lvl3>
+        </lvl2>
+        <lvl2>
+            <title link='ROOT_EP_BODIES_COMMITTEES'>Committees</title>
+            <lvl3>
+                <title link='3971'>Conference of Committee Chairs</title>
+            </lvl3>
+            <lvl3>
+                <title link='3946'>AFET - Committee on Foreign Affairs</title>
+                <lvl4>
+                    <title link='03A10'>Secretariat of the Committee on Foreign Affairs</title>
+                    <responsible link='22943'>Ms. Armelle DOUAUD</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='3947'>DEVE - Committee on Development</title>
+                <lvl4>
+                    <title link='03A20'>Secretariat of the Committee on Development</title>
+                    <responsible link='5880'>Ms. Anne louise MCLAUCHLAN</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='3948'>INTA - Committee on International Trade</title>
+                <lvl4>
+                    <title link='03A30'>Secretariat of the Committee on International Trade</title>
+                    <responsible link='16596'>Mr. Alberto RODAS</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='3949'>BUDG - Committee on Budgets</title>
+                <lvl4>
+                    <title link='02D10'>Secretariat of the Committee on Budgets</title>
+                    <responsible link='28923'>Ms. Fabia JONES</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='3950'>CONT - Committee on Budgetary Control</title>
+                <lvl4>
+                    <title link='02D20'>Secretariat of the Committee on Budgetary Control</title>
+                    <responsible link='25863'>Ms. Carmen CASTILLO DEL CARPIO</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='3951'>ECON - Committee on Economic and Monetary Affairs</title>
+                <lvl4>
+                    <title link='02A20'>Secretariat of the Committee on Economic and Monetary Affairs</title>
+                    <responsible link='38830'>Mr. Adolfo BARBERA DEL ROSAL</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='3952'>EMPL - Committee on Employment and Social Affairs</title>
+                <lvl4>
+                    <title link='02A10'>Secretariat of the Committee on Employment and Social Affairs</title>
+                    <responsible link='19361'>Mr. Andreas HUBER</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='3953'>ENVI - Committee on the Environment, Public Health and Food Safety</title>
+                <lvl4>
+                    <title link='02A50'>Secretariat of the Committee on the Environment, Public Health and Food Safety</title>
+                    <responsible link='17861'>Ms. Sabina MAGNANO</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='3954'>ITRE - Committee on Industry, Research and Energy</title>
+                <lvl4>
+                    <title link='02A40'>Secretariat of the Committee on Industry, Research and Energy</title>
+                    <responsible link='17767'>Mr. Klaus BAIER</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='3955'>IMCO - Committee on the Internal Market and Consumer Protection</title>
+                <lvl4>
+                    <title link='02A30'>Secretariat of the Committee on the Internal Market and Consumer Protection</title>
+                    <responsible link='18484'>Mr. Panayotis KONSTANTOPOULOS</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='3956'>TRAN - Committee on Transport and Tourism</title>
+                <lvl4>
+                    <title link='02B40'>Secretariat of the Committee on Transport and Tourism</title>
+                    <responsible link='35156'>Mr. Walter GOETZ</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='3957'>REGI - Committee on Regional Development</title>
+                <lvl4>
+                    <title link='02B30'>Secretariat of the Committee on Regional Development</title>
+                    <responsible link='17389'>Mr. Stephen SALTER</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='3958'>AGRI - Committee on Agriculture and Rural Development</title>
+                <lvl4>
+                    <title link='02B10'>Secretariat of the Committee on Agriculture and Rural Development</title>
+                    <responsible link='34983'>Mr. Philippe MUSQUAR</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='3959'>PECH - Committee on Fisheries</title>
+                <lvl4>
+                    <title link='02B20'>Secretariat of the Committee on Fisheries</title>
+                    <responsible link='33799'>Mr. Claudio QUARANTA</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='3960'>CULT - Committee on Culture and Education</title>
+                <lvl4>
+                    <title link='02B50'>Secretariat of the Committee on Culture and Education</title>
+                    <responsible link='24360'>Mr. Nils DANKLEFSEN</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='3961'>JURI - Committee on Legal Affairs</title>
+                <lvl4>
+                    <title link='02C20'>Secretariat of the Committee on Legal Affairs</title>
+                    <responsible link='16169'>Mr. Robert BRAY</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='3962'>LIBE - Committee on Civil Liberties, Justice and Home Affairs</title>
+                <lvl4>
+                    <title link='02C10'>Secretariat of the Committee on Civil Liberties, Justice and Home Affairs</title>
+                    <responsible link='7002'>Mr. Antoine CAHEN</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='3963'>AFCO - Committee on Constitutional Affairs</title>
+                <lvl4>
+                    <title link='02C30'>Secretariat of the Committee on Constitutional Affairs</title>
+                    <responsible link='19847'>Mr. Jose luis PACHECO</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='3964'>FEMM - Committee on Women's Rights and Gender Equality</title>
+                <lvl4>
+                    <title link='02C40'>Secretariat of the Committee on Women's Rights and Gender Equality</title>
+                    <responsible link='31445'>Mr. Markus WARASIN</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='3965'>PETI - Committee on Petitions</title>
+                <lvl4>
+                    <title link='02C50'>Secretariat of the Committee on Petitions</title>
+                    <responsible link='18462'>Ms. Virpi KOYKKA</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='3966'>SEDE - Subcommittee on Security and Defence</title>
+                <lvl4>
+                    <title link='03A1010'>Secretariat of the Subcommittee on Security and Defence</title>
+                    <responsible link='122442'>Ms. Elisabetta PIETROBON</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='3967'>DROI - Subcommittee on Human Rights</title>
+                <lvl4>
+                    <title link='03A1020'>Secretariat of the Subcommittee on Human Rights / Human Rights Unit</title>
+                    <responsible link='19365'>Ms. Rosemary OPACIC</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='4926'>TAX2 - Special Committee on Tax Rulings and Other Measures Similar in Nature or Effect (TAXE 2)</title>
+            </lvl3>
+            <lvl3>
+                <title link='4931'>EMIS - Committee of Inquiry into Emission Measurements in the Automotive Sector</title>
+            </lvl3>
+        </lvl2>
+        <lvl2>
+            <title link='ROOT_EP_BODIES_DELEGATIONS'>Delegations</title>
+            <lvl3>
+                <title link='3972'>Conference of Delegation Chairs</title>
+            </lvl3>
+            <lvl3>
+                <title link='4170'>DEEA - Delegation for relations with Switzerland and Norway and to the EU-Iceland Joint Parliamentary Committee and the European Economic Area (EEA) Joint Parliamentary Committee</title
+>
+            </lvl3>
+            <lvl3>
+                <title link='4171'>DSEE - Delegation for relations with Bosnia and Herzegovina, and Kosovo</title>
+            </lvl3>
+            <lvl3>
+                <title link='4172'>D-RU - Delegation to the EU-Russia Parliamentary Cooperation Committee</title>
+            </lvl3>
+            <lvl3>
+                <title link='4173'>D-UA - Delegation to the EU-Ukraine Parliamentary Association Committee</title>
+            </lvl3>
+            <lvl3>
+                <title link='4174'>D-MD - Delegation to the EU-Moldova Parliamentary Association Committee</title>
+            </lvl3>
+            <lvl3>
+                <title link='4175'>D-BY - Delegation for relations with Belarus</title>
+            </lvl3>
+            <lvl3>
+                <title link='4176'>DCAS - Delegation to the EU-Kazakhstan, EU-Kyrgyzstan, EU-Uzbekistan and EU-Tajikistan Parliamentary Cooperation Committees and for relations with Turkmenistan and Mongolia</title>
+            </lvl3>
+            <lvl3>
+                <title link='4177'>DSCA - Delegation to the EU-Armenia and EU-Azerbaijan Parliamentary Cooperation Committees and the EU-Georgia Parliamentary Association Committee</title>
+            </lvl3>
+            <lvl3>
+                <title link='4178'>D-IL - Delegation for relations with Israel</title>
+            </lvl3>
+            <lvl3>
+                <title link='4179'>DPLC - Delegation for relations with Palestine</title>
+            </lvl3>
+            <lvl3>
+                <title link='4180'>DMAG - Delegation for relations with the Maghreb countries and the Arab Maghreb Union</title>
+            </lvl3>
+            <lvl3>
+                <title link='4181'>DMAS - Delegation for relations with the Mashreq countries</title>
+            </lvl3>
+            <lvl3>
+                <title link='4182'>DARP - Delegation for relations with the Arab Peninsula</title>
+            </lvl3>
+            <lvl3>
+                <title link='4183'>D-IR - Delegation for relations with Iran</title>
+            </lvl3>
+            <lvl3>
+                <title link='4184'>D-US - Delegation for relations with the United States</title>
+            </lvl3>
+            <lvl3>
+                <title link='4185'>D-CA - Delegation for relations with Canada</title>
+            </lvl3>
+            <lvl3>
+                <title link='4186'>DCAM - Delegation for relations with the countries of Central America</title>
+            </lvl3>
+            <lvl3>
+                <title link='4187'>DAND - Delegation for relations with the countries of the Andean Community</title>
+            </lvl3>
+            <lvl3>
+                <title link='4188'>DMER - Delegation for relations with Mercosur</title>
+            </lvl3>
+            <lvl3>
+                <title link='4189'>D-JP - Delegation for relations with Japan</title>
+            </lvl3>
+            <lvl3>
+                <title link='4190'>D-CN - Delegation for relations with the People's Republic of China</title>
+            </lvl3>
+            <lvl3>
+                <title link='4191'>DSAS - Delegation for relations with the countries of South Asia</title>
+            </lvl3>
+            <lvl3>
+                <title link='4192'>D-IN - Delegation for relations with India</title>
+            </lvl3>
+            <lvl3>
+                <title link='4193'>D-AF - Delegation for relations with Afghanistan</title>
+            </lvl3>
+            <lvl3>
+                <title link='4194'>DASE - Delegation for relations with the countries of Southeast Asia and the Association of Southeast Asian Nations (ASEAN)</title>
+            </lvl3>
+            <lvl3>
+                <title link='4195'>DKOR - Delegation for relations with the Korean Peninsula</title>
+            </lvl3>
+            <lvl3>
+                <title link='4196'>DANZ - Delegation for relations with Australia and New Zealand</title>
+            </lvl3>
+            <lvl3>
+                <title link='4197'>D-ZA - Delegation for relations with South Africa</title>
+            </lvl3>
+            <lvl3>
+                <title link='4199'>D-MK - Delegation to the EU-Former Yugoslav Republic of Macedonia Joint Parliamentary Committee</title>
+                <lvl4>
+                    <title link='03B10'>Unit for Europe: Enlargement and European Economic Area</title>
+                    <responsible link='31106'>Mr. Tomasz stanis?aw BA?KA</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='4200'>D-TR - Delegation to the EU-Turkey Joint Parliamentary Committee</title>
+            </lvl3>
+            <lvl3>
+                <title link='4201'>D-MX - Delegation to the EU-Mexico Joint Parliamentary Committee</title>
+                <lvl4>
+                    <title link='03B50'>Latin America Unit</title>
+                    <responsible link='18206'>Mr. Jose javier FERNANDEZ FERNANDEZ</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='4202'>D-CL - Delegation to the EU-Chile Joint Parliamentary Committee</title>
+            </lvl3>
+            <lvl3>
+                <title link='4203'>DACP - Delegation to the ACP-EU Joint Parliamentary Assembly</title>
+            </lvl3>
+            <lvl3>
+                <title link='4204'>DLAT - Delegation to the Euro-Latin American Parliamentary Assembly</title>
+            </lvl3>
+            <lvl3>
+                <title link='4205'>DMED - Delegation to the Parliamentary Assembly of the Union for the Mediterranean</title>
+            </lvl3>
+            <lvl3>
+                <title link='4206'>D-IQ - Delegation for relations with Iraq</title>
+            </lvl3>
+            <lvl3>
+                <title link='4207'>DPAP - Delegation for relations with the Pan-African Parliament</title>
+            </lvl3>
+            <lvl3>
+                <title link='4208'>DEPA - Delegation to the Euronest Parliamentary Assembly</title>
+            </lvl3>
+            <lvl3>
+                <title link='4209'>DCAR - Delegation to theáCariforum ù EUáParliamentary Committee</title>
+                <lvl4>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='4264'>DNAT - Delegation for relations with the NATO Parliamentary Assembly</title>
+            </lvl3>
+            <lvl3>
+                <title link='4265'>D-BR - Delegation for relations with the Federative Republic of Brazil</title>
+            </lvl3>
+            <lvl3>
+                <title link='4266'>D-RS - Delegation to the EU-Serbia Stabilisation and Association Parliamentary Committee</title>
+            </lvl3>
+            <lvl3>
+                <title link='4267'>D-AL - Delegation to the EU-Albania Stabilisation and Association Parliamentary Committee</title>
+            </lvl3>
+            <lvl3>
+                <title link='4268'>D-ME - Delegation to the EU-Montenegro Stabilisation and Association Parliamentary Committee</title>
+            </lvl3>
+        </lvl2>
+    </lvl1>
+    <lvl1>
+        <title link='ROOT_EP_SECRETARY'>Parliament's Secretariat</title>
+        <responsible link='19537'>Mr. Klaus WELLE</responsible>
+        <lvl2>
+            <title link='SG-00'>Office of the Secretary-General</title>
+            <responsible link='26000'>Mr. Christian MANGOLD</responsible>
+            <lvl3>
+                <title link='SG-40'>Secretariat of the Conference of Presidents</title>
+                <responsible link='18020'>Mr. Adam ISAACS</responsible>
+            </lvl3>
+            <lvl3>
+                <title link='SG-10'>Secretariat of the Bureau and the Quaestors</title>
+                <responsible link='18682'>Mr. Nikolaos TZIORKAS</responsible>
+            </lvl3>
+            <lvl3>
+                <title link='SG-20'>Internal Audit Unit</title>
+                <responsible link='17002'>Mr. Robert GALVIN</responsible>
+            </lvl3>
+            <lvl3>
+                <title link='SG-5010'>Data Protection</title>
+                <responsible link='18944'>Mr. Secondo SABBIONI</responsible>
+            </lvl3>
+            <lvl3>
+                <title link='SG-60'>Management Team Support Office</title>
+                <responsible link='96545'>Ms. Lucinia BAL</responsible>
+            </lvl3>
+            <lvl3>
+                <title link='SG-70'>Eco-management and audit scheme Unit (EMAS)</title>
+                <responsible link='37365'>Mr. Siegfried BREIER</responsible>
+            </lvl3>
+        </lvl2>
+        <lvl2>
+            <title link='SA'>Deputy Secretary-General</title>
+            <responsible link='17486'>Ms. Francesca RATTI</responsible>
+            <lvl3>
+                <title link='SAA'>Office of the Deputy Secretary-General</title>
+                <responsible link='18574'>Mr. Nikolas LANE</responsible>
+                <lvl4>
+                    <title link='SAA10'>Legislative Planning and Coordination Unit</title>
+                    <responsible link='19385'>Mr. Karl NATSCHERADETZ</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='SAA20'>Classified Information Unit</title>
+                    <responsible link='5886'>Ms. Daniela CARVALHO</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='SAA30'>Interinstitutional Relations Unit</title>
+                    <responsible link='132959'>Ms. Paola TARDIOLI-SCHIAVO</responsible>
+                </lvl4>
+            </lvl3>
+        </lvl2>
+        <lvl2>
+            <title link='SH'>Directorate for Relations with the Political Groups</title>
+            <responsible link='15456'>Mr. Mario SCHWETZ</responsible>
+        </lvl2>
+        <lvl2>
+            <title link='SJ'>Legal Service</title>
+            <responsible link='19055'>Mr. Freddy DREXLER</responsible>
+            <lvl3>
+                <title link='SJ-10'>Legislative and Judicial Coordination Unit</title>
+                <responsible link='20885'>Ms. Maria GOMEZ-LEAL</responsible>
+            </lvl3>
+            <lvl3>
+                <title link='SJ-0010'>Resources Service</title>
+                <responsible link='31963'>Ms. Brigitte M▄LLER-RECK</responsible>
+            </lvl3>
+            <lvl3>
+                <title link='SJA'>Directorate for Institutional and Parliamentary Affairs</title>
+                <responsible link='21552'>Mr. Ricardo PASSOS</responsible>
+                <lvl4>
+                    <title link='SJA10'>Unit for Institutional and Budgetary Law</title>
+                    <responsible link='21777'>Ms. Evelyn WALDHERR</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='SJA20'>Unit for External Relations</title>
+                    <responsible link='21715'>Mr. Anders NEERGAARD</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='SJA30'>Unit for Rules and Parliamentary Law</title>
+                    <responsible link='98991'>Mr. Niklas GOERLITZ</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='SJB'>Directorate for Legislative Affairs</title>
+                <responsible link='18319'>Ms. Maria jose MARTINEZ IGLESIAS</responsible>
+                <lvl4>
+                    <title link='SJB10'>Unit for Economic and Scientific Policies</title>
+                    <responsible link='37540'>Mr. Luca VISAGGIO</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='SJB20'>Unit for Structural and Cohesion Policies</title>
+                    <responsible link='16533'>Ms. Lisbeth grodum KNUDSEN</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='SJB30'>Unit for Justice and Civil Liberties</title>
+                    <responsible link='112765'>Mr. Daniel WARIN</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='SJC'>Directorate for Administrative and Financial Affairs</title>
+                <responsible link='21689'>Mr. Norbert LORENZ</responsible>
+                <lvl4>
+                    <title link='SJC10'>Unit for Staff rights and obligations</title>
+                    <responsible link='21683'>Mr. Olivier CAISOU-ROUSSEAU</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='SJC20'>Unit for Staff Careers</title>
+                    <responsible link='103023'>Ms. ValÚrie MONTEBELLO-DEMOGEOT</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='SJC30'>Unit for Contract and Financial Law</title>
+                    <responsible link='38276'>Ms. Paloma LOPEZ-CARCELLER</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='SJC40'>Real Estate Projects Unit</title>
+                    <responsible link='115978'>Mr. Jean-marie STENIER</responsible>
+                </lvl4>
+            </lvl3>
+        </lvl2>
+        <lvl2>
+            <title link='01'>Directorate-General for the Presidency</title>
+            <responsible link='17357'>Mr. Kristian KNUDSEN</responsible>
+            <lvl3>
+                <title link='01-10'>Resources Unit</title>
+                <responsible link='20632'>Mr. Josep maria RIBOT IGUALADA</responsible>
+            </lvl3>
+            <lvl3>
+                <title link='01-30'>Protocol Unit</title>
+                <responsible link='18397'>Ms. Monika STRASSER</responsible>
+            </lvl3>
+            <lvl3>
+                <title link='01A'>Directorate for the Plenary</title>
+                <responsible link='17357'>Mr. Kristian KNUDSEN</responsible>
+                <lvl4>
+                    <title link='01A10'>Plenary Records Unit</title>
+                    <responsible link='19479'>Mr. Jose GONZALEZ HOLGUERA</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='01A20'>Members' Activities Unit</title>
+                    <responsible link='16182'>Mr. Francisco PEYRO LLOPIS</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='01A40'>Plenary Organisation and Follow-up Unit</title>
+                    <responsible link='16257'>Mr. Steven WICKER</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='01A50'>Tabling Desk Unit</title>
+                    <responsible link='16257'>Mr. Steven WICKER</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='01A60'>Official Mail Unit</title>
+                    <responsible link='20465'>Ms. Milvia PRIANO</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='01A70'>Unit for Reception and Referral of Official Documents</title>
+                    <responsible link='19364'>Mr. Gabriel SANCHEZ RODRIGUEZ</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='01A80'>Members' Administration Unit</title>
+                    <responsible link='36567'>Ms. Maria GANDOLFO</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='01B'>Directorate for Legislative Acts</title>
+                <responsible link='29847'>Ms. Ellen ROBSON</responsible>
+                <lvl4>
+                    <title link='01B10'>Legislative Planning and Coordination Unit</title>
+                    <responsible link='29795'>Mr. Libor BOHAC</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='01B20'>Legislative Quality Unit A - Economic and Scientific Policy</title>
+                    <responsible link='29847'>Ms. Ellen ROBSON</responsible>
+                    <lvl5>
+                        <title link='01B2001'>Greek Section</title>
+                        <responsible link='29847'>Ms. Ellen ROBSON</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='01B2002'>English Section</title>
+                        <responsible link='29847'>Ms. Ellen ROBSON</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='01B2003'>Irish Section</title>
+                        <responsible link='29847'>Ms. Ellen ROBSON</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='01B2004'>Italian Section</title>
+                        <responsible link='29847'>Ms. Ellen ROBSON</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='01B30'>Legislative Quality Unit B - Structural and Cohesion Policy</title>
+                    <responsible link='38378'>Ms. Alina monica MEDELEANU</responsible>
+                    <lvl5>
+                        <title link='01B3001'>Bulgarian Section</title>
+                        <responsible link='38378'>Ms. Alina monica MEDELEANU</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='01B3002'>Maltese Section</title>
+                        <responsible link='38378'>Ms. Alina monica MEDELEANU</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='01B3003'>Slovene Section</title>
+                        <responsible link='38378'>Ms. Alina monica MEDELEANU</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='01B3004'>Slovak Section</title>
+                        <responsible link='38378'>Ms. Alina monica MEDELEANU</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='01B3005'>Croatian Section</title>
+                        <responsible link='38378'>Ms. Alina monica MEDELEANU</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='01B40'>Legislative Quality Unit C - Citizens' Rights</title>
+                    <responsible link='23399'>Mr. Philipp REIFENRATH</responsible>
+                    <lvl5>
+                        <title link='01B4001'>German Section</title>
+                        <responsible link='23399'>Mr. Philipp REIFENRATH</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='01B4002'>Lithuanian Section</title>
+                        <responsible link='23399'>Mr. Philipp REIFENRATH</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='01B4003'>Dutch Section</title>
+                        <responsible link='23399'>Mr. Philipp REIFENRATH</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='01B4004'>Polish Section</title>
+                        <responsible link='23399'>Mr. Philipp REIFENRATH</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='01B4005'>Romanian Section</title>
+                        <responsible link='23399'>Mr. Philipp REIFENRATH</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='01B50'>Legislative Quality Unit D - Budget Affairs</title>
+                    <responsible link='16219'>Ms. Ellen HEINEMANN</responsible>
+                    <lvl5>
+                        <title link='01B5001'>Danish Section</title>
+                        <responsible link='16219'>Ms. Ellen HEINEMANN</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='01B5002'>Spanish Section</title>
+                        <responsible link='16219'>Ms. Ellen HEINEMANN</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='01B5003'>Finnish Section</title>
+                        <responsible link='16219'>Ms. Ellen HEINEMANN</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='01B5004'>French Section</title>
+                        <responsible link='16219'>Ms. Ellen HEINEMANN</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='01B5005'>Portuguese Section</title>
+                        <responsible link='16219'>Ms. Ellen HEINEMANN</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='01B60'>Legislative Quality Unit E - External Policies</title>
+                    <responsible link='21996'>Mr. Peter NORMAN</responsible>
+                    <lvl5>
+                        <title link='01B6001'>Czech Section</title>
+                        <responsible link='21996'>Mr. Peter NORMAN</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='01B6002'>Estonian Section</title>
+                        <responsible link='21996'>Mr. Peter NORMAN</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='01B6003'>Hungarian Section</title>
+                        <responsible link='21996'>Mr. Peter NORMAN</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='01B6004'>Latvian Section</title>
+                        <responsible link='21996'>Mr. Peter NORMAN</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='01B6005'>Swedish Section</title>
+                        <responsible link='21996'>Mr. Peter NORMAN</responsible>
+                    </lvl5>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='01C'>Directorate for Relations with National Parliaments</title>
+                <responsible link='19993'>Ms. Christine VERGER</responsible>
+                <lvl4>
+                    <title link='01C10'>Institutional Cooperation Unit</title>
+                    <responsible link='20258'>Mr. Pekka NURMINEN</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='01C20'>Legislative Dialogue Unit</title>
+                    <responsible link='19066'>Ms. Patrizia maria PRODE</responsible>
+                </lvl4>
+            </lvl3>
+        </lvl2>
+        <lvl2>
+            <title link='02'>Directorate-General for Internal Policies of the Union</title>
+            <responsible link='21671'>Mr. Riccardo RIBERA D'ALCALA</responsible>
+            <lvl3>
+                <title link='02-20'>Strategic Planning Unit</title>
+                <responsible link='21671'>Mr. Riccardo RIBERA D'ALCALA</responsible>
+            </lvl3>
+            <lvl3>
+                <title link='02A'>Directorate for Economic and Scientific Policies</title>
+                <responsible link='18484'>Mr. Panayotis KONSTANTOPOULOS</responsible>
+                <lvl4>
+                </lvl4>
+                <lvl4>
+                </lvl4>
+                <lvl4>
+                </lvl4>
+                <lvl4>
+                </lvl4>
+                <lvl4>
+                </lvl4>
+                <lvl4>
+                    <title link='02A60'>Policy Department for Economic, Scientific and Quality of Life Policies</title>
+                    <responsible link='19304'>Ms. Patricia SILVEIRA DA CUNHA</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='02A70'>Economic Governance Support Unit</title>
+                    <responsible link='40608'>Mr. Kajus HAGELSTAM</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='02A80'>Special Committee on Tax Rulings and Other Measures Similar in Nature or Effect</title>
+                    <responsible link='19327'>Mr. Massimo PALUMBO</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='02B'>Directorate for Structural and Cohesion Policies</title>
+                <responsible link='11512'>Ms. Susanne OBERHAUSER</responsible>
+                <lvl4>
+                </lvl4>
+                <lvl4>
+                </lvl4>
+                <lvl4>
+                </lvl4>
+                <lvl4>
+                </lvl4>
+                <lvl4>
+                </lvl4>
+                <lvl4>
+                    <title link='02B70'>Policy Department for Structural and Cohesion Policies</title>
+                    <responsible link='20433'>Mr. Iain WATT</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='02C'>Directorate for Citizens' Rights and Constitutional Affairs</title>
+                <responsible link='15017'>Mr. Gerard LAPRAT</responsible>
+                <lvl4>
+                </lvl4>
+                <lvl4>
+                </lvl4>
+                <lvl4>
+                </lvl4>
+                <lvl4>
+                </lvl4>
+                <lvl4>
+                </lvl4>
+                <lvl4>
+                    <title link='02C60'>Policy Department for Citizens' Rights and Constitutional Affairs</title>
+                    <responsible link='20352'>Mr. Miguel TELL CREMADES</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='02D'>Directorate for Budgetary Affairs</title>
+                <responsible link='18237'>Ms. Anne VITREY</responsible>
+                <lvl4>
+                </lvl4>
+                <lvl4>
+                </lvl4>
+                <lvl4>
+                    <title link='02D30'>Policy Department for Budgetary Affairs</title>
+                    <responsible link='6139'>Mr. Niels FISCHER</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='02E'>Directorate for Legislative Coordination and Conciliations</title>
+                <responsible link='18320'>Ms. Els VANDENBOSCH</responsible>
+                <lvl4>
+                    <title link='02E10'>Conciliations and Codecision Unit</title>
+                    <responsible link='20891'>Ms. Sarah BLAU</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='02E20'>Unit for Legislative Coordination and Programming</title>
+                    <responsible link='25030'>Mr. Alessandro CHIOCCHETTI</responsible>
+                    <lvl5>
+                        <title link='02E2001'>Schedule of meetings Service</title>
+                        <responsible link='25030'>Mr. Alessandro CHIOCCHETTI</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='02E40'>Unit for Coordination of Editorial and Communication Activities</title>
+                    <responsible link='36306'>Mr. Federico ROSSETTO</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='02E50'>Committee of Inquiry into Emission Measurements in the Automotive Sector</title>
+                    <responsible link='17459'>Ms. Elisa DAFFARRA</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='02F'>Directorate for Resources</title>
+                <responsible link='6101'>Ms. Raquel DE VICENTE</responsible>
+                <lvl4>
+                    <title link='02F10'>Personnel Unit</title>
+                    <responsible link='33565'>Mr. Johannes LITZELMANN</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='02F20'>Informatics Unit</title>
+                    <responsible link='20290'>Mr. Juho ESKELINEN</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='02F30'>Finance Unit</title>
+                    <responsible link='16222'>Mr. Richard WESTER</responsible>
+                </lvl4>
+            </lvl3>
+        </lvl2>
+        <lvl2>
+            <title link='03'>Directorate-General for External Policies of the Union</title>
+            <responsible link='26898'>Mr. Luis marco AGUIRIANO NALDA</responsible>
+            <lvl3>
+                <title link='03A'>Directorate for Committees</title>
+                <responsible link='21938'>Mr. Alexandre STUTZMANN</responsible>
+                <lvl4>
+                </lvl4>
+                <lvl4>
+                </lvl4>
+                <lvl4>
+                </lvl4>
+                <lvl4>
+                </lvl4>
+                <lvl4>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='03B'>Directorate for Regions</title>
+                <responsible link='34905'>Mr. Ciril STOKELJ</responsible>
+                <lvl4>
+                </lvl4>
+                <lvl4>
+                    <title link='03B20'>Unit for Asia, Australia and New Zealand</title>
+                    <responsible link='21470'>Mr. Jonas CONDOMINES BERAUD</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='03B30'>Policy Department for External Relations</title>
+                    <responsible link='19815'>Mr. Pekka HAKALA</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='03B40'>Euromed and Middle East Unit</title>
+                    <responsible link='118338'>Mr. Franþois MASSOULIE</responsible>
+                </lvl4>
+                <lvl4>
+                </lvl4>
+                <lvl4>
+                    <title link='03B60'>Unit for Europe: Eastern Partnership and Russia</title>
+                    <responsible link='20173'>Ms. Sabina MAZZI-ZISSIS</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='03B70'>Unit for Africa,Caribbean and Pacific</title>
+                    <responsible link='18144'>Ms. Donatella PRIBAZ</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='03B80'>Transatlantic Relations and G8 Unit</title>
+                    <responsible link='20187'>Mr. Stefan PFITZNER</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='03C'>Directorate for Resources</title>
+                <responsible link='16429'>Mr. Bernard HELLOT</responsible>
+                <lvl4>
+                    <title link='03C10'>Personnel Unit</title>
+                    <responsible link='18160'>Ms. Emilia GALLEGO PERONA</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='03C20'>Finance Unit</title>
+                    <responsible link='16429'>Mr. Bernard HELLOT</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='03C30'>Informatics Unit</title>
+                    <responsible link='36514'>Mr. Claudio FABIANI</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='03D'>Directorate for Democracy Support</title>
+                <responsible link='19366'>Mr. Pietro DUCCI</responsible>
+                <lvl4>
+                    <title link='03D0010'>European Parliament Mediation Support Service</title>
+                    <responsible link='33752'>Mr. Gerrard QUILLE</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='03D10'>Democracy and Elections Actions</title>
+                    <responsible link='19366'>Mr. Pietro DUCCI</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='03D20'>Pre-Accession Actions Unit</title>
+                    <responsible link='36113'>Mr. Krzysztof BERNACKI</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='03D40'>Human Rights Action Unit</title>
+                    <responsible link='97696'>Ms. Inga ROSINSKA</responsible>
+                </lvl4>
+            </lvl3>
+        </lvl2>
+        <lvl2>
+            <title link='11'>Directorate-General for Parliamentary Research Services</title>
+            <responsible link='20073'>Mr. Anthony TEASDALE</responsible>
+            <lvl3>
+                <title link='11-0010'>BUDGET RESERVE COMITES</title>
+                <responsible link='20073'>Mr. Anthony TEASDALE</responsible>
+            </lvl3>
+            <lvl3>
+                <title link='11-10'>Resources Unit</title>
+                <responsible link='18547'>Ms. Jutta SCHULZE-HOLLMEN</responsible>
+                <lvl4>
+                    <title link='11-1010'>Human Resources Service</title>
+                    <responsible link='9978'>Ms. Maria grazia TANESE</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='11-1020'>Finance Service</title>
+                    <responsible link='96233'>Mr. Alfonso GARCIA-MIGUEL CASANUEVA</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='11-1030'>Information Technology Service</title>
+                    <responsible link='109188'>Mr. Lars DE NUL</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='11-20'>Strategy and Coordination Unit</title>
+                <responsible link='37936'>Mr. Eschel claus ALPERMANN</responsible>
+            </lvl3>
+            <lvl3>
+                <title link='11A'>Directorate Members' Research Service</title>
+                <responsible link='21572'>Mr. Etienne BASSOT</responsible>
+                <lvl4>
+                    <title link='11A10'>Economic Policies Unit</title>
+                    <responsible link='96415'>Mr. Alessandro PICCIOLI</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='11A20'>Structural Policies Unit</title>
+                    <responsible link='19559'>Ms. Sarah SHEIL</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='11A30'>Citizens' Policies Unit</title>
+                    <responsible link='129959'>Mr. Jesus CARMONA NUNEZ</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='11A40'>External Policies Unit</title>
+                    <responsible link='25433'>Ms. Monika NOGAJ</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='11A50'>Budgetary Policies Unit</title>
+                    <responsible link='96782'>Ms. Sidonia el?bieta J?DRZEJEWSKA</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='11A60'>Publications Management and Editorial Unit</title>
+                    <responsible link='16915'>Ms. Alison DAVIES</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='11B'>Directorate for the Library</title>
+                <responsible link='21725'>Mr. Joseph DUNNE</responsible>
+                <lvl4>
+                    <title link='11B10'>On-site and Online Library Services Unit</title>
+                    <responsible link='25707'>Ms. Elke BALLON</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='11B20'>Historical Archives Unit</title>
+                    <responsible link='96176'>Ms. Aurora PARRAGA GIMENEZ</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='11B30'>Citizens' Enquiries Unit</title>
+                    <responsible link='96176'>Ms. Aurora PARRAGA GIMENEZ</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='11B40'>Transparency Unit</title>
+                    <responsible link='25545'>Ms. Chiara MALASOMMA</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='11B50'>Comparative Law Library Unit</title>
+                    <responsible link='7083'>Mr. Ignacio DIEZ PARRA</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='11C'>Directorate for Impact Assessment and European Added Value</title>
+                <responsible link='20715'>Mr. Wolfgang HILLER</responsible>
+                <lvl4>
+                    <title link='11C10'>Ex-Ante Impact Assessment Unit</title>
+                    <responsible link='31032'>Mr. Alexia MANIAKI-GRIVA</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='11C20'>European Added Value Unit</title>
+                    <responsible link='21961'>Ms. Astrid WORUM</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='11C30'>Scientific Foresight Unit</title>
+                    <responsible link='16564'>Mr. Theodoros KARAPIPERIS</responsible>
+                    <lvl5>
+                        <title link='11C3010'>Scientific Foresight Service</title>
+                        <responsible link='16564'>Mr. Theodoros KARAPIPERIS</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='11C3020'>STOA Secretariat</title>
+                        <responsible link='16564'>Mr. Theodoros KARAPIPERIS</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='11C40'>Ex-Post Impact Assessment Unit</title>
+                    <responsible link='17140'>Mr. Jose luis RUFAS QUINTANA</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='11C50'>Policy Cycle Unit</title>
+                    <responsible link='25760'>Mr. Stephan HUBER</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='11C60'>European Council Oversight Unit</title>
+                    <responsible link='17423'>Ms. Josephine MOERMAN</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='11C70'>Global Trends Unit</title>
+                    <responsible link='18333'>Ms. Daniele RECHARD</responsible>
+                </lvl4>
+            </lvl3>
+        </lvl2>
+        <lvl2>
+            <title link='04'>Directorate-General for Communication</title>
+            <responsible link='19277'>Ms. Juana LAHOUSSE</responsible>
+            <lvl3>
+                <title link='04-40'>Public Opinion Monitoring Unit</title>
+                <responsible link='21735'>Mr. Jacques NANCY</responsible>
+            </lvl3>
+            <lvl3>
+                <title link='04A'>Directorate for Media</title>
+                <responsible link='17509'>Mr. Jaume DUCH GUILLOT</responsible>
+                <lvl4>
+                    <title link='04A10'>Press Unit</title>
+                    <responsible link='19053'>Ms. Marjory VAN DEN BROEKE</responsible>
+                    <lvl5>
+                        <title link='04A1010'>Economic and Scientific Policy Service</title>
+                        <responsible link='103910'>Mr. Ronnie johannes KORVER</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='04A1020'>Structural and Cohesion Policy Service</title>
+                        <responsible link='104708'>Ms. Michaela FINDEIS</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='04A1030'>Constitutional Affairs and Citizens' Rights Service</title>
+                        <responsible link='26244'>Ms. Sara AHNBORG</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='04A1040'>Budgetary Affairs Service</title>
+                        <responsible link='19053'>Ms. Marjory VAN DEN BROEKE</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='04A1050'>External Policies Service</title>
+                        <responsible link='19053'>Ms. Marjory VAN DEN BROEKE</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='04A20'>Media Services and Monitoring Unit</title>
+                    <responsible link='19536'>Mr. Ioannis DARMIS</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04A30'>Audiovisual Unit</title>
+                    <responsible link='19293'>Mr. Fernando CARBAJO</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04A40'>Web Communication Unit</title>
+                    <responsible link='33414'>Mr. Thibault LESENECAL</responsible>
+                    <lvl5>
+                        <title link='04A4010'>Economic and Scientific Policy Service</title>
+                        <responsible link='101178'>Mr. Konstantinos KALLERGIS</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='04A4020'>Structural and Cohesion Policy Service</title>
+                        <responsible link='105052'>Ms. Karolina WOZNIAK</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='04A4030'>Constitutional Affairs and Citizens' Rights Service</title>
+                        <responsible link='118622'>Mr. Mikael LAGERBLAD</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='04A4040'>Budgetary Affairs Service</title>
+                        <responsible link='101387'>Mr. Marko VUKOVIC</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='04A4050'>External Policies Service</title>
+                        <responsible link='37052'>Mr. Rolandas PYRAGIS</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='04A50'>Europarl Webmaster Unit</title>
+                    <responsible link='13804'>Mr. Manuel FERN┴NDEZ PONCE</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04A60'>Europarl TV Unit</title>
+                    <responsible link='23011'>Mr. George KASIMATIS</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04A70'>Media Intelligence Unit</title>
+                    <responsible link='20303'>Ms. Paula FERNANDEZ-HERVAS</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='04B'>Directorate for Information Offices</title>
+                <responsible link='15488'>Ms. Katrin RUHRMANN</responsible>
+                <lvl4>
+                    <title link='04B10'>EP-US Congress Liaison Office in Washington</title>
+                    <responsible link='16166'>Mr. Antoine RIPOLL</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04B20'>Coordination and Programming Unit</title>
+                    <responsible link='21515'>Mr. Pablo IBANEZ LOPEZ-POZAS</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04B21'>Horizontal and Thematic Monitoring Unit</title>
+                    <responsible link='24469'>Mr. Jesus GOMEZ</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04B22'>European Parliament Information Office in Greece</title>
+                    <responsible link='16142'>Mr. Leonidas ANTONAKOPOULOS</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04B23'>European Parliament Information Office in Germany</title>
+                    <responsible link='17363'>Mr. Frank PIPLAT</responsible>
+                    <lvl5>
+                        <title link='04B2310'>Munich Regional Office</title>
+                        <responsible link='17363'>Mr. Frank PIPLAT</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='04B24'>European Parliament Information Office in Belgium</title>
+                    <responsible link='25354'>Mr. Sjerp pieter VAN DER VAART</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04B25'>European Parliament Information Office in Denmark</title>
+                    <responsible link='114853'>Ms. Anne mette VESTERGAARD</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04B26'>European Parliament Information Office in Ireland</title>
+                    <responsible link='17483'>Mr. Francis JACOBS</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04B27'>European Parliament Information Office in Finland</title>
+                    <responsible link='34580'>Ms. Kadi HERKUEL</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04B28'>European Parliament Information Office in the Netherlands</title>
+                    <responsible link='16699'>Mr. Eduardus SLOOTWEG</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04B29'>European Parliament Information Office in Portugal</title>
+                    <responsible link='93840'>Mr. Pedro VALENTE DA SILVA</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04B31'>European Parliament Information Office in the United Kingdom</title>
+                    <responsible link='18364'>Mr. Bjorn KJELLSTROM</responsible>
+                    <lvl5>
+                        <title link='04B3110'>Edinburgh Regional Office</title>
+                        <responsible link='18364'>Mr. Bjorn KJELLSTROM</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='04B32'>European Parliament Information Office in Luxembourg</title>
+                    <responsible link='112692'>Mr. Christoph SCHROEDER</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04B33'>European Parliament Information Office in Spain</title>
+                    <responsible link='23502'>Ms. Maria ANDRES MARIN</responsible>
+                    <lvl5>
+                        <title link='04B3310'>Barcelona Regional Office</title>
+                        <responsible link='23502'>Ms. Maria ANDRES MARIN</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='04B34'>European Parliament Information Office in France</title>
+                    <responsible link='18641'>Ms. Isabelle COUSTET</responsible>
+                    <lvl5>
+                        <title link='04B3410'>Marseilles Regional Office</title>
+                        <responsible link='18641'>Ms. Isabelle COUSTET</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='04B35'>European Parliament Information Office in Italy</title>
+                    <responsible link='33442'>Mr. Gianpaolo MENEGHINI</responsible>
+                    <lvl5>
+                        <title link='04B3510'>Milan Regional Office</title>
+                        <responsible link='33442'>Mr. Gianpaolo MENEGHINI</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='04B36'>European Parliament Information Office in Sweden</title>
+                    <responsible link='15489'>Mr. Markus BONEKAMP</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04B37'>European Parliament Information Office in Strasbourg</title>
+                    <responsible link='20458'>Mr. Luis MARTINEZ GUILLEN</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04B38'>European Parliament Information Office in Austria</title>
+                    <responsible link='20358'>Mr. Georg PFEIFER</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04B39'>European Parliament Information Office in Cyprus</title>
+                    <responsible link='118052'>Mr. Andreas KETTIS</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04B40'>European Parliament Information Office in Estonia</title>
+                    <responsible link='34580'>Ms. Kadi HERKUEL</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04B41'>European Parliament Information Office in Hungary</title>
+                    <responsible link='25930'>Ms. Andrea LOVEI</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04B42'>European Parliament Information Office in Latvia</title>
+                    <responsible link='117831'>Ms. Marta RIBELE</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04B43'>European Parliament Information Office in Lithuania</title>
+                    <responsible link='25932'>Ms. Daiva JAKAITE</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04B44'>European Parliament Information Office in Malta</title>
+                    <responsible link='113523'>Mr. Peter AGIUS</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04B45'>European Parliament Information Office in Poland</title>
+                    <responsible link='34581'>Mr. Jacek SAFUTA</responsible>
+                    <lvl5>
+                        <title link='04B4510'>Wroclaw Regional Office</title>
+                        <responsible link='34581'>Mr. Jacek SAFUTA</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='04B46'>European Parliament Information Office in the Czech Republic</title>
+                    <responsible link='25973'>Mr. Jiri KUBICEK</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04B47'>European Parliament Information Office in Slovakia</title>
+                    <responsible link='34578'>Mr. Robert HAJSEL</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04B48'>European Parliament Information Office in Slovenia</title>
+                    <responsible link='30365'>Mr. Klemen ZUMER</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04B49'>European Parliament Information Office in Bulgaria</title>
+                    <responsible link='40569'>Mr. Teodor STOYCHEV</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04B50'>European Parliament Information Office in Romania</title>
+                    <responsible link='34326'>Ms. Madalina beatrice MIHALACHE</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04B51'>European Parliament Information Office in Croatia</title>
+                    <responsible link='96304'>Ms. Violeta STANICIC</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04B60'>Support Unit for Information Offices</title>
+                    <responsible link='20084'>Ms. Delia CARRO</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04B52'>Mini-Parlamentarium Berlin</title>
+                    <responsible link='15488'>Ms. Katrin RUHRMANN</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='04C'>Directorate for Relations with the Citizens</title>
+                <responsible link='21811'>Mr. Stephen CLARK</responsible>
+                <lvl4>
+                    <title link='04C10'>Parlamentarium</title>
+                    <responsible link='18031'>Mr. Alexander KLEINIG</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04C20'>Visits and Seminars Unit</title>
+                    <responsible link='34422'>Ms. Mariana COSAC</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04C30'>Visitors Services Coordination Unit</title>
+                    <responsible link='23037'>Ms. Nastja KLEMENCIC SCHMIDT</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04C40'>Events and Exhibitions Unit</title>
+                    <responsible link='34196'>Mr. Tasos GEORGIOU</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04C50'>Information Campaigns Unit</title>
+                    <responsible link='33773'>Mr. Alain CRESPINET</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04C60'>House of European History</title>
+                    <responsible link='106266'>Ms. Taja VOVK VAN GAAL</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04C70'>European Union Visitors Programme Unit (EUVP)</title>
+                    <responsible link='6123'>Ms. Beatriz OLIVEIRA-GOUMAS</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04C80'>EYE Unit</title>
+                    <responsible link='20085'>Mr. Klaus LOEFFLER</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='04D'>Directorate for Resources</title>
+                <responsible link='19550'>Ms. Christina RUPP</responsible>
+                <lvl4>
+                    <title link='04D10'>Personnel Unit</title>
+                    <responsible link='20894'>Ms. Renate FEILER</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04D20'>Finance Unit</title>
+                    <responsible link='111036'>Mr. Paul DE SPIEGELEER</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04D30'>Informatics Unit</title>
+                    <responsible link='22190'>Mr. Flemming SORENSEN</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='04D40'>Measurement, Evaluation and Risk Unit</title>
+                    <responsible link='7286'>Ms. Rebecca WEST</responsible>
+                </lvl4>
+            </lvl3>
+        </lvl2>
+        <lvl2>
+            <title link='05'>Directorate-General for Personnel</title>
+            <responsible link='17034'>Mr. Herwig KAISER</responsible>
+            <lvl3>
+                <title link='05-0010'>Internal Communication Service</title>
+                <responsible link='19809'>Mr. Jean-yves LOOG</responsible>
+            </lvl3>
+            <lvl3>
+                <title link='05-50'>Equality and Diversity Unit</title>
+                <responsible link='18488'>Mr. Alberto ROSSETTI</responsible>
+            </lvl3>
+            <lvl3>
+                <title link='05A'>Directorate for Human Resources Development</title>
+                <responsible link='33704'>Mr. Karl-peter REPPLINGER</responsible>
+                <lvl4>
+                    <title link='05A10'>Unit for Internal Organisation and Human Resource Planning</title>
+                    <responsible link='17788'>Mr. Rik HUGELIER</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='05A20'>Competitions and Selection Procedures Unit</title>
+                    <responsible link='114894'>Mr. Frederic ANTON</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='05A30'>Contract Staff and Accredited Parliamentary Assistants Recruitment Unit</title>
+                    <responsible link='36433'>Mr. Pierre-antoine BARTH╔L╔MY</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='05A40'>Staff Management and Careers Unit</title>
+                    <responsible link='23061'>Ms. Andrea MRAZ-ANDROVICOVA</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='05A50'>Professional Training Unit</title>
+                    <responsible link='19757'>Ms. Erika LANDI-GIETEMA</responsible>
+                    <lvl5>
+                        <title link='05A5010'>Training Budget Service</title>
+                        <responsible link='99924'>Ms. Fulvia CHIAVEGATO</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='05A60'>Officials and Temporary Staff Recruitment Unit</title>
+                    <responsible link='21867'>Ms. Christine BAHR</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='05B'>Directorate for Administrative Management</title>
+                <responsible link='19061'>Ms. Suzanne KONIG</responsible>
+                <lvl4>
+                    <title link='05B10'>Individual Entitlements and Payroll Unit</title>
+                    <responsible link='98225'>Mr. Fernando ARROYO REDONDO</responsible>
+                    <lvl5>
+                        <title link='05B1010'>Pay and Verification Service</title>
+                        <responsible link='98225'>Mr. Fernando ARROYO REDONDO</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='05B1020'>Individual Entitlements Service</title>
+                        <responsible link='25579'>Mr. Herbert LELLIG</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='05B1030'>Privileges and Documentation Service</title>
+                        <responsible link='126074'>Ms. Florence WALLERAND</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='05B30'>Missions Unit</title>
+                    <responsible link='34976'>Mr. Michiel JANSSENS</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='05B40'>Pensions and Social Insurance Unit</title>
+                    <responsible link='95223'>Mr. Jean-marie WEISSENBERGER</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='05B50'>Unit for Relations with Personnel</title>
+                    <responsible link='20814'>Mr. Fabio GALATIOTO</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='05C'>Directorate for Management of Support and Social Services</title>
+                <responsible link='21713'>Ms. Olivia RATTI</responsible>
+                <lvl4>
+                    <title link='05C0010'>Medical Leave Service</title>
+                    <responsible link='31901'>Ms. Annemarie DOSTERT</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='05C10'>Medical Service, Luxembourg</title>
+                    <responsible link='17142'>Mr. Sandro COLANTONIO</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='05C20'>Medical Service, Brussels</title>
+                    <responsible link='95959'>Ms. Petra CLAES</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='05C30'>Social Services Unit</title>
+                    <responsible link='36965'>Mr. Pietro ALBA</responsible>
+                    <lvl5>
+                        <title link='05C3001'>Service for Luxembourg CrÞches</title>
+                        <responsible link='112113'>Ms. Christine CARLSSON-AUBRY</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='05C3002'>Service for Brussels CrÞches</title>
+                        <responsible link='36965'>Mr. Pietro ALBA</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='05C40'>Risk Prevention and Well-being at Work Unit</title>
+                    <responsible link='16255'>Mr. Philip SCOTT</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='05D'>Directorate for Resources</title>
+                <responsible link='33697'>Mr. Carlos NETO</responsible>
+                <lvl4>
+                    <title link='05D10'>Human Resources Unit</title>
+                    <responsible link='19555'>Mr. Poul RUNGE NIELSEN</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='05D20'>Financial Resources Management and Controls Unit</title>
+                    <responsible link='36705'>Mr. StÚphane VIVARD</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='05D30'>Information Technology and IT Support Unit</title>
+                    <responsible link='17649'>Ms. Ana JUSTE GILABERT</responsible>
+                </lvl4>
+            </lvl3>
+        </lvl2>
+        <lvl2>
+            <title link='06'>Directorate-General for Infrastructure and Logistics</title>
+            <responsible link='17077'>Ms. Leena maria LINNUS</responsible>
+            <lvl3>
+                <title link='06A'>Directorate for Infrastructure</title>
+                <responsible link='18881'>Mr. Olivier PESESSE</responsible>
+                <lvl4>
+                    <title link='06A20'>Luxembourg Buildings Management and Maintenance Unit</title>
+                    <responsible link='120637'>Ms. Anna maria VAGO</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='06A40'>Information Offices Buildings Management and Maintenance Unit</title>
+                    <responsible link='29509'>Mr. Bernd LIPPERT</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='06A50'>Brussels Buildings Management and Maintenance Unit</title>
+                    <responsible link='102389'>Mr. Claude CHAMPETTER</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='06A70'>Strasbourg Buildings Management and Maintenance Unit</title>
+                    <responsible link='106982'>Mr. Eric RICCA</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='06B'>Directorate for Logistics</title>
+                <responsible link='17077'>Ms. Leena maria LINNUS</responsible>
+                <lvl4>
+                    <title link='06B10'>People Transport Unit</title>
+                    <responsible link='23686'>Mr. Hans TORREKENS</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='06B20'>Conference Ushers Unit</title>
+                    <responsible link='36675'>Ms. Maria marta GONZALEZ GONZALEZ</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='06B30'>Purchases, management of goods and inventory Unit</title>
+                    <responsible link='23259'>Mr. Paolo COLANTONIO</responsible>
+                    <lvl5>
+                        <title link='06B3001'>Inventory Service</title>
+                        <responsible link='23259'>Mr. Paolo COLANTONIO</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='06B3002'>Stores and Warehouses Service</title>
+                        <responsible link='23259'>Mr. Paolo COLANTONIO</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='06B3003'>Purchases Service</title>
+                        <responsible link='23259'>Mr. Paolo COLANTONIO</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='06B40'>Catering and Staff Shop Unit</title>
+                    <responsible link='33644'>Mr. Maximilian SCHROEDER</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='06B50'>Office Allocation and Moves Unit</title>
+                    <responsible link='18393'>Ms. Susanne ALTENBERG</responsible>
+                    <lvl5>
+                        <title link='06B5010'>Logistics Service</title>
+                        <responsible link='102977'>Ms. Ine sanne BIRONT</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='06B5020'>Movers Service</title>
+                        <responsible link='20684'>Mr. Vincent D'AGOSTO</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='06B60'>Mail Ushers Unit</title>
+                    <responsible link='22788'>Mr. Koenraad SNIJDERS</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='06B70'>One-Stop Shop for Members Unit</title>
+                    <responsible link='35720'>Ms. Christine KYST</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='06C'>Directorate for Resources</title>
+                <responsible link='18115'>Ms. Ute KASSNITZ</responsible>
+                <lvl4>
+                    <title link='06C10'>Personnel Unit</title>
+                    <responsible link='15231'>Ms. Maria HAERDIN HOWAT</responsible>
+                    <lvl5>
+                        <title link='06C1010'>Recruitment and Careers Service</title>
+                        <responsible link='15231'>Ms. Maria HAERDIN HOWAT</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='06C20'>Budgetary Planning, Execution and Control Unit</title>
+                    <responsible link='20101'>Mr. Lothar BAUER</responsible>
+                    <lvl5>
+                        <title link='06C2010'>Budgetary Planning and Execution Service</title>
+                        <responsible link='24094'>Ms. Hilde GRAFFIEDI</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='06C2020'>Internal Control Service</title>
+                        <responsible link='31419'>Mr. Attila GEMES</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='06C30'>Contracts and Procurement Unit</title>
+                    <responsible link='96177'>Mr. Jeroen VAN POTTELBERGE</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='06C40'>Information Technology and IT Support Unit</title>
+                    <responsible link='20000'>Mr. Alain DONADONI</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='06C50'>Communication Unit</title>
+                    <responsible link='16494'>Mr. Dieter WILS</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='06C60'>Central Support Unit</title>
+                    <responsible link='25862'>Mr. Pascal DE BACKER</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='06D'>Directorate for Building Projects</title>
+                <responsible link='19974'>Mr. Diogo QUINTELA</responsible>
+                <lvl4>
+                    <title link='06D10'>Luxembourg Building Projects Unit</title>
+                    <responsible link='37378'>Mr. Xavier BILGER</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='06D20'>Brussels Building Projects Unit</title>
+                    <responsible link='23687'>Mr. Xavier LACROIX</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='06D30'>Strasbourg Building Projects Unit</title>
+                    <responsible link='18883'>Mr. Dimitrios TENEZAKIS</responsible>
+                </lvl4>
+            </lvl3>
+        </lvl2>
+        <lvl2>
+            <title link='07'>Directorate-General for Translation</title>
+            <responsible link='30754'>Mr. Valter MAVRIC</responsible>
+            <lvl3>
+                <title link='07-30'>Multilingualism and External Relations Unit</title>
+                <responsible link='29893'>Mr. Jochen RICHTER</responsible>
+                <lvl4>
+                    <title link='07-3010'>Quality Coordination Service</title>
+                    <responsible link='31540'>Ms. Angelika VAASA</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='07A'>Directorate for Support and Technological Services for Translation</title>
+                <responsible link='29893'>Mr. Jochen RICHTER</responsible>
+                <lvl4>
+                    <title link='07A10'>Applications and IT Systems Development Unit</title>
+                    <responsible link='17162'>Ms. Pascale CHARTIER-BRUN</responsible>
+                    <lvl5>
+                        <title link='07A1010'>Workflow Applications Service</title>
+                        <responsible link='121179'>Mr. Nuno miguel CIPRIANO PAIVA</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='07A1020'>CAT and Collaborative Tools Service</title>
+                        <responsible link='119630'>Mr. Pedro GARCIA DIEGUEZ</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='07A20'>External Translation Unit</title>
+                    <responsible link='36580'>Mr. Tom SKINNER</responsible>
+                    <lvl5>
+                        <title link='07A2010'>Placement Service</title>
+                        <responsible link='25662'>Mr. Gergely CSONKAR╔TI</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='07A2020'>Contracts Execution Service</title>
+                        <responsible link='25627'>Ms. Jarmila WHITTAKEROVA</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='07A30'>Euramis Pre-Translation Unit</title>
+                    <responsible link='14867'>Mr. Gonzalo GIL CATALINA</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='07A40'>Terminology Coordination Unit</title>
+                    <responsible link='20616'>Mr. Rodolfos MASLIAS</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='07B'>Directorate for Translation</title>
+                <responsible link='30754'>Mr. Valter MAVRIC</responsible>
+                <lvl4>
+                    <title link='07B11'>Danish Translation Unit</title>
+                    <responsible link='20298'>Mr. Hans DRANGSFELDT</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='07B12'>German Translation Unit</title>
+                    <responsible link='18678'>Mr. Michael FUCHS</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='07B13'>Greek Translation Unit</title>
+                    <responsible link='16797'>Ms. Maria BALI</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='07B14'>English and Irish Translation Unit</title>
+                    <responsible link='121180'>Mr. Mark SMITH</responsible>
+                    <lvl5>
+                        <title link='07B1401'>Irish Translation Service</title>
+                        <responsible link='37412'>Mr. Labhras O FINNEADHA</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='07B15'>Spanish Translation Unit</title>
+                    <responsible link='15176'>Ms. Maria teresa RUIZ</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='07B16'>French Translation Unit</title>
+                    <responsible link='18302'>Mr. Michel CATUHE</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='07B17'>Italian Translation Unit</title>
+                    <responsible link='12698'>Ms. Luisa FORSINGDAL</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='07B18'>Dutch Translation Unit</title>
+                    <responsible link='18662'>Mr. Frans DE GROOT</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='07B19'>Portuguese Translation Unit</title>
+                    <responsible link='20626'>Mr. Vitor BASTOS</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='07B20'>Finnish Translation Unit</title>
+                    <responsible link='20649'>Mr. Timo SULKANEN</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='07B21'>Swedish Translation Unit</title>
+                    <responsible link='16733'>Ms. Ann-christine BRANDT</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='07B22'>Czech Translation Unit</title>
+                    <responsible link='31900'>Mr. Karel HRUSKA</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='07B23'>Estonian Translation Unit</title>
+                    <responsible link='25708'>Mr. Marek DREVING</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='07B24'>Hungarian Translation Unit</title>
+                    <responsible link='113347'>Mr. J¾zsef VILL┴NYI</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='07B25'>Lithuanian Translation Unit</title>
+                    <responsible link='114722'>Ms. Ieva MAINARDI</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='07B26'>Latvian Translation Unit</title>
+                    <responsible link='31263'>Mr. Uldis KRASTINS</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='07B27'>Maltese Translation Unit</title>
+                    <responsible link='98987'>Mr. Joseph CARUANA</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='07B28'>Polish Translation Unit</title>
+                    <responsible link='31532'>Mr. Dariusz CHMIEL</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='07B29'>Slovene Translation Unit</title>
+                    <responsible link='31537'>Ms. Tadeja zdenka TOMSIC</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='07B30'>Slovak Translation Unit</title>
+                    <responsible link='30957'>Mr. Pavol TVAROZEK</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='07B31'>Bulgarian Translation Unit</title>
+                    <responsible link='34390'>Ms. Daniela DIMOVA</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='07B32'>Romanian Translation Unit</title>
+                    <responsible link='96543'>Mr. Gheorghe LASCU</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='07B33'>Croatian Translation Unit</title>
+                    <responsible link='110958'>Ms. Marijana NIKOLIC</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='07B34'>Planning Unit</title>
+                    <responsible link='17849'>Mr. Alessandro PETTINI</responsible>
+                    <lvl5>
+                        <title link='07B3410'>Demand Management Service</title>
+                        <responsible link='22318'>Ms. Michaela SMICEKOVA</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='07B3420'>Presidency and Plenary Translation Request Service</title>
+                        <responsible link='25616'>Mr. Istvan SOOS-PETEK</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='07B3430'>Client Liaison Service</title>
+                        <responsible link='31264'>Ms. Agnieszka KUNAT</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='07B40'>Editing Unit</title>
+                    <responsible link='20353'>Ms. Helen jane SWALLOW</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='07C'>Directorate for Resources</title>
+                <responsible link='37558'>Ms. Bernadette LIGETI</responsible>
+                <lvl4>
+                    <title link='07C10'>Human Resources Unit</title>
+                    <responsible link='23663'>Ms. Veronique ROSENKRANZ</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='07C20'>Financial Resources Management and Controls Unit</title>
+                    <responsible link='102393'>Mr. Christian BASTIEN</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='07C30'>Training and Traineeships Unit</title>
+                    <responsible link='16011'>Ms. Maria angeles LLAMAS ALVAREZ</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='07C40'>Information Technology and IT Support Unit</title>
+                    <responsible link='18517'>Mr. Erik DE BECKER</responsible>
+                    <lvl5>
+                        <title link='07C4010'>TRAD Service Desk</title>
+                        <responsible link='18517'>Mr. Erik DE BECKER</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='07C4020'>System Administration Service</title>
+                        <responsible link='18517'>Mr. Erik DE BECKER</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='07C4030'>Project Coordination Service</title>
+                        <responsible link='18517'>Mr. Erik DE BECKER</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='07C4040'>IT Service Management</title>
+                        <responsible link='18517'>Mr. Erik DE BECKER</responsible>
+                    </lvl5>
+                </lvl4>
+            </lvl3>
+        </lvl2>
+        <lvl2>
+            <title link='08'>Directorate-General for Interpretation and Conferences</title>
+            <responsible link='107700'>Ms. Agnieszka WALTER-DROP</responsible>
+            <lvl3>
+                <title link='08-10'>ACI Payment Unit</title>
+                <responsible link='101386'>Mr. Constantin PALEOLOGOS</responsible>
+            </lvl3>
+            <lvl3>
+                <title link='08-40'>External Communication Unit</title>
+                <responsible link='103755'>Ms. Isabella QUATTROCCHI</responsible>
+            </lvl3>
+            <lvl3>
+                <title link='08-50'>Strategy Unit</title>
+                <responsible link='15152'>Mr. Nick GHEYSEN</responsible>
+            </lvl3>
+            <lvl3>
+                <title link='08-60'>Quality Management Unit</title>
+                <responsible link='110168'>Mr. Francis CLERGEAUD</responsible>
+            </lvl3>
+            <lvl3>
+                <title link='08A'>Directorate for Interpretation</title>
+                <responsible link='16684'>Mr. Josephus COOLEGEM</responsible>
+                <lvl4>
+                    <title link='08A01'>Danish Interpretation Unit</title>
+                    <responsible link='17293'>Ms. Lene MEYER</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08A02'>German Interpretation Unit</title>
+                    <responsible link='15907'>Ms. Viviane RAMPONI</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08A03'>Greek Interpretation Unit</title>
+                    <responsible link='20453'>Mr. Konstantinos MASTOROS</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08A04'>English Interpretation Unit</title>
+                    <responsible link='16656'>Mr. Miguel GOMES</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08A05'>Spanish Interpretation Unit</title>
+                    <responsible link='38652'>Ms. Denitza BOGOMILOVA</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08A06'>Finnish Interpretation Unit</title>
+                    <responsible link='20296'>Ms. Mirja BOUCHARD</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08A07'>French Interpretation Unit</title>
+                    <responsible link='16578'>Mr. Serge LEVENHECK</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08A08'>Italian Interpretation Unit</title>
+                    <responsible link='18150'>Mr. Giancarlo ZUCCHETTO</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08A09'>Dutch Interpretation Unit</title>
+                    <responsible link='17201'>Mr. Leonardus HENDRIKX</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08A10'>Portuguese Interpretation Unit</title>
+                    <responsible link='19216'>Mr. Francisco FALCAO</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08A11'>Swedish Interpretation Unit</title>
+                    <responsible link='17158'>Mr. Florian HEINES</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08A12'>Polish Interpretation Unit</title>
+                    <responsible link='25320'>Mr. Marcin FEDER</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08A13'>Czech Interpretation Unit</title>
+                    <responsible link='25322'>Ms. Ivana HLAVACOVA</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08A14'>Hungarian Interpretation Unit</title>
+                    <responsible link='18148'>Ms. Fiona DOW</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08A15'>Slovak Interpretation Unit</title>
+                    <responsible link='25328'>Ms. Miroslava PETROVSK┴</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08A16'>Slovene Interpretation Unit</title>
+                    <responsible link='25322'>Ms. Ivana HLAVACOVA</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08A17'>Estonian Interpretation Unit</title>
+                    <responsible link='17392'>Mr. Michael SHORT</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08A18'>Lithuanian Interpretation Unit</title>
+                    <responsible link='103805'>Mr. Gintaras MORKUNAS</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08A19'>Latvian Interpretation Unit</title>
+                    <responsible link='24193'>Ms. Ilga BERZINA</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08A20'>Maltese Interpretation Unit</title>
+                    <responsible link='18150'>Mr. Giancarlo ZUCCHETTO</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08A21'>Bulgarian Interpretation Unit</title>
+                    <responsible link='126598'>Mr. Alberto RAMOS LORENTE</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08A22'>Romanian Interpretation Unit</title>
+                    <responsible link='34418'>Ms. Izabella BADIU</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08A23'>Croatian Interpretation Unit</title>
+                    <responsible link='126598'>Mr. Alberto RAMOS LORENTE</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='08B'>Directorate for Organisation and Planning</title>
+                <responsible link='18516'>Mr. Juan-carlos JIMENEZ MARIN</responsible>
+                <lvl4>
+                    <title link='08B10'>Unit for the Recruitment of Auxiliary Conference Interpreters</title>
+                    <responsible link='10806'>Mr. Jyrki TUONONEN</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08B20'>Programming Unit</title>
+                    <responsible link='23751'>Ms. Anna GRZYBOWSKA</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08B30'>Meetings and Conferences Unit</title>
+                    <responsible link='23751'>Ms. Anna GRZYBOWSKA</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08B40'>Conference Technicians Unit</title>
+                    <responsible link='110586'>Mr. Philip TULKENS</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08B50'>Multilingualism Support Unit</title>
+                    <responsible link='20107'>Ms. Alison GRAVES</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08B60'>Interpreter Training Unit</title>
+                    <responsible link='20107'>Ms. Alison GRAVES</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08B70'>E-Learning Unit</title>
+                    <responsible link='113307'>Ms. Ekaterini DARA-LEPOURA</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='08C'>Directorate for Resources</title>
+                <responsible link='110688'>Ms. Izabela WISNIEWSKA</responsible>
+                <lvl4>
+                    <title link='08C10'>Human Resources Unit</title>
+                    <responsible link='106120'>Ms. Laura TARRAGONA SAEZ</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08C20'>Information Technology and IT Support Unit</title>
+                    <responsible link='16493'>Mr. Bernard GEVAERT</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='08C30'>Budget Unit</title>
+                    <responsible link='25651'>Ms. Deborah HOAR-DEVESSE</responsible>
+                </lvl4>
+            </lvl3>
+        </lvl2>
+        <lvl2>
+            <title link='09'>Directorate-General for Finance</title>
+            <responsible link='17928'>Mr. Didier KLETHI</responsible>
+            <lvl3>
+                <title link='09-10'>Budget and Verification Unit</title>
+                <responsible link='36913'>Mr. Konstantinos GIANNOPOULOS</responsible>
+            </lvl3>
+            <lvl3>
+                <title link='09A'>Directorate for Budget and Financial Services</title>
+                <responsible link='18672'>Mr. Miguel PAPI BOUCHER</responsible>
+                <lvl4>
+                    <title link='09A10'>Budget Unit</title>
+                    <responsible link='31387'>Mr. Paulo CAMPILHO</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='09A20'>Accounting and Treasury Unit</title>
+                    <responsible link='17314'>Mr. Pascal DE POORTERE</responsible>
+                    <lvl5>
+                        <title link='09A2010'>Treasury Service</title>
+                        <responsible link='96387'>Ms. Francisca NICOLAS</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='09A2020'>Accounting Service</title>
+                        <responsible link='96178'>Ms. Jurate SULCIENE</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='09A30'>Central Financial Unit</title>
+                    <responsible link='21765'>Mr. Auke BAAS</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='09A40'>Unit for Reengineering of the Financial Information Systems</title>
+                    <responsible link='25581'>Mr. Ville-veikko TIMBERG</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='09B'>Directorate for Members' Financial and Social Entitlements</title>
+                <responsible link='23024'>Mr. Lorenzo MANNELLI</responsible>
+                <lvl4>
+                    <title link='09B0001'>Parliamentary Assistants Service</title>
+                    <responsible link='19745'>Ms. Maria del rio CAMARERO RIOSECO</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='09B0010'>Portal</title>
+                    <responsible link='17088'>Ms. Maria angeles MARTINEZ VALLS</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='09B10'>Members' Salaries and Social Entitlements Unit</title>
+                    <responsible link='22956'>Mr. Sune HANSEN</responsible>
+                    <lvl5>
+                        <title link='09B1001'>Statutory Rights' Service</title>
+                        <responsible link='22956'>Mr. Sune HANSEN</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='09B1002'>Service for Pensions under PEAM Rules</title>
+                        <responsible link='22956'>Mr. Sune HANSEN</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='09B1003'>Service for Bank Accounts, IT Issues, Forms and Certificates</title>
+                        <responsible link='22956'>Mr. Sune HANSEN</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='09B20'>Parliamentary Assistance and Members' General Expenditure Unit</title>
+                    <responsible link='113548'>Mr. Frank ANTOINE-POIREL</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='09B30'>Members' Travel and Subsistence Expenses Unit</title>
+                    <responsible link='17328'>Mr. Francisco jose ESTELA BURRIEL</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='09C'>Directorate for Political Structures Financing and Resources</title>
+                <responsible link='34804'>Mr. Eduard REIJNDERS</responsible>
+                <lvl4>
+                    <title link='09C0010'>Travel Organisation Service</title>
+                    <responsible link='108284'>Ms. Martina GIERING</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='09C10'>Political Structures Financing Unit</title>
+                    <responsible link='20209'>Mr. Helmut BETZ</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='09C20'>Information Technology and Inventory Unit</title>
+                    <responsible link='19525'>Ms. Anita VANHOVE-REEKMANS</responsible>
+                    <lvl5>
+                        <title link='09C2010'>Informatics and Logistics Service</title>
+                        <responsible link='19525'>Ms. Anita VANHOVE-REEKMANS</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='09C2020'>Inventory Service</title>
+                        <responsible link='19525'>Ms. Anita VANHOVE-REEKMANS</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='09C30'>Human Resources and Members' Professional Training Unit</title>
+                    <responsible link='6011'>Ms. Judith ECKER</responsible>
+                    <lvl5>
+                        <title link='09C3010'>Human Resources Service</title>
+                        <responsible link='6011'>Ms. Judith ECKER</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='09C3020'>Members Professional Training Service</title>
+                        <responsible link='6011'>Ms. Judith ECKER</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='09C3030'>Procurement Service</title>
+                        <responsible link='6011'>Ms. Judith ECKER</responsible>
+                    </lvl5>
+                </lvl4>
+            </lvl3>
+        </lvl2>
+        <lvl2>
+            <title link='10'>Directorate-General for Innovation and Technological Support</title>
+            <responsible link='19787'>Mr. Giancarlo VILELLA</responsible>
+            <lvl3>
+                <title link='10A'>Directorate for Development and Support</title>
+                <responsible link='97152'>Mr. Steen EILERTSEN</responsible>
+                <lvl4>
+                    <title link='10A10'>User Support Unit</title>
+                    <responsible link='114270'>Mr. Ramon CHISMOL IBANEZ</responsible>
+                    <lvl5>
+                        <title link='10A1010'>ICT Front Office Service</title>
+                        <responsible link='120368'>Mr. FrÚdÚric JUSTE</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='10A1020'>ICT Back Office Service</title>
+                        <responsible link='119265'>Mr. StÚphan JANSSENS</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='10A1030'>ICT Service Management and Quality Service</title>
+                        <responsible link='122237'>Mr. RubÚn MART═NEZ</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='10A1040'>ICT Service for Members</title>
+                        <responsible link='19331'>Mr. Francois NAEGEL</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='10A30'>Unit ICT Conception and Development</title>
+                    <responsible link='26655'>Mr. Ludovic DELEPINE</responsible>
+                    <lvl5>
+                        <title link='10A3010'>Planning and Evaluation</title>
+                        <responsible link='31562'>Ms. Petra BUZASI</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='10A3020'>Project Management</title>
+                        <responsible link='38522'>Mr. Olivier LEBOEUF</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='10A3030'>Reception Testing</title>
+                        <responsible link='22760'>Mr. Joachim SPRENGER</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='10A3040'>Business Analysis and Project Methods Service</title>
+                        <responsible link='97816'>Mr. Dominique MERLE</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='10A3050'>Solutions and Methods Service</title>
+                        <responsible link='17648'>Mr. Marc ROSSI</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='10A40'>Evolution and Maintenance Unit</title>
+                    <responsible link='26849'>Mr. Gerrit POTOMS</responsible>
+                    <lvl5>
+                        <title link='10A4010'>Evolution of Parliamentary Services</title>
+                        <responsible link='18730'>Mr. Martinus BALSBY</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='10A4020'>Evolution of Legislative Services</title>
+                        <responsible link='27151'>Mr. Olivier JADOT</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='10A4030'>Evolution of Administrative Management Services</title>
+                        <responsible link='26942'>Mr. Marco AMABILINO</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='10A4040'>Evolution of Financial Services</title>
+                        <responsible link='72870'>Ms. Aleksandra ROWICKA</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='10A4050'>Evolution of Communication Services</title>
+                        <responsible link='109002'>Ms. Clara BOUZAS MANTE</responsible>
+                    </lvl5>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='10D'>Directorate for Infrastructure and Equipment</title>
+                <responsible link='22743'>Mr. Pascal PARIDANS</responsible>
+                <lvl4>
+                    <title link='10D10'>Infrastructure Management Unit</title>
+                    <responsible link='22743'>Mr. Pascal PARIDANS</responsible>
+                    <lvl5>
+                        <title link='10D1010'>Systems Network Engineering and Architecture</title>
+                        <responsible link='26896'>Mr. Francis BELGE</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='10D1020'>Network Infrastructure Deployment</title>
+                        <responsible link='34486'>Mr. Wim DELBARE</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='10D1030'>Hosting Infrastructure Deployment</title>
+                        <responsible link='22743'>Mr. Pascal PARIDANS</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='10D20'>Individual Equipment and Logistics Unit</title>
+                    <responsible link='20174'>Mr. Gilbert SCHILT</responsible>
+                    <lvl5>
+                        <title link='10D2010'>Support Service for Changes to Individual Equipment</title>
+                        <responsible link='99503'>Mr. Etienne POLUS</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='10D2020'>Individual Infrastructure Management Service</title>
+                        <responsible link='22055'>Mr. Jean-marc MARIOTTI</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='10D2030'>Corporate Specific Services</title>
+                        <responsible link='40177'>Mr. Viorel COSMA</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='10D30'>ICT Operations and Hosting Unit</title>
+                    <responsible link='94267'>Mr. Rafael RUIZ DE LA TORRE</responsible>
+                    <lvl5>
+                        <title link='10D3010'>Supervision and Operations</title>
+                        <responsible link='114647'>Mr. Laurent BUNIET</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='10D3020'>Capacity and Continuity</title>
+                        <responsible link='36621'>Ms. Ingrid SCHNEIDER-DI ROCCO</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='10D3030'>Hosting and Service Request Management</title>
+                        <responsible link='97226'>Mr. Dominique BONAERT</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='10D40'>Standards and ICT Security Unit</title>
+                    <responsible link='18914'>Mr. Luca RETTORE</responsible>
+                    <lvl5>
+                        <title link='10D4010'>ICT Security</title>
+                        <responsible link='127508'>Mr. Alain HUITRIC</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='10D4020'>Standard Configurations</title>
+                        <responsible link='18914'>Mr. Luca RETTORE</responsible>
+                    </lvl5>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='10B'>Directorate for Publishing and Distribution</title>
+                <responsible link='24093'>Mr. Roger-marie DUBOIS</responsible>
+                <lvl4>
+                    <title link='10B10'>Intranet and Multimedia Unit</title>
+                    <responsible link='111573'>Mr. Takis panagiotis AGELADARAKIS</responsible>
+                    <lvl5>
+                        <title link='10B1010'>Service for Client Relations and Projects Office</title>
+                        <responsible link='111573'>Mr. Takis panagiotis AGELADARAKIS</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='10B1020'>Intranet Service</title>
+                        <responsible link='20361'>Ms. Karoline KOWALD</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='10B20'>Document Production Unit</title>
+                    <responsible link='114009'>Mr. Andrea BARTOLINI</responsible>
+                    <lvl5>
+                        <title link='10B2010'>Document Production Processes Service</title>
+                        <responsible link='114009'>Mr. Andrea BARTOLINI</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='10B2020'>Proof-reading and Document Preparation Service</title>
+                        <responsible link='16158'>Mr. Philip KNOGLINGER</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='10B30'>Crossmedia Printing Unit</title>
+                    <responsible link='104427'>Mr. Michael LAMOUR</responsible>
+                    <lvl5>
+                        <title link='10B3010'>Colour and Crossmedia Products Service</title>
+                        <responsible link='15994'>Mr. Jean-claude FELTEN</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='10B3020'>Legislative Printing Service</title>
+                        <responsible link='14894'>Mr. Jean-marc DELEUZE</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='10B3030'>Administration, Logistics and Innovation Service</title>
+                        <responsible link='15994'>Mr. Jean-claude FELTEN</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='10B40'>Clients, Tools and Methods Unit</title>
+                    <responsible link='24093'>Mr. Roger-marie DUBOIS</responsible>
+                    <lvl5>
+                        <title link='10B4010'>Counters Service</title>
+                        <responsible link='14873'>Mr. Geert KEYAERTS</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='10B4020'>Crossmedia Dissemination Service</title>
+                        <responsible link='23341'>Mr. Pedro HURTADO IBANEZ</responsible>
+                    </lvl5>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='10C'>Directorate for Innovation and Resources</title>
+                <responsible link='20594'>Mr. Walter PETRUCCI</responsible>
+                <lvl4>
+                    <title link='10C0010'>Ex-Ante Verification Service</title>
+                    <responsible link='20357'>Ms. Irene OLSSON</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='10C0020'>Innovation Service</title>
+                    <responsible link='20594'>Mr. Walter PETRUCCI</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='10C10'>Human Resources Unit</title>
+                    <responsible link='39949'>Mr. Philippe VAN AVERMAET</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='10C20'>Financial Resources Management Unit</title>
+                    <responsible link='23408'>Ms. Elise KERGLONOU</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='10C30'>Procurement and Contract Management Unit</title>
+                    <responsible link='20594'>Mr. Walter PETRUCCI</responsible>
+                    <lvl5>
+                        <title link='10C3010'>Procurement Administration Department</title>
+                        <responsible link='121590'>Ms. Chantal DELL'AMICO GHEYSEN</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='10C3020'>Contract Administration Department</title>
+                        <responsible link='38368'>Mr. Willy MARCEL</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='10C40'>Customer Relationship and Communication Unit</title>
+                    <responsible link='19278'>Mr. Wouter OFFEREINS</responsible>
+                    <lvl5>
+                        <title link='10C4010'>Customer Relationship Management Service</title>
+                        <responsible link='25884'>Ms. Reet SOMMER</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='10C4020'>Communication Service</title>
+                        <responsible link='98988'>Mr. Niall THOMPSON</responsible>
+                    </lvl5>
+                </lvl4>
+            </lvl3>
+        </lvl2>
+        <lvl2>
+            <title link='12'>Directorate-General for Security and Safety</title>
+            <responsible link='17486'>Ms. Francesca RATTI</responsible>
+            <lvl3>
+                <title link='12-10'>Risk Assessment Unit</title>
+                <responsible link='106122'>Mr. Manuel RODRIGUEZ VICO</responsible>
+            </lvl3>
+            <lvl3>
+                <title link='12A'>Directorate for Proximity and Assistance, Security and Safety</title>
+                <responsible link='124925'>Mr. Guy MOLS</responsible>
+                <lvl4>
+                    <title link='12A10'>Accreditation Unit</title>
+                    <responsible link='19416'>Mr. Niall O'NEILL</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='12A20'>Security and Safety Brussels Unit</title>
+                    <responsible link='131923'>Mr. Gert VAN BASTELAERE</responsible>
+                    <lvl5>
+                        <title link='12A2001'>Security Section 1</title>
+                        <responsible link='131923'>Mr. Gert VAN BASTELAERE</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='12A2002'>Security Section 2</title>
+                        <responsible link='131923'>Mr. Gert VAN BASTELAERE</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='12A2003'>Security Section 3</title>
+                        <responsible link='114273'>Mr. Massimiliano CARUSO</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='12A30'>Security and Safety Strasbourg Unit</title>
+                    <responsible link='132094'>Mr. Karel VAN DE WEYER</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='12A40'>Security and Safety Luxembourg Unit</title>
+                    <responsible link='98588'>Mr. Xavier GROS</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='12B'>Directorate for Prevention, First Aid and Fire Safety</title>
+                <responsible link='16305'>Mr. Mathieu THOMANN</responsible>
+                <lvl4>
+                    <title link='12B10'>Fire Prevention Brussels Unit</title>
+                    <responsible link='107974'>Mr. Jens SCHROEDER</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='12B20'>Fire Prevention Strasbourg Unit</title>
+                    <responsible link='21997'>Ms. Catherine SCHAAL</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='12B30'>Fire Prevention Luxembourg Unit</title>
+                    <responsible link='21997'>Ms. Catherine SCHAAL</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='12B40'>Fire and Safety Training Unit</title>
+                    <responsible link='109370'>Mr. Christopher SANCHEZ OZOLS</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='12C'>Directorate for Strategy and Resources</title>
+                <responsible link='22697'>Mr. Elio CAROZZA</responsible>
+                <lvl4>
+                    <title link='12C10'>Dispatching Unit</title>
+                    <responsible link='111626'>Mr. Jean luca COCCI</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='12C20'>Personnel and Planning Unit</title>
+                    <responsible link='109521'>Mr. Fabien DURAND</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='12C30'>Budget Unit</title>
+                    <responsible link='21563'>Ms. Marie-cecile BERNARD</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='12C40'>Technologies and Information Security Unit</title>
+                    <responsible link='114889'>Mr. Victor manuel DIAS FERNANDES</responsible>
+                </lvl4>
+            </lvl3>
+        </lvl2>
+        <lvl2>
+            <title link='20'>Staff Committee</title>
+            <responsible link='19360'>Mr. Stefano GUCCIONE</responsible>
+        </lvl2>
+    </lvl1>
+    <lvl1>
+        <title link='ROOT_EP_POLITICAL_GROUPS_SECRETARIATS'>Political groups' secretariats</title>
+        <lvl2>
+            <title link='53863'>EPP - Secretariat</title>
+            <responsible link='17258'>Mr. Martin KAMP</responsible>
+            <lvl3>
+                <title link='53640'>Secretary-General</title>
+                <responsible link='17258'>Mr. Martin KAMP</responsible>
+                <lvl4>
+                    <title link='53695'>Press and Communications</title>
+                    <responsible link='20799'>Mr. Pedro LOPEZ DE PABLO</responsible>
+                    <lvl5>
+                        <title link='53696'>Press and Communications - Publications</title>
+                        <responsible link='34311'>Ms. Greet GYSEN</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53697'>Press and Communications - Communications</title>
+                        <responsible link='25300'>Mr. Antti TIMONEN</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53698'>Press and Communications - Internet and New Media</title>
+                        <responsible link='34694'>Ms. Lada JURICA</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53710'>Press and Communications - Portuguese Press</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53711'>Press and Communications - Latvian Press</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53712'>Press and Communications - French and Luxembourgish Press</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53713'>Press and Communications - Cypriot Press</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53714'>Press and Communications - Hungarian Press</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53715'>Press and Communications - Polish Press</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53716'>Press and Communications - Czech Press</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53717'>Press and Communications - Lithuanian Press</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53719'>Press and Communications - Maltese Press</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53720'>Press and Communications - Slovakian Press</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53721'>Press and Communications - Slovenian Press</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53722'>Press and Communications - Croatian Press</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53723'>Press and Communications - Bulgarian Press</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53724'>Press and Communications - Romanian Press</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53860'>Press and Communications - Danish Press</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53709'>Press and Communications - Austrian Press</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53708'>Press and Communications - Belgian Press</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53707'>Press and Communications - Dutch Press</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53706'>Press and Communications - Greek Press</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53705'>Press and Communications - Swedish Press</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53704'>Press and Communications - Italian Press</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53703'>Press and Communications - Irish Press</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53702'>Press and Communications - Spanish Press</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53701'>Press and Communications - German and Luxembourgish Press</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53699'>Press and Communications - Finnish Press</title>
+                        <responsible link='98725'>Mr. Pete PAKARINEN</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53718'>Press and Communications - Estonian Press</title>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='53650'>Mediterranean Policy and Intercultural Activities</title>
+                    <responsible link='16474'>Mr. Paolo LICANDRO</responsible>
+                    <lvl5>
+                        <title link='53652'>Mediterranean Policy and Intercultural Activities - Mediterranean Countries and Euromed Parliamentary Assembly</title>
+                        <responsible link='18014'>Mr. Jorge SOUTULLO SANCHEZ</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53654'>Mediterranean Policy and Intercultural Activities - Intercultural and Religious Dialogue</title>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='53655'>Internal Organisation</title>
+                    <responsible link='20264'>Mr. John BIESMANS</responsible>
+                    <lvl5>
+                        <title link='54479'>Internal Organisation - Resources</title>
+                        <responsible link='11775'>Mr. Harald KANDOLF</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53656'>Internal Organisation - Organisation of External Meetings</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53657'>Internal Organisation - Planning of Internal Meetings</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53659'>Internal Organisation - Offices GBI - IMT</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53660'>Internal Organisation - Finance</title>
+                        <responsible link='16439'>Mr. Andreas FOLZ</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53661'>Internal Organisation - Human Resources</title>
+                        <responsible link='20280'>Mr. Romain STRASSER</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53662'>Internal Organisation - Information and Communication Technology</title>
+                        <responsible link='104709'>Mr. CÚdric IVRY</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54252'>Internal Organisation - Skills Development</title>
+                        <responsible link='18565'>Ms. Amarylli GERSONY</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54083'>Internal Organisation - Leave</title>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='53725'>External Policies - Delegations</title>
+                    <responsible link='19881'>Ms. Joanna JARECKA-GOMEZ</responsible>
+                    <lvl5>
+                        <title link='53758'>Delegation - Africa - Pan-African Parliament</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54248'>Delegations - Multilateral Assemblies - ACP</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54249'>Delegations - Multilateral Assemblies - EuroLat</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54484'>Delegations - Multilateral Assemblies - NATO</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54250'>Delegations - Multilateral Assemblies - Euronest</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53730'>Delegation - Europe, Western Balkans and Turkey - FYROM</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53731'>Delegation - Europe, Western Balkans and Turkey - Turkey</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53732'>Delegation - Europe, Western Balkans and Turkey á- Serbia, Bosnia Herzegovina, Kosovo</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53733'>Delegation - Europe, Western Balkans and Turkey - Albania</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53734'>Delegation - Europe, Western Balkans and Turkey - Montenegro</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53735'>Delegation - Europe, Western Balkans and Turkey - Switzerland, Iceland, Norway and European Economic Area</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54413'>Delegation - Russia and the Eastern Partnership States - Russia</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53737'>Delegation - Russia and the Eastern Partnership States - Ukraine</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53738'>Delegation - Russia and the Eastern Partnership States - Moldova</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54415'>Delegation - Russia and the Eastern Partnership States - South Caucasus</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54416'>Delegation - Russia and the Eastern Partnership States - Belarus</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54414'>Delegation - Maghreb, Mashreq, Israel and Palestine - Maghreb countries and the Arab Maghreb Union</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53742'>Delegation - Maghreb, Mashreq, Israel and Palestine - Mashreq countries</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54389'>Delegation - The Arab Peninsula, Iraq and Iran - The Arab Peninsula</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53745'>Delegation - The Arab Peninsula, Iraq and Iran - Iraq</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53746'>Delegation - The Arab Peninsula, Iraq and Iran - Iran</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53747'>Delegation - The Americas - USA</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53748'>Delegation - The Americas - Canada</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53728'>Delegation - The Americas - Central America, Andean Community, Mercosur, Mexico and Chile</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54247'>Delegation - The Americas - Brazil</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54483'>Delegation - The Americas - Cariforum</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53749'>Delegation - Asia/Pacific - Japan</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54244'>Delegation - Asia/Pacific - People's Republic of China</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53751'>Delegation - Asia/Pacific - India</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53752'>Delegation - Asia/Pacific - Afghanistan</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53753'>Delegation - Asia/Pacific - Countries of South Asia</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53754'>Delegation - Asia/Pacific - Countries of Central Asia</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53755'>Delegation - Asia/Pacific - Korean Peninsula</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53756'>Delegation - Asia/Pacific - Australia and New Zealand</title>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='53641'>Office of the Secretary-General</title>
+                </lvl4>
+                <lvl4>
+                    <title link='53663'>Relations with National Parliaments</title>
+                    <responsible link='15463'>Ms. Maria beatrice SCARASCIA MUGNOZZA</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='53664'>Parliamentary Work</title>
+                    <responsible link='18012'>Ms. Natacha SCRIBAN-CUVELIER</responsible>
+                    <lvl5>
+                        <title link='53665'>Parliamentary Work - Legislative Coordination</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53666'>Parliamentary Work - Political Strategy and EIN</title>
+                        <responsible link='8324'>Ms. Christine DETOURBET</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53674'>Parliamentary Work - Working Group Legal and Home Affairs</title>
+                        <responsible link='34769'>Mr. Michael alexander SPEISER</responsible>
+                        <lvl6>
+                            <title link='53675'>Parliamentary Work - Working Group Legal and Home Affairs - JURI</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53676'>Parliamentary Work - Working Group Legal and Home Affairs - LIBE</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53677'>Parliamentary Work - Working Group Legal and Home Affairs - AFCO</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53678'>Parliamentary Work - Working Group Legal and Home Affairs - PETI</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53679'>Parliamentary Work - Working Group Legal and Home Affairs - CULT</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53680'>Parliamentary Work - Working Group Legal and Home Affairs - FEMM</title>
+                        </lvl6>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53681'>Parliamentary Work - Working Group Economy and Environment</title>
+                        <responsible link='22633'>Mr. Kai-alexander WYNANDS</responsible>
+                        <lvl6>
+                            <title link='53682'>Parliamentary Work - Working Group Economy and Environment - ENVI</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53683'>Parliamentary Work - Working Group Economy and Environment - ECON</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53684'>Parliamentary Work - Working Group Economy and Environment - TRAN</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53685'>Parliamentary Work - Working Group Economy and Environment - IMCO</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53686'>Parliamentary Work - Working Group Economy and Environment - ITRE</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53687'>Parliamentary Work - Working Group Economy and Environment - EMPL</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='54370'>Parliamentary Work - Working Group Economy and Environment - TAX2</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='54494'>Parliamentary Work - Working Group Economy and Environment - EMIS</title>
+                        </lvl6>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53688'>Parliamentary Work - Working Group Budget and Structural Policies</title>
+                        <responsible link='19367'>Mr. Adriaan BASTIAANSEN</responsible>
+                        <lvl6>
+                            <title link='53689'>Parliamentary Work - Working Group Budget and Structural Policies - BUDG</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53690'>Parliamentary Work - Working Group Budget and Structural Policies - CONT</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53691'>Parliamentary Work - Working Group Budget and Structural Policies - AGRI</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53692'>Parliamentary Work - Working Group Budget and Structural Policies - PECH</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53693'>Parliamentary Work - Working Group Budget and Structural Policies - REGI</title>
+                        </lvl6>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='54245'>External Policies - Committees</title>
+                    <lvl5>
+                        <title link='53668'>External Policies - Committees - Urgency Debates</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53667'>External Policies - Committees - Strategic dialogue with the USA</title>
+                        <responsible link='19042'>Ms. Catarina CALDEIRA</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53669'>External Policies - Committees - AFET</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53670'>External Policies - Committees - AFET (Subcommittee SEDE)</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54420'>External Policies - Committees - AFET (Subcommittee DROI)</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53672'>External Policies - Committees - DEVE</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53673'>External Policies - Committees - INTA</title>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='53644'>Chairman's Office</title>
+                    <responsible link='23658'>Ms. Maria mercedes ALVARGONZALEZ FIGAREDO</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='53880'>Internal Auditor</title>
+                </lvl4>
+                <lvl4>
+                    <title link='53646'>Presidency</title>
+                    <responsible link='20394'>Mr. Johan RYNGAERT</responsible>
+                    <lvl5>
+                        <title link='53649'>Presidency - Archives</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53658'>Presidency - Protocol</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53647'>Presidency - Coordination</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53648'>Presidency - External Offices</title>
+                    </lvl5>
+                </lvl4>
+            </lvl3>
+        </lvl2>
+        <lvl2>
+            <title link='53518'>S&amp;D - Secretariat</title>
+            <responsible link='17225'>Mr. Javier MORENO SANCHEZ</responsible>
+            <lvl3>
+                <title link='53519'>Secretary General</title>
+                <responsible link='17225'>Mr. Javier MORENO SANCHEZ</responsible>
+                <lvl4>
+                    <title link='54371'>Cabinet Members</title>
+                    <responsible link='26598'>Mr. Alberto CORSINI</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='54372'>Special Advisers</title>
+                </lvl4>
+                <lvl4>
+                    <title link='53523'>President's Cabinet</title>
+                    <responsible link='30258'>Mr. Daniele CARDELLA</responsible>
+                    <lvl5>
+                        <title link='53524'>Cabinet Members</title>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='53542'>Unit: Press And Communications</title>
+                    <responsible link='110849'>Ms. Utta TUTTLIES</responsible>
+                    <lvl5>
+                        <title link='53619'>Press Officers</title>
+                        <responsible link='31972'>Ms. Solange HELIN VILLES</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53620'>Audiovisual</title>
+                        <responsible link='110849'>Ms. Utta TUTTLIES</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54182'>New Media And Internet</title>
+                        <responsible link='110849'>Ms. Utta TUTTLIES</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53621'>Events And Publications</title>
+                        <responsible link='110849'>Ms. Utta TUTTLIES</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='53586'>Department Of Organisational And Administrative Affairs</title>
+                    <responsible link='5616'>Mr. Michael HOPPE</responsible>
+                    <lvl5>
+                        <title link='53859'>Relaunching Europe Project, In Close Cooperation With The Press And Communications Unit And The Unit For Political Planning And Strategic Partners.</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54373'>Special Projects</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53588'>Internal Organisation And Administration</title>
+                        <responsible link='20103'>Ms. Nadia BUTTINI</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53589'>Logistics And Protocol</title>
+                        <responsible link='20103'>Ms. Nadia BUTTINI</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53590'>Calendar</title>
+                        <responsible link='20103'>Ms. Nadia BUTTINI</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53591'>Unit: Human Resources</title>
+                        <responsible link='16191'>Ms. Ute MULLER</responsible>
+                        <lvl6>
+                            <title link='54419'>Special Human Resources Tasks</title>
+                            <responsible link='22641'>Mr. Nicolas MACIAS</responsible>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53592'>Personnel And Human Resources, Training, Trainees, Recruitment</title>
+                        </lvl6>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53593'>Unit: Financial Management And Ex-Ante Control</title>
+                        <responsible link='134183'>Ms. Muriel COTTAVE-CLAUDET</responsible>
+                        <lvl6>
+                            <title link='53594'>Financial Management And Ex Ante Control</title>
+                            <responsible link='5616'>Mr. Michael HOPPE</responsible>
+                        </lvl6>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53595'>Unit: Accounts</title>
+                        <responsible link='17842'>Mr. Freddy NAEGELS</responsible>
+                        <lvl6>
+                            <title link='53596'>Accounting</title>
+                            <responsible link='17842'>Mr. Freddy NAEGELS</responsible>
+                        </lvl6>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53597'>Unit: Informatics</title>
+                        <responsible link='17337'>Mr. Georges KOTTOS</responsible>
+                        <lvl6>
+                            <title link='53598'>Informatics</title>
+                            <responsible link='17337'>Mr. Georges KOTTOS</responsible>
+                        </lvl6>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='54374'>Department: Internal And External Coordination</title>
+                    <responsible link='16403'>Ms. Cristina BAPTISTA</responsible>
+                    <lvl5>
+                        <title link='54375'>Unit: Internal Coordination</title>
+                        <responsible link='26077'>Ms. Bogna SUDA</responsible>
+                        <lvl6>
+                            <title link='53532'>Group Meetings</title>
+                            <responsible link='26077'>Ms. Bogna SUDA</responsible>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53533'>Group Bureau, Heads Of Delegations</title>
+                            <responsible link='24349'>Ms. Laura PEARSON</responsible>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53534'>Coordination Of Plenary Activities, Plenary-Related Matters In The Conference Of Presidents And Secretaries General Meetings And Coordinators</title>
+                        </lvl6>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53535'>Unit: External Coordination</title>
+                        <responsible link='26698'>Mr. Peter BURU</responsible>
+                        <lvl6>
+                            <title link='53536'>Conference Of Presidents And Secretaries-General (Except Plenary-Related Matters)</title>
+                            <responsible link='26698'>Mr. Peter BURU</responsible>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53537'>Ep Bureau And Quaestors</title>
+                            <responsible link='23431'>Mr. Igor HORNAK</responsible>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53538'>Coordination Committee Chairs</title>
+                            <responsible link='31145'>Mr. Vaclav MLS</responsible>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53539'>Relations With Council And Commission</title>
+                            <responsible link='26698'>Mr. Peter BURU</responsible>
+                        </lvl6>
+                        <lvl6>
+                            <title link='54251'>Monitoring And Coordination Of Cross-Sectoral Political And Legislative Initiatives </title>
+                            <responsible link='31145'>Mr. Vaclav MLS</responsible>
+                        </lvl6>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='54376'>Department: Sustainable Development Policy</title>
+                    <responsible link='5992'>Ms. Annabel GARNIER-BOULAY</responsible>
+                    <lvl5>
+                        <title link='54377'>Progressive Economy</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53546'>Unit: Eu Budget And Cohesion Policy</title>
+                        <responsible link='19807'>Mr. Petros KOUPEGKOS</responsible>
+                        <lvl6>
+                            <title link='53547'>Committee On Budgets</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53548'>Committee On Budgetary Control</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53549'>Committee On Regional Development</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53550'>Committee On Agriculture And Rural Development</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53551'>Committee On Fisheries</title>
+                        </lvl6>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53552'>Unit: Economic And Social Model Policy</title>
+                        <responsible link='15505'>Mr. Marcel MERSCH</responsible>
+                        <lvl6>
+                            <title link='53553'>Committee On Employment And Social Affairs</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53554'>Committee On Economic And Monetary Affairs</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53555'>Committee On Internal Market And Consumer Protection</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53556'>Committee On Culture And Education</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53557'>Committee On Women's Rights And Gender Equality</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='54491'>Special Committee On Tax Rulings (Taxe 2)</title>
+                        </lvl6>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53558'>Unit: Sustainable Development And Competitiveness</title>
+                        <responsible link='15956'>Mr. Nicola MAZZARO</responsible>
+                        <lvl6>
+                            <title link='53559'>Committee On The Environment, Public Health And Food Safety</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53560'>Committee On Transport And Tourism</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53561'>Committee On Industry, Research And Energy</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='54493'>Committee Of Inquiry Into Emission Measurements In The Automotive Sector</title>
+                            <responsible link='86673'>Ms. Agnieszka GREGORCZYK</responsible>
+                        </lvl6>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='54379'>Department: Citizenship And Political Planning</title>
+                    <responsible link='15526'>Mr. Frazer CLARKE</responsible>
+                    <lvl5>
+                        <title link='54380'>Digital Europe</title>
+                        <responsible link='39953'>Ms. Josephine WOOD</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53563'>Extremism, Populism, Nationalism And Xenophobia</title>
+                        <responsible link='23082'>Ms. Anita TUSAR</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53562'>Unit: Citizens' Europe</title>
+                        <responsible link='25877'>Mr. Fabien VALLI</responsible>
+                        <lvl6>
+                            <title link='53564'>Committee On Legal Affairs</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53565'>Committee On Civil Liberties, Justice And Home Affairs</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53566'>Committee On Constitutional Affairs</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53567'>Committee On Petitions</title>
+                        </lvl6>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53525'>Unit: Political Planning And Strategic Partners</title>
+                        <responsible link='15453'>Ms. Giovanna maria PARESCHI</responsible>
+                        <lvl6>
+                            <title link='53526'>Relations With Pes And Yes</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53528'>Relations With Progressive Alliance</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53527'>Relations With Trades Unions, Ngos, Committee Of The Regions And Economic And Social Committee</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53521'>Relations With National Parliaments</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53529'>Forward Planning And Monitoring Political Debates</title>
+                        </lvl6>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='54381'>Department: External Action</title>
+                    <responsible link='19502'>Mr. Antony BEUMER</responsible>
+                    <lvl5>
+                        <title link='53530'>Global Progressive Forum</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54382'>Department Activities, Budget And Planning</title>
+                        <responsible link='31309'>Ms. Arielle ROUBY</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53580'>Department Delegation Coordination</title>
+                        <responsible link='31309'>Ms. Arielle ROUBY</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53579'>Unit: Foreign Affairs, Security, Enlargement And Neighbourhood Policy</title>
+                        <responsible link='19110'>Mr. Doriano DRAGONI</responsible>
+                        <lvl6>
+                            <title link='53572'>Committee On Foreign Affairs</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53573'>Sub-Committee On Security And Defence</title>
+                            <responsible link='28443'>Mr. Ciprian MATEI</responsible>
+                        </lvl6>
+                        <lvl6>
+                            <title link='54383'>Delegation Coordination Within The Unit</title>
+                            <responsible link='19110'>Mr. Doriano DRAGONI</responsible>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53582'>Euromed</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53583'>Euronest</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53771'>Willy Brandt Steering Committee</title>
+                            <responsible link='28443'>Mr. Ciprian MATEI</responsible>
+                        </lvl6>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54384'>Unit: International Trade And Americas</title>
+                        <responsible link='17753'>Ms. Maria odilia HENRIQUES</responsible>
+                        <lvl6>
+                            <title link='53576'>Committee On International Trade</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='54385'>Delegation Coordination Within The Unit</title>
+                            <responsible link='17753'>Ms. Maria odilia HENRIQUES</responsible>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53581'>Eurolat/Latin America Forum</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53772'>Transatlantic Relations</title>
+                        </lvl6>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54386'>Unit: Development Policy, Human Rights And Africa, Asia, Oceania</title>
+                        <responsible link='34685'>Mr. Zoltan SIMON</responsible>
+                        <lvl6>
+                            <title link='53577'>Committee On Development</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53578'>Subcommittee On Human Rights;Election Observation And Democracy Support</title>
+                            <responsible link='15479'>Ms. Brigitte BATAILLE</responsible>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53574'>Urgency Resolutions; European Endowment For Democracy</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='54387'>Delegation Coordination Within The Unit</title>
+                            <responsible link='34685'>Mr. Zoltan SIMON</responsible>
+                        </lvl6>
+                        <lvl6>
+                            <title link='53584'>Acp-Eu Joint Parliamentary Assembly</title>
+                        </lvl6>
+                    </lvl5>
+                </lvl4>
+            </lvl3>
+        </lvl2>
+        <lvl2>
+            <title link='54051'>ECR - Secretariat</title>
+            <responsible link='21565'>Mr. Frank BARRETT</responsible>
+            <lvl3>
+                <title link='54055'>SECRETARY GENERAL</title>
+                <lvl4>
+                    <title link='54261'>INTERNAL AFFAIRS POLICIES</title>
+                    <lvl5>
+                        <title link='54262'>UNIT A</title>
+                        <lvl6>
+                            <title link='54263'>Budgets</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='54264'>Budgetary control</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='54265'>Economic and Monetary Affairs</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='54266'>Agriculture</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='54267'>Fisheries</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='54268'>Employment and Social Affairs</title>
+                        </lvl6>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54269'>UNIT B</title>
+                        <lvl6>
+                            <title link='54270'>Internal Market and Consumer Protection</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='54271'>Transport and Tourism</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='54272'>Environment</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='54273'>Industry, Reasearch and Energy</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='54274'>Legal Affair</title>
+                        </lvl6>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54277'>UNIT C</title>
+                        <lvl6>
+                            <title link='54280'>Regional Development</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='54281'>Culture and Education</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='54282'>Womens' Rights and Gender Equality</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='54283'>Civil liberties, Justice and Home Affairs</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='54284'>Constitutional Affairs</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='54285'>Petitions</title>
+                        </lvl6>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='54286'>EXTERNAL POLICIES</title>
+                    <lvl5>
+                        <title link='54287'>Foreign Affairs</title>
+                        <lvl6>
+                            <title link='54288'>Foreign Affairs, Human Rights, Security and Defence, Urgenices</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='54289'>Including Human Rights </title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='54290'>Including Security and Defence</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='54291'>Democracy Support and Election Observation  Group</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='54292'>NATO Parliamentary Assembly </title>
+                        </lvl6>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54293'>Development, International Trade and Inter-Parliamentary Delegations </title>
+                        <lvl6>
+                            <title link='54294'>Development</title>
+                        </lvl6>
+                        <lvl6>
+                            <title link='54295'>International Trade</title>
+                        </lvl6>
+                    </lvl5>
+                </lvl4>
+            </lvl3>
+        </lvl2>
+        <lvl2>
+            <title link='53'>ALDE - Secretariat</title>
+            <responsible link='15498'>Mr. Alexander BEELS</responsible>
+        </lvl2>
+        <lvl2>
+            <title link='54327'>GUE/NGL - Secretariat</title>
+            <responsible link='21736'>Ms. Maria D'ALIMONTE</responsible>
+            <lvl3>
+                <title link='54338'>Central Services</title>
+            </lvl3>
+            <lvl3>
+                <title link='54337'>Press Unit</title>
+            </lvl3>
+            <lvl3>
+                <title link='54339'>Committees</title>
+            </lvl3>
+        </lvl2>
+        <lvl2>
+            <title link='53930'>Greens/EFA - Secretariat</title>
+            <responsible link='21763'>Ms. Paraskevi TSETSI</responsible>
+            <lvl3>
+                <title link='53931'>General Secretariat </title>
+                <responsible link='21763'>Ms. Paraskevi TSETSI</responsible>
+                <lvl4>
+                    <title link='53932'>Central Secretariat</title>
+                    <responsible link='21763'>Ms. Paraskevi TSETSI</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='53933'>Press department </title>
+                    <responsible link='21763'>Ms. Paraskevi TSETSI</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='53934'>Communication service</title>
+                    <responsible link='21625'>Mr. Jean-marie KUTTEN</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='53935'>Audiovisual Service</title>
+                    <responsible link='21763'>Ms. Paraskevi TSETSI</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='53936'>Committees and sub-committees </title>
+                    <responsible link='21763'>Ms. Paraskevi TSETSI</responsible>
+                    <lvl5>
+                        <title link='53937'>AFET</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53949'>FEMM</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53950'>TRAN</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53951'>EMPL</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53952'>ENVI</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53953'>AFCO</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53954'>PECH</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53955'>JURI</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53956'>AGRI</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53957'>PETI</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53958'>CULT</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53941'>ITRE</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53959'>INTA</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53960'>BUDG</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53961'>CONT</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53942'>DROI</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53943'>ECON</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53944'>SEDE</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53945'>REGI</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53946'>DEVE</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53947'>LIBE</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53948'>IMCO</title>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='53962'>Horizontal posts</title>
+                    <lvl5>
+                        <title link='53963'>Climate Change</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53964'>GMOs and food</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53965'>Intellectual property and access to knowledge</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53966'> Presidency</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='53967'>Strategic unit</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54258'>Internet policies</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54259'>Green New Deal</title>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='53968'>IT department</title>
+                    <responsible link='20964'>Mr. Willy DRIEUX</responsible>
+                </lvl4>
+                <lvl4>
+                    <title link='53969'>Accounting</title>
+                </lvl4>
+                <lvl4>
+                    <title link='53970'>European Free Alliance</title>
+                    <responsible link='21712'>Mr. Jose luis LINAZASORO</responsible>
+                </lvl4>
+            </lvl3>
+            <lvl3>
+                <title link='53971'>Deputy Secretary General</title>
+                <responsible link='20812'>Mr. Joachim DENKINGER</responsible>
+            </lvl3>
+        </lvl2>
+        <lvl2>
+            <title link='53878'>EFDD - Secretariat</title>
+            <responsible link='21645'>Mr. Pierre VAUGIER</responsible>
+            <lvl3>
+                <title link='53879'>Central Secretariat</title>
+                <lvl4>
+                    <title link='53882'>Secretary General</title>
+                    <lvl5>
+                        <title link='53888'>Deputy Secretaries General</title>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='53884'>Humman Resources</title>
+                </lvl4>
+                <lvl4>
+                    <title link='54303'>Meetings and logistics</title>
+                </lvl4>
+                <lvl4>
+                    <title link='53886'>Informatics</title>
+                </lvl4>
+                <lvl4>
+                    <title link='53887'>Accounts</title>
+                </lvl4>
+                <lvl4>
+                    <title link='54304'>Communication</title>
+                </lvl4>
+                <lvl4>
+                    <title link='53889'>Parliamentary Activities</title>
+                    <lvl5>
+                        <title link='54305'>AFET</title>
+                        <responsible link='103985'>Monia ALBERTINI</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54300'>DEVE</title>
+                        <responsible link='103985'>Monia ALBERTINI</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54302'>INTA</title>
+                        <responsible link='103985'>Monia ALBERTINI</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54298'>BUDG</title>
+                        <responsible link='103985'>Monia ALBERTINI</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54297'>ECON</title>
+                        <responsible link='103985'>Monia ALBERTINI</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54309'>EMPL</title>
+                        <responsible link='103985'>Monia ALBERTINI</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54312'>ENVI</title>
+                        <responsible link='103985'>Monia ALBERTINI</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54314'>ITRE</title>
+                        <responsible link='103985'>Monia ALBERTINI</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54315'>IMCO</title>
+                        <responsible link='103985'>Monia ALBERTINI</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54308'>TRAN</title>
+                        <responsible link='103985'>Monia ALBERTINI</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54310'>REGI</title>
+                        <responsible link='103985'>Monia ALBERTINI</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54313'>AGRI</title>
+                        <responsible link='103985'>Monia ALBERTINI</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54316'>PECH</title>
+                        <responsible link='103985'>Monia ALBERTINI</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54311'>CULT</title>
+                        <responsible link='103985'>Monia ALBERTINI</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54307'>JURI</title>
+                        <responsible link='103985'>Monia ALBERTINI</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54306'>LIBE</title>
+                        <responsible link='103985'>Monia ALBERTINI</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54317'>AFCO</title>
+                        <responsible link='103985'>Monia ALBERTINI</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54299'>CONT</title>
+                        <responsible link='103985'>Monia ALBERTINI</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54318'>FEMM</title>
+                        <responsible link='103985'>Monia ALBERTINI</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54319'>PETI</title>
+                        <responsible link='103985'>Monia ALBERTINI</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54301'>DROI</title>
+                        <responsible link='103985'>Monia ALBERTINI</responsible>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54320'>SEDE</title>
+                        <responsible link='103985'>Monia ALBERTINI</responsible>
+                    </lvl5>
+                </lvl4>
+                <lvl4>
+                    <title link='54322'>STAFF</title>
+                    <lvl5>
+                        <title link='54333'>EFDD Sec. Cent.</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54323'>EFDD Staff FR</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54328'>EFDD Staff IT</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54329'>EFDD Staff LT</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54330'>EFDD Staff PL</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54331'>EFDD Staff SV</title>
+                    </lvl5>
+                    <lvl5>
+                        <title link='54332'>EFDD Staff UK</title>
+                    </lvl5>
+                </lvl4>
+            </lvl3>
+        </lvl2>
+        <lvl2>
+            <title link='58'>ENF Secretariat</title>
+            <responsible link='31996'>Mr. Ludovic DE DANNE</responsible>
+        </lvl2>
+        <lvl2>
+            <title link='53922'>NI - Secretariat</title>
+            <lvl3>
+                <title link='53975'>Human Resources</title>
+                <responsible link='21722'>Ms. Paola CASADEI</responsible>
+            </lvl3>
+            <lvl3>
+                <title link='53976'>Accounting</title>
+                <responsible link='22789'>Mr. Bernhard GLASER</responsible>
+            </lvl3>
+            <lvl3>
+                <title link='53977'>Internet Technologies</title>
+            </lvl3>
+            <lvl3>
+                <title link='53978'>Parliamentary Assistants</title>
+            </lvl3>
+        </lvl2>
+    </lvl1>
+</organisationchart>

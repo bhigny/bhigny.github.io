@@ -1,0 +1,169 @@
+// out: ../css/ckeditor.css, compress: true
+
+/* Reference import */
+
+//Use @import (reference) to import external files, but without adding the imported styles to the compiled output unless referenced.
+@import "fonts.less";
+@import (reference) "ep-styles.less";
+
+body.cke_ltr { // Styles for dropdown "Styles"
+    font-family: @font-family-base;
+    color: @font-color-base;
+    & .cke_panel_listItem a {
+        & h1 {
+            &:extend(h1);
+            margin: 0;
+            padding: 0;
+        }
+        & h2 {
+            &:extend(h2);
+            margin: 0;
+            padding: 0;
+        }
+        & h3 {
+            &:extend(h3);
+            margin: 0;
+            padding: 0;
+        }
+        & h4 {
+            &:extend(h4);
+            margin: 0;
+            padding: 0;
+        }
+        & h5 {
+            &:extend(h5);
+            margin: 0;
+            padding: 0;
+        }
+        & h6 {
+            &:extend(h6);
+            margin: 0;
+            padding: 0;
+        }
+        & .text-primary {
+            &:extend(.text-primary);
+            margin: 0;
+            padding: 0;
+            
+        }
+        & .text-secondary {
+            &:extend(.text-secondary);
+            margin: 0;
+            padding: 0;
+        }
+        & .text-muted {
+            &:extend(.text-muted);
+            margin: 0;
+            padding: 0;
+        }
+        & .text-warning {
+            &:extend(.text-warning);
+            margin: 0;
+            padding: 0;
+        }
+        & blockquote {
+            &:extend(blockquote);
+        }
+        & small {
+            &:extend(small);
+        }
+        & cite {
+            &:extend(cite);
+        }
+    }
+} 
+body.cke_editable { // Syles for textarea
+    font-family: @font-family-base;
+    color: @font-color-base;
+    font-size: @font-size-base;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    &:extend(.main-content);
+    background: #fff none!important;
+    &/* Typography */
+    h1,
+    .h1 {
+        &:extend(h1);
+    }
+    h2,
+    .h2 {
+        &:extend(h2);
+    }
+    h3,
+    .h3 {
+        &:extend(h3);
+    }
+    h4,
+    .h4 {
+        &:extend(h4);
+    }
+    h5,
+    .h5 {
+        &:extend(h5);
+    }
+    h6,
+    .h6 {
+        &:extend(h6);
+    }
+    h1 small,
+    .h1 small,
+    h2 small,
+    .h2 small,
+    h3 small,
+    .h3 small,
+    h4 small,
+    .h4 small,
+    h5 small,
+    .h5 small {
+        &:extend(h1 small);
+    }
+    hr {
+        &:extend(hr);
+    }
+    /* liens */
+    a {
+        &:extend(a);
+    }
+    a:hover,
+    a:focus {
+        &:extend(a:hover);
+    }
+    .text-primary {
+        &:extend(.text-primary);
+    }
+    .text-secondary {
+        &:extend(.text-secondary);
+    }
+    .text-muted {
+        &:extend(.text-muted);
+    }
+    .multimedia-left {
+        &:extend(.media-left);
+    }
+    .multimedia-right {
+        &:extend(.media-right);
+    }
+    .multimedia-center {
+        &:extend(.media-center);
+    }
+    blockquote {
+        &:extend(blockquote all);
+    }
+    small {
+        &:extend(small);
+    }
+    cite {
+        &:extend(cite all);
+    }
+    /* Listes */
+    ul {
+        &:extend(.main-content .content-page ul all);
+    }
+    ol {
+        &:extend(.main-content .content-page ol all);
+    }
+    /* Tableaux */
+    table {
+        &:extend(.main-content table all);
+    }
+}

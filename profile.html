@@ -1,0 +1,1625 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<html xml:lang="en" lang="en" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>User profile - EP Intranet</title>
+    <meta name="description" content="EP Intranet" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png">
+    <!-- CSS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/ep-styles.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+		<script src="javascript/html5shiv.js"></script>
+		<script src="javascript/respond.min.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+    <header role="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-2 col-sm-1 col-md-4">
+                    <!-- Control for accesibility -->
+                    <div id="skip">
+                        <ul>
+                            <li><a href="#skip-content">Go to content</a></li>
+                            <li><a href="#search-desktop">Go to search</a></li>
+                            <li><a href="#nav-left">Go to navigation</a></li>
+                            <li>
+                                <button id="contrast" class="btn" title="Change the contrast">
+                                    Contrast
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Btn menu mobile -->
+                    <button type="button" class="navbar-toggle visible-sm visible-xs">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="sr-only">Show navigation</span>
+                    </button>
+                    <!-- Logo desktop -->
+                    <a class="ep-logo hidden-sm hidden-xs" href="#" title="Go to homepage">
+                        <img src="img/logo.svg" alt="">
+                        <span class="title">EP Intranet</span>
+                    </a>
+                </div>
+                <div class="col-xs-11 col-sm-12 col-md-8">
+                    <!-- Logo mobile -->
+                    <div class="ep-logo visible-xs visible-sm">
+                        <img src="img/logo.svg" alt="">
+                        <span class="title">EP Intranet</span>
+                    </div>
+                    <!-- Search bar -->
+                    <div class="search" role="search">
+                        <form method="get" id="s" action="/">
+                            <input type="text" id="search-desktop" placeholder="Search for people, documents, forms..." title="Search for people, documents, forms...">
+                            <button aria-label="Search" type="submit" class="icon-search">
+                            </button>
+                        </form>
+                        <!-- Panel auto suggestion -->
+                        <ul aria-hidden="true" class="animated flipInX auto-suggestion arrow">
+                            <li class="header-title">Best results - <small>56 results in total</small></li>
+                            <li class="item"><a href="#"><span class="title">EP Delegation <mark>trav</mark>els to Climate Change Conference</span>
+                                <span class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus urna</span>
+</a></li>
+                            <li class="item"><a href="#"><span class="title">EP Delegation <mark>trav</mark>els to Climate Change Conference</span>
+                                <span class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus urna</span>
+</a></li>
+                            <li class="item"><a href="#"><span class="title">EP Delegation <mark>trav</mark>els to Climate Change Conference</span>
+                                <span class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus urna</span>
+</a></li>
+                            <li class="header-title">Documents - <small>2 results in total <a class="pull-right" href="#">All results for documents</a></small></li>
+                            <li class="item">
+                                <a href="#">
+                                    <i class="icon-doc pdf"></i>
+                                    <span class="right">
+                                        <span class="title">EP Delegation <mark>trav</mark>els to Climate Change Conference</span>
+                                    <span class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus urna</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="header-title">Peoples - <small>1 result in total <a class="pull-right" href="#">All results for peoples</a></small></li>
+                            <li class="item">
+                                <a href="#">
+                                    <img class="img-circle" src="img/tmp/avatar01.jpg" alt="...">
+                                    <span class="right">
+                                                                    <span class="title">Mr Marcel DE<mark>GRA</mark>AFF</span>
+                                    <p>Member of the European Parliament
+                                        <br>
+                                        <span class="label" title="EP > Parliament's Secretariat > ... breadcrumb">Intranet Service</span>
+                                    </p>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li class="text-center"><a class="btn" role="button" href="#">View all</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-4 text-right">
+                    <!-- Languages -->
+                    <!-- Dropdown custom -->
+                    <div class="btn-group lang hidden-xs">
+                        <button type="button" class="btn-select btn-sm dropdown-toggle" data-toggle="dropdown" aria-label="Change language" aria-haspopup="true" aria-expanded="false">
+                            EN<i class="icon-arrow-down2"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a href="#">EN</a>
+                            </li>
+                            <li><a href="#">FR</a>
+                            </li>
+                            <li><a href="#">DE</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- User menu -->
+                    <div class="dropdown profile">
+                        <!-- Avatar -->
+                        <a class="btn dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true" aria-label="Show my personal menu" href="#">
+                            <div class="user-picture">
+                                <img class="img-circle" src="img/tmp/avatar01.jpg" alt="">
+                                <!--<span>JS</span>-->
+                            </div>
+                            <span aria-label="Nb of notifications" class="badge">12</span>
+                            <span class="title">John</span>
+                            <i aria-hidden="true" class="icon-arrow-down2"></i>
+                        </a>
+                        <!-- Menu popover user -->
+                        <ul class="navuser dropdown-menu dropdown-menu-right arrow ">
+                            <li class="lang-mobile visible-xs visible-sm">
+                                <!-- Dropdown custom -->
+                                <div class="btn-group lang">
+                                    <button type="button" class="btn-select btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        EN <i class="icon-arrow-down2"></i>
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-right">
+                                        <li><a href="#">EN</a>
+                                        </li>
+                                        <li><a href="#">FR</a>
+                                        </li>
+                                        <li><a href="#">DE</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#"><i aria-hidden="true" class="icon-setting"></i>My Settings</a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i aria-hidden="true" class="icon-contacts"></i>My Contacts
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i aria-hidden="true" class="icon-book"></i>My Bookmarks
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i aria-hidden="true" class="icon-suscribe"></i>My Suscriptions
+                                </a>
+                            </li>
+                            <li><a href="#"><i aria-hidden="true" class="icon-notif"></i>My Notifications</a>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i aria-hidden="true" class="icon-page"></i> Page
+                                            <span class="badge animated bounceIn">2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i aria-hidden="true" class="icon-doc2"></i> Documents
+                                            <span class="badge animated bounceIn">1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i aria-hidden="true" class="icon-meeting"></i> Meetings
+                                            <span class="badge animated bounceIn">3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i aria-hidden="true" class="icon-km"></i> KM Portal
+                                            <span class="badge animated bounceIn">6</span>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <!--<li class="notifications">
+                                <div class="alert alert-notif alert-dismissible" role="alert">
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <i aria-hidden="true" class="icon-page"></i>
+                                    <strong>Karen updated the page :</strong>
+                                    <br>
+                                    <a href="#">
+                                    How to access the car park</a>
+                                    <time datetime="2016-04-02"><i aria-hidden="true" class="icon-clock"></i> 02.04.2016
+                                    </time>
+                                </div>
+                            </li>-->
+                            <li role="separator" class="divider"></li>
+                            <li class="logout">
+                                <a href="#">
+                                    <i aria-hidden="true" class="icon-power"></i> Log out from EPNet
+                                    <span class="timeout">Session: 03:55:35</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="content" class="container">
+        <div class="row">
+            <!-- Nav left -->
+            <div class="col-md-4 col-lg-3">
+                <nav role="navigation" id="nav-left" class="navmenu">
+                    <ul class="nav">
+                        <li>
+                            <!-- Selectbox browseas -->
+                            <div class="browseas">
+                                <p>Browse As:</p>
+                                <!-- Dropdown custom -->
+                                <div class="btn-group">
+                                    <button type="button" class="btn-select dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Administrative staff <i aria-hidden="true" class="icon-arrow-down2"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Administrative staff</a>
+                                        </li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Member of Parliament</a>
+                                        </li>
+                                        <li><a href="#">Parliamentary assistant</a>
+                                        </li>
+                                        <li><a href="#">External staff</a>
+                                        </li>
+                                        <li><a href="#">Trainee</a>
+                                        </li>
+                                        <li><a href="#">Retired staff</a>
+                                        </li>
+                                        <li><a href="#">Retired Member</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <i aria-hidden="true" class="icon-arrow-down2"></i>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/human-resources.svg">Human resources</a>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/buildings.svg">Buildings and offices</a>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/meetings.svg">Meetings and events</a>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/missions.svg">Missions and travel</a>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/finance.svg">Finance</a>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/training.svg">Training</a>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/communication.svg">Communication </a>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/it-support.svg">IT support</a>
+                        </li>
+                    </ul>
+                    <ul class="nav2 nav-accordion" role="tablist" aria-multiselectable="true">
+                        <li class="panel" role="presentation">
+                            <button role="tab" type="button" data-toggle="collapse" data-target="#nav-collapse1" data-parent=".nav-accordion" aria-expanded="false" class="collapsed">DG<small>s</small> and Services<i aria-hidden="true" class="icon-arrow-down2"></i>
+                            </button>
+                            <ul id="nav-collapse1" class="collapse" role="tabpanel">
+                                <li><a href="#">DG PERS</a></li>
+                                <li><a href="#">DG COMM</a></li>
+                                <li><a href="#">DG ITEC</a></li>
+                                <li><a href="#">DG PRES</a></li>
+                                <li><a href="#">DG FINS</a></li>
+                                <li><a href="#">DG SAFE</a></li>
+                                <li><a href="#">DG INTE</a></li>
+                                <li><a href="#">DG INLO</a></li>
+                                <li><a href="#">DG IPOL</a></li>
+                                <li><a href="#">DG EPRS</a></li>
+                                <li><a href="#">DG EXPO</a></li>
+                                <li><a href="#">DG TRAD</a></li>
+                                <li><a href="#">Legal Service</a></li>
+                                <li><a href="#">Secretary-General</a></li>
+                                <li><a href="#">Deputy Secretary-General</a></li>
+                                <li><a href="#">Staff Committee</a></li>
+                                <li><a href="#">Organisation chart</a></li>
+                            </ul>
+                        </li>
+                        <li class="panel" role="presentation">
+                            <button role="tab" type="button" data-toggle="collapse" data-target="#nav-collapse2" data-parent=".nav-accordion" aria-expanded="false" class="collapsed">Parliamentary life<i aria-hidden="true" class="icon-arrow-down2"></i></button>
+                            <ul id="nav-collapse2" class="collapse" role="tabpanel">
+                                <li><a href="#">Today in Parliament</a></li>
+                                <li><a href="#">Today's press</a></li>
+                                <li><a href="#">Plenary session</a></li>
+                                <li><a href="#">President and Members</a></li>
+                                <li><a href="#">Conference of Presidents</a></li>
+                                <li><a href="#">Bureau and Quaestors</a></li>
+                                <li><a href="#">Conference of Committee Chairs</a></li>
+                                <li><a href="#">Committees</a></li>
+                                <li><a href="#">Delegations</a></li>
+                                <li><a href="#">Parliament's secretariat</a></li>
+                                <li><a href="#">Political groups</a></li>
+                                <li><a href="#">Legislative activities</a></li>
+                                <li><a href="#">Documents</a></li>
+                            </ul>
+                        </li>
+                        <li class="panel" role="presentation">
+                            <button role="tab" type="button" data-toggle="collapse" data-target="#nav-collapse3" data-parent=".nav-accordion" aria-expanded="false" class="collapsed">Life outside work<i aria-hidden="true" class="icon-arrow-down2"></i></button>
+                            <ul id="nav-collapse3" class="collapse" role="tabpanel">
+                                <li><a href="#">In Brussels</a></li>
+                                <li><a href="#">In Luxembourg</a></li>
+                                <li><a href="#">In Strasbourg</a></li>
+                                <li><a href="#">Small ads</a></li>
+                            </ul>
+                        </li>
+                        <li class="panel" role="presentation">
+                            <button role="tab" type="button" data-toggle="collapse" data-target="#nav-collapse4" data-parent=".nav-accordion" aria-expanded="false" class="collapsed">EP Intranet Help centre<i aria-hidden="true" class="icon-arrow-down2"></i></button>
+                            <ul id="nav-collapse4" class="collapse" role="tabpanel">
+                                <li><a href="#">Features and customisation</a></li>
+                                <li><a href="#">Contributing to EP Intranet</a></li>
+                                <li><a href="#">EP Intranet mobile</a></li>
+                                <li><a href="#">EP Directory</a></li>
+                                <li><a href="#">EP Intranet team</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Content right -->
+            <div class="col-md-12 col-lg-13">
+                <!-- Breadcrumb -->
+                <ul class="breadcrumb">
+                    <li class="sr-only">You are here :</li>
+                    <li><a href="#">Home</a></li>
+                    <li>My profile</li>
+                </ul>
+                <div class="bg-content">
+                    <!-- Main content -->
+                    <div id="skip-content" role="main" class="main-content col-md-16 col-lg-16">
+                        <div class="profile-page">
+                            <h1>My profile</h1>
+                            <!-- Tab -->
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs nav-tabs-full-width" role="tablist">
+                                <li role="presentation" class="active"><a href="#mysettings" aria-controls="mysettings" role="tab" data-toggle="tab"><i aria-hidden="true" class="icon-setting"></i> <span class="title">My Settings</span></a></li>
+                                <li role="presentation"><a href="#mycontacts" aria-controls="mycontacts" role="tab" data-toggle="tab"><i aria-hidden="true" class="icon-contacts"></i> <span class="title">My Contacts</span></a></li>
+                                <li role="presentation"><a href="#mybookmarks" aria-controls="mybookmarks" role="tab" data-toggle="tab"><i aria-hidden="true" class="icon-book"></i> <span class="title">My bookmarks</span></a></li>
+                                <li role="presentation"><a href="#mysuscriptions" aria-controls="mysuscriptions" role="tab" data-toggle="tab"><i aria-hidden="true" class="icon-suscribe"></i> <span class="title">My Suscriptions</span></a></li>
+                                <li role="presentation"><a href="#mynotifications" aria-controls="mynotifications" role="tab" data-toggle="tab"><i aria-hidden="true" class="icon-notif"></i> <span class="title">My Notifications</span> <span class="badge">2</span></a></li>
+                            </ul>
+                            <!-- Tab panel -->
+                            <div class="tab-content">
+                                <!-- My settings -->
+                                <div role="tabpanel" class="tab-pane fade active in" id="mysettings">
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-sm-16">
+                                                <div class="user-picture">
+                                                    <img class="img-circle" src="img/user.jpg" alt="...">
+                                                </div>
+                                                <h2>John Smith</h2>
+                                                <div class="btn-group">
+                                                   <button type="button" class="btn btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                      <span class="sr-only">Setting</span> <i aria-hidden="true" class="icon-arrow-down2"></i>
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#"><i aria-hidden="true" class="icon-copy"></i> Copy my name from EP Directory ( <strong>John Smith</strong> )</a></li>
+                                                    </ul>
+                                                </div>
+                                                <a class="epdirprofile" href="#"><i aria-hidden="true" class="icon-profile"></i>My EP Directory profile</a>
+                                            </div>
+                                        </div>
+                                        <hr class="dashed">
+                                        <div class="row">
+                                            <div class="col-sm-8">
+                                                <label>Change my avatar: </label>
+                                                <br>
+
+                                                <!-- Start Btn switch on/off
+                                                <div class="form-label">Import your EP Directory picture :</div>
+                                                <div class="onoffswitch onoffswitch-avatar">
+                                                    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="avatoronoffswitch">
+                                                    <label class="onoffswitch-label" for="avatoronoffswitch"></label>
+                                                </div>-->
+                                                <!-- End Btn switch on/off-->
+                                                <div class="input-file-container input-file-avatar">
+                                                    <input class="input-file" id="avatar-file" type="file" accept="image/*">
+                                                    <label for="avatar-file" class="btn btn-secondary input-file-trigger" tabindex="0"><i aria-hidden="true" class="icon-upload"></i>&nbsp;Select a file...</label>
+                                                    <div id="image-preview" class="user-picture">
+                                                        <img class="img-circle" src="" />
+                                                    </div>
+
+                                                    <p class="file-return"></p>
+                                                    <span class="help-block">Allowed files: gif, png, jpg. Max file size 1Mb.
+                                                <br>Recommanded dimensions: 153 X 153px</span>
+                                                </div>
+
+                                                <button class="btn btn-secondary"><i aria-hidden="true" class="icon-copy"></i>&nbsp;Copy my EP Directory picture</button>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <label for="browse">Browse </label>
+                                                <select id="browse" class="form-control">
+                                                    <option selected>EP Intranet</option>
+                                                    <option>DG Comm</option>
+                                                    <option>DG Pers</option>
+                                                </select>
+                                                <label for="as">as: </label>
+                                                <select id="as" class="form-control">
+                                                    <option>External staff</option>
+                                                    <option selected>Member of Parliament</option>
+                                                    <option>Parliamentary assistant</option>
+                                                    <option>Trainee</option>
+                                                    <option>Retired staff</option>
+                                                    <option>Retired Member</option>
+                                                </select>
+                                                
+
+                                            </div>
+                                        </div>
+                                        <hr class="dashed">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                 <label for="language">Default language: </label>
+                                                <br>
+                                                <select id="language" class="form-control">
+                                                    <option>English</option>
+                                                    <option>French</option>
+                                                    <option>German</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+
+                                            <div class="col-sm-16 text-right">
+                                                <hr>
+                                                <input class="btn btn-secondary" type="button" value="Cancel">
+                                                <input class="btn btn-primary" type="button" value="Save">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <!-- My contacts -->
+                                <div role="tabpanel" class="tab-pane fade" id="mycontacts">
+                                    <div class="row">
+                                        <div class="col-md-11">
+                                            <div class="search-page">
+                                                <!-- Row nav header -->
+                                                <div class="row">
+                                                    <div class="col-xs-16 col-sm-8">
+                                                        <h3>4 People(s)</h3>
+                                                    </div>
+                                                    <div class="col-xs-16 col-sm-8 text-right">
+                                                        <ul class="pager">
+                                                            <li class="prev disabled"><a title="previous page" href="#"><i class="icon-arrow-left"></i></a></li>
+                                                            <li><strong>1-4</strong> of 4</li>
+                                                            <li class="next disabled"><a title="next page" href="#"><i class="icon-arrow-right"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <!-- Row sorting -->
+                                                <div role="toolbar" class="row sorting">
+                                                    <div class="col-xs-16 col-sm-10">
+                                                        <!-- Dropdown action -->
+                                                        <div class="btn-group">
+                                                            <button type="button" class="btn-select dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Actions <i class="icon-arrow-down2"></i>
+                                                            </button>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Select all</a>
+                                                                </li>
+                                                                <li><a href="#" class="disabled">Delete</a>
+                                                                </li>
+                                                                <li><a href="#" class="disabled">Export the selected list <small>(DPF, 200 max.)</small></a>
+                                                                </li>
+                                                                <li><a href="#" class="disabled">Send an email <small>(40 max.)</small></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <!-- Dropdown custom sorting 
+                                                        <div class="btn-group">
+                                                            <button type="button" class="btn-select dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-sort"></i> Relevance <i class="icon-arrow-down2"></i>
+                                                            </button>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Relevance</a>
+                                                                </li>
+                                                                <li><a href="#">Name</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>-->
+                                                    </div>
+                                                    <div class="col-xs-16 col-sm-6 text-right">
+                                                        <!-- Switch view -->
+                                                        <div class="controls switch-view hidden-xs">
+                                                            <button class="btn grid" type="button"><i aria-hidden="true" class="icon-grid"><span class="sr-only">Switch to grid view</span></i></button>
+                                                            <button class="btn list active" type="button"><i aria-hidden="true" class="icon-list"></i><span class="sr-only">Switch to list view</span></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <ul class="row list-results selectable">
+                                                    <!-- Item contact -->
+                                                    <li>
+                                                        <!-- Checkbox -->
+                                                        <input type="checkbox" id="contact1" class="check sr-only">
+                                                        <label class="label-hidden" for="contact1">
+                                                        </label>
+                                                        <div class="user-picture">
+                                                            <a href="#">
+                                                                <img class="img-circle" src="img/tmp/26093.jpg" alt="...">
+                                                                <!-- <span>JC</span>-->
+                                                            </a>
+                                                        </div>
+                                                        <div class="right">
+                                                            <div class="row">
+                                                                <h4 class="col-md-16"><a href="#">Mr. Javier CALVINO LOPEZ</a></h4></div>
+
+                                                            <div class="row contact-infos">
+                                                                <div class="col-md-16 col-lg-7">
+                                                                    <span class="job">ICT applications officer</span>
+                                                                    <a href="#" class="label service" title="breadcrumb service">
+                                                                        Intranet Service
+                                                                    </a>
+                                                                </div>
+                                                                <div class="col-md-16 col-lg-9 ">
+                                                                    <!-- row tel/desk -->
+                                                                    <div class="row">
+                                                                        <div class="col-xs-8 office main-office">
+                                                                            <i class="icon-desk"></i> LUX - SCH 00A020
+                                                                            <br>
+                                                                            <a href="tel:+352430022700"><i class="icon-tel"></i>+352 4300 <span class="tel-ext">22700</span></a>
+                                                                        </div>
+                                                                        <div class="col-xs-8 office">
+                                                                            <i class="icon-desk"></i> BRU - ASP 00A020
+                                                                            <br>
+                                                                            <a href="tel:+352430022700"><i class="icon-tel"></i>+352 4300 <span class="tel-ext">22700</span></a>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="row">
+                                                                        <div class="col-xs-16">
+                                                                            <a href="mailto:javier.calvino@europarl.europa.eu" target="_blank"> <i class="icon-mail"></i>javier.calvino@europarl.europa.eu</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Actions -->
+                                                        <div class="hidden-xs controls">
+                                                            <a href="#" role="button" class="btn" data-toggle="tooltip" data-placement="top" data-delay="400" title="Remove from my contacts">
+                                                                <i aria-hidden="true" class="icon-removecontact"></i>
+                                                            </a>
+                                                            <a href="#" role="button" class="btn" data-toggle="tooltip" data-placement="top" data-delay="400" title="Export PDF">
+                                                                <i aria-hidden="true" class="icon-doc pdf small"></i>
+                                                            </a>
+                                                            <a href="#" role="button" class="btn" data-toggle="tooltip" data-placement="top" data-delay="400" title="Export vCard">
+                                                                <i aria-hidden="true" class="icon-vcard"></i>
+                                                            </a>
+                                                        </div>
+
+                                                    </li>
+                                                    <!-- Item contact -->
+                                                    <li>
+                                                        <!-- Checkbox -->
+                                                        <input type="checkbox" id="contact2" class="check sr-only">
+                                                        <label class="label-hidden" for="contact2">
+                                                        </label>
+                                                        <div class="user-picture">
+                                                            <a href="#">
+                                                                <img class="img-circle" src="img/tmp/124831.jpg" alt="Ms. Isabella ADINOLFI">
+                                                                <!-- <span>JC</span>-->
+                                                            </a>
+                                                        </div>
+                                                        <div class="right">
+                                                            <div class="row">
+                                                                <h4 class="col-md-16"><a href="#">Ms. Isabella ADINOLFI</a></h4></div>
+
+                                                            <div class="row contact-infos">
+                                                                <div class="col-md-16 col-lg-7">
+                                                                    <span class="job">Member</span>
+                                                                    <a href="#" class="label service" title="Europe of Freedom and Direct Democracy Group">
+                                                                                    EFDD
+                                                                                </a>
+                                                                </div>
+                                                                <div class="col-md-16 col-lg-9 ">
+                                                                    <!-- row tel/desk -->
+                                                                    <div class="row">
+                                                                        <div class="col-xs-8 office main-office">
+                                                                            <i class="icon-desk"></i> BRU - ASP 07H246
+                                                                            <br>
+                                                                            <a href="tel:+352430022700"><i class="icon-tel"></i>+352 4300 <span class="tel-ext">22700</span></a>
+                                                                        </div>
+
+                                                                        <div class="col-xs-8 office">
+                                                                            <i class="icon-desk"></i> STR - WIC M03061
+                                                                            <br>
+                                                                            <a href="tel:+352430022700"><i class="icon-tel"></i>+33 3 88 1 <span class="tel-ext">75714</span></a>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="row">
+                                                                        <div class="col-xs-16">
+                                                                            <a href="mailto:javier.calvino@europarl.europa.eu" target="_blank"> <i class="icon-mail"></i>isabella.adinolfi@europarl.europa.eu</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Actions -->
+                                                        <div class="hidden-xs controls">
+                                                            <a href="#" role="button" class="btn" data-toggle="tooltip" data-placement="top" data-delay="400" title="Remove from my contacts">
+                                                                <i aria-hidden="true" class="icon-removecontact"></i>
+                                                            </a>
+                                                            <a href="#" role="button" class="btn" data-toggle="tooltip" data-placement="top" data-delay="400" title="Export PDF">
+                                                                <i aria-hidden="true" class="icon-doc pdf small"></i>
+                                                            </a>
+                                                            <a href="#" role="button" class="btn" data-toggle="tooltip" data-placement="top" data-delay="400" title="Export vCard">
+                                                                <i aria-hidden="true" class="icon-vcard"></i>
+                                                            </a>
+                                                        </div>
+
+                                                    </li>
+                                                    <!-- Item contact -->
+                                                    <li>
+                                                        <!-- Checkbox -->
+                                                        <input type="checkbox" id="contact3" class="check sr-only">
+                                                        <label class="label-hidden" for="contact3">
+                                                        </label>
+                                                        <div class="user-picture">
+                                                            <a href="#">
+                                                                <img class="img-circle" src="img/tmp/94583.jpg" alt="...">
+                                                            </a>
+                                                        </div>
+                                                        <div class="right">
+                                                            <div class="row">
+                                                                <h4 class="col-md-16"><a href="#">Mr. Mikael MICUCCI</a></h4></div>
+
+                                                            <div class="row contact-infos">
+                                                                <div class="col-md-16 col-lg-7">
+                                                                    <span class="job">Website administrator</span>
+                                                                    <a href="#" class="label service" title="breadcrumb service">
+                                                                                    Intranet Service
+                                                                                </a>
+                                                                </div>
+                                                                <div class="col-md-16 col-lg-9 ">
+                                                                    <!-- row tel/desk -->
+                                                                    <div class="row">
+                                                                        <div class="col-xs-8 office main-office">
+                                                                            <i class="icon-desk"></i> BRU - MON 03S024
+                                                                            <br>
+                                                                            <a href="tel:+352430022700"><i class="icon-tel"></i>+32 2 28 <span class="tel-ext">34180</span></a>
+                                                                        </div>
+
+                                                                    </div>
+
+                                                                    <div class="row">
+                                                                        <div class="col-xs-16">
+                                                                            <a href="mailto:javier.calvino@europarl.europa.eu" target="_blank"> <i class="icon-mail"></i>mikael.micucci@europarl.europa.eu</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Actions -->
+                                                        <div class="hidden-xs controls">
+                                                            <a href="#" role="button" class="btn" data-toggle="tooltip" data-placement="top" data-delay="400" title="Remove from my contacts">
+                                                                <i aria-hidden="true" class="icon-removecontact"></i>
+                                                            </a>
+                                                            <a href="#" role="button" class="btn" data-toggle="tooltip" data-placement="top" data-delay="400" title="Export PDF">
+                                                                <i aria-hidden="true" class="icon-doc pdf small"></i>
+                                                            </a>
+                                                            <a href="#" role="button" class="btn" data-toggle="tooltip" data-placement="top" data-delay="400" title="Export vCard">
+                                                                <i aria-hidden="true" class="icon-vcard"></i>
+                                                            </a>
+                                                        </div>
+
+                                                    </li>
+                                                    <!-- Item contact -->
+                                                    <li>
+                                                        <!-- Checkbox -->
+                                                        <input type="checkbox" id="contact4" class="check sr-only">
+                                                        <label class="label-hidden" for="contact4">
+                                                        </label>
+                                                        <div class="user-picture">
+                                                            <a href="#">
+                                                                <img class="img-circle" src="img/user.jpg" alt="...">
+                                                                <!--<span>AP</span>-->
+                                                            </a>
+                                                        </div>
+                                                        <div class="right">
+                                                            <div class="row">
+                                                                <h4 class="col-md-16"><a href="#">Ms. Louisa BENTLEY</a></h4></div>
+
+                                                            <div class="row contact-infos">
+                                                                <div class="col-md-16 col-lg-7">
+                                                                    <span class="job">Media/Communication Assistant</span>
+                                                                    <a href="#" class="label service" title="breadcrumb service">
+                                                                        Press Officers
+                                                                    </a>
+                                                                    <a href="#" class="label service" title="breadcrumb service">
+                                                                        New Media And Internet
+                                                                    </a>
+                                                                    <a href="#" class="label service" title="breadcrumb service">
+                                                                        Administration
+                                                                    </a>
+                                                                </div>
+                                                                <div class="col-md-16 col-lg-9 ">
+                                                                    <!-- row tel/desk -->
+                                                                    <div class="row">
+
+                                                                        <div class="col-xs-8 office">
+                                                                            <i class="icon-desk"></i> BRU - ASP 00A020
+                                                                            <br>
+                                                                            <a href="tel:+352430022700"><i class="icon-tel"></i>+352 4300 <span class="tel-ext">22700</span></a>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="row">
+                                                                        <div class="col-xs-16">
+                                                                            <a href="mailto:javier.calvino@europarl.europa.eu" target="_blank"> <i class="icon-mail"></i>javier.calvino@europarl.europa.eu</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Actions -->
+                                                        <div class="hidden-xs controls">
+                                                            <a href="#" role="button" class="btn" data-toggle="tooltip" data-placement="top" data-delay="400" title="Remove from my contacts">
+                                                                <i aria-hidden="true" class="icon-removecontact"></i>
+                                                            </a>
+                                                            <a href="#" role="button" class="btn" data-toggle="tooltip" data-placement="top" data-delay="400" title="Export PDF">
+                                                                <i aria-hidden="true" class="icon-doc pdf small"></i>
+                                                            </a>
+                                                            <a href="#" role="button" class="btn" data-toggle="tooltip" data-placement="top" data-delay="400" title="Export vCard">
+                                                                <i aria-hidden="true" class="icon-vcard"></i>
+                                                            </a>
+                                                        </div>
+
+                                                    </li>
+                                                </ul>
+                                                <!-- Row nav footer -->
+                                                <div class="row">
+                                                    <div class="col-xs-16 col-sm-8">
+                                                    </div>
+                                                    <div class="col-xs-16 col-sm-8 text-right">
+                                                        <ul class="pager">
+                                                            <li class="prev disabled"><a title="previous page" href="#"><i class="icon-arrow-left"></i></a></li>
+                                                            <li><strong>1-4</strong> of 4</li>
+                                                            <li class="next disabled"><a title="next page" href="#"><i class="icon-arrow-right"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Sidebar right content (filters)-->
+                                        <aside class="col-md-5">
+                                            <i aria-hidden="true" class="icon-filter"></i>
+                                            <strong> My filters:</strong>
+                                            <!--<a class="pull-right" href="">Clear all</a>-->
+                                            <ul class="filters">
+                                                <li class="label no-filters">No filters</li>
+                                                <!--<li class="label"><a href="#" title="Delete this filter">Country: Italy <i aria-hidden="true" class="icon-remove"></i></a></li>-->
+                                            </ul>
+                                            <hr class="dotted">
+                                            <strong>Refine my results:</strong>
+
+                                            <div class="box filters">
+                                                <h3 class="collapsed" data-toggle="collapse" data-target="#filters-1">Political group <i aria-hidden="true" class="icon-arrow-down"></i></h3>
+                                                <div id="filters-1" class="collapse">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">EPP<span class="filter-count">32</span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">S&D<span class="filter-count">16</span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">ECR<span class="filter-count">21</span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">ALDE<span class="filter-count">09</span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Finance<span class="filter-count">04</span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Training<span class="filter-count">12</span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Communication<span class="filter-count">21</span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">IT Support<span class="filter-count">04</span></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="box filters">
+                                                <h3 class="collapsed" data-toggle="collapse" data-target="#filters-2">Governing body <i aria-hidden="true" class="icon-arrow-down"></i></h3>
+                                                <div id="filters-2" class="collapse">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">Conference of Delegation Chairs<span class="filter-count">12</span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Conference of Committee Chairs<span class="filter-count">06</span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Parliament's Bureau<span class="filter-count">04</span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Conference of Presidents<span class="filter-count">03</span></a>
+                                                        </li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="box filters">
+                                                <h3 class="collapsed" data-toggle="collapse" data-target="#filters-3">Committee <i aria-hidden="true" class="icon-arrow-down"></i></h3>
+                                                <div id="filters-3" class="collapse">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">ECON<span class="filter-count">119</span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">TAX2<span class="filter-count">79</span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">ITRE<span class="filter-count">34</span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">EMPL<span class="filter-count">22</span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">BUDG<span class="filter-count">19</span></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="box filters">
+                                                <h3 class="collapsed" data-toggle="collapse" data-target="#filters-4">Delegation <i aria-hidden="true" class="icon-arrow-down"></i></h3>
+                                                <div id="filters-4" class="collapse">
+
+                                                </div>
+                                            </div>
+                                            <div class="box filters">
+                                                <h3 class="collapsed" data-toggle="collapse" data-target="#filters-5">Country <i aria-hidden="true" class="icon-arrow-down"></i></h3>
+                                                <div id="filters-5" class="collapse">
+
+                                                </div>
+                                            </div>
+                                        </aside>
+                                    </div>
+                                </div>
+                                <!-- My bookmarks -->
+                                <script>
+                                    var BookmarksActionPath='/sites/epintranet/home/content-area/my-bookmarks.moveBookmarkElement.do'
+                                </script>
+                                <div role="tabpanel" class="tab-pane fade" id="mybookmarks">
+                                    <div role="toolbar" class="row sorting">
+                                        <div class="col-xs-16">
+                                            <a href="#" role="button" class="btn btn-secondary"><i aria-hidden="true" class="icon-new-folder"></i> New folder</a>
+                                            <a href="#" role="button" data-toggle="modal" data-target="#AddExternalBookmark" class="btn btn-secondary"><i aria-hidden="true" class="icon-link"></i> External bookmark</a>
+                                        </div>
+                                    </div>
+
+                                    <ol id="bookmarks" class="sortable">
+                                        <li class="folder" id="Folder1">
+                                            <div>
+                                                <a role="button" href="#BookmarksFolder1" data-toggle="collapse" aria-expanded="true" aria-controls="BookmarksFolder1">
+                                                    <i class="icon-arrow-down2"></i>
+                                                    <i class="icon-folder"></i> Personal folder
+                                                </a>
+                                                <div class="controls">
+                                                    <a href="#" role="button">
+                                                        <i aria-hidden="true" class="icon-new-folder"></i>
+                                                        <span class="sr-only">New folder</span>
+                                                    </a>
+                                                    <a href="#" type="button" class="edit"><i class="icon-edit"></i><span class="sr-only">Edit</span></a>
+                                                    <a aria-hidden="true" class="move"><i class="icon-move"></i><span class="sr-only">Move</span></a>
+                                                </div>
+                                            </div>
+                                            <ol class="collapse in" aria-expanded="true" id="BookmarksFolder1">
+                                                <!-- first li hidden item for keep list when drag&drop -->
+                                                <li class="item hidden" aria-hidden="true">
+                                                    <div></div>
+                                                </li>
+                                                <li class="item" id="Bookmark1">
+                                                    <div class="row">
+                                                        <div class="col-xs-11 col-sm-7 col-md-7 col-lg-9 title">
+                                                            <i class="icon-page"></i>
+                                                            <a href="#">How the number of MEPs will change after the new procedure</a></div>
+                                                        <div class="col-sm-6 col-md-6 col-lg-4 meta hidden-xs">
+                                                            <span class="label label-color3"><i class="icon-web"></i>&nbsp;<i>Intranet</i></span>
+                                                            <span class="label">Human resources</span>
+                                                        </div>
+                                                        <div class="col-sm-1 col-md-1 col-lg-1 meta text-center" data-toggle="tooltip" data-placement="top" data-delay="400" title="Add to favorite">
+                                                            <select class="favorite" name="favorite" aria-label="Add to favorite">
+                                                            <option></option>
+                                                            <option value="true">true</option>
+                                                        </select>
+                                                        </div>
+                                                        
+                                                        <div class="controls">
+                                                            <a href="#" type="button" class="edit"><i class="icon-edit"></i><span class="sr-only">Edit</span></a>
+                                                            <a aria-hidden="true" class="move"><i class="icon-move"></i><span class="sr-only">Move</span></a>
+                                                            <a href="#" type="button" class="remove"><i class="icon-remove"></i><span class="sr-only">Remove</span></a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li class="item" id="Bookmark2">
+                                                    <div class="row">
+                                                        <div class="col-xs-11 col-sm-7 col-md-7 col-lg-9 title">
+                                                            <i class="icon-link"></i>
+                                                            <a href="http://www.google.fr" target="_blank">Google France</a></div>
+                                                        <div class="col-sm-6 col-md-6 col-lg-4 meta hidden-xs">
+                                                            <span class="label label-color4"><i class="icon-link"></i>&nbsp;External link</span>
+                                                        </div>
+                                                        <div class="col-sm-1 col-md-1 col-lg-1 meta text-center" data-toggle="tooltip" data-placement="top" data-delay="400" title="Add to favorite">
+                                                            <select class="favorite" name="favorite" aria-label="Add to favorite">
+                                                            <option></option>
+                                                            <option value="true">true</option>
+                                                        </select>
+                                                        </div>
+                                                        <div class="controls">
+                                                            <a href="#" type="button" class="edit"><i class="icon-edit"></i><span class="sr-only">Edit</span></a>
+                                                            <a aria-hidden="true" class="move"><i class="icon-move"></i><span class="sr-only">Move</span></a>
+                                                            <a href="#" type="button" class="remove"><i class="icon-remove"></i><span class="sr-only">Remove</span></a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ol>
+
+                                        </li>
+                                        <li class="folder" id="Folder2">
+                                            <div>
+                                                <a class="collapsed" role="button" href="#BookmarksFolder2" data-toggle="collapse" aria-expanded="false" aria-controls="BookmarksFolder1">
+                                                    <i class="icon-arrow-down2"></i>
+                                                    <i class="icon-folder"></i> My Bookmarks folder
+                                                </a>
+                                                <div class="controls">
+                                                    <a href="#" role="button">
+                                                        <i aria-hidden="true" class="icon-new-folder"></i>
+                                                        <span class="sr-only">New folder</span>
+                                                    </a>
+                                                    <a href="#" type="button" class="edit"><i class="icon-edit"></i><span class="sr-only">Edit</span></a>
+                                                    <a aria-hidden="true" class="move"><i class="icon-move"></i><span class="sr-only">Move</span></a>
+                                                    <a href="#" type="button" class="remove"><i class="icon-remove"></i><span class="sr-only">Remove</span></a>
+                                                </div>
+                                            </div>
+                                            <ol aria-expanded="false" class="collapse" id="BookmarksFolder2">
+                                                <!-- first li hidden item for keep list when drag&drop -->
+                                                <li class="item hidden" aria-hidden="true">
+                                                    <div></div>
+                                                </li>
+                                                <li class="item" id="Bookmark3">
+                                                    <div class="row">
+                                                        <div class="col-xs-11 col-sm-7 col-md-7 col-lg-9 title">
+                                                            <i class="icon-page"></i>
+                                                            <a href="#">How the number of MEPs will change after the new procedure</a></div>
+                                                        <div class="col-sm-6 col-md-6 col-lg-4 meta hidden-xs">
+                                                            <span class="label label-color3"><i class="icon-web"></i>&nbsp;<i>Intranet</i></span>
+                                                            <span class="label">Human resources</span>
+                                                        </div>
+                                                        <div class="col-sm-1 col-md-1 col-lg-1 meta text-center" data-toggle="tooltip" data-placement="top" data-delay="400" title="Add to favorite">
+                                                            <select class="favorite" name="favorite" aria-label="Add to favorite">
+                                                            <option></option>
+                                                            <option value="true">true</option>
+                                                        </select>
+                                                        </div>
+                                                        <div class="controls">
+                                                            <a href="#" type="button" class="edit"><i class="icon-edit"></i><span class="sr-only">Edit</span></a>
+                                                            <a aria-hidden="true" class="move"><i class="icon-move"></i><span class="sr-only">Move</span></a>
+                                                            <a href="#" type="button" class="remove"><i class="icon-remove"></i><span class="sr-only">Remove</span></a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ol>
+                                        </li>
+                                        <li class="folder" id="Folder3">
+                                            <div>
+                                                <a class="collapsed" role="button" href="#BookmarksFolder3" data-toggle="collapse" aria-expanded="false" aria-controls="BookmarksFolder1">
+                                                    <i class="icon-arrow-down2"></i>
+                                                    <i class="icon-folder"></i> My Bookmarks folder
+                                                </a>
+
+                                                <div class="controls">
+                                                    <a href="#" role="button">
+                                                        <i aria-hidden="true" class="icon-new-folder"></i>
+                                                        <span class="sr-only">New folder</span>
+                                                    </a>
+                                                    <a href="#" type="button" class="edit"><i class="icon-edit"></i><span class="sr-only">Edit</span></a>
+                                                    <a aria-hidden="true" class="move"><i class="icon-move"></i><span class="sr-only">Move</span></a>
+                                                    <a href="#" type="button" class="remove"><i class="icon-remove"></i><span class="sr-only">Remove</span></a>
+                                                </div>
+                                            </div>
+                                            <ol aria-expanded="false" class="collapse" id="BookmarksFolder3">
+                                                <!-- first li hidden item for keep list when drag&drop -->
+                                                <li class="item hidden" aria-hidden="true">
+                                                    <div></div>
+                                                </li>
+                                                <li class="item" id="Bookmark4">
+                                                    <div class="row">
+                                                        <div class="col-xs-11 col-sm-7 col-md-7 col-lg-9 title">
+                                                            <i class="icon-page"></i>
+                                                            <a href="#">How the number of MEPs will change after the new procedure</a></div>
+                                                        <div class="col-sm-6 col-md-6 col-lg-4 meta hidden-xs">
+                                                            <span class="label label-color3"><i class="icon-web"></i>&nbsp;<i>Intranet</i></span>
+                                                            <span class="label">Human resources</span>
+                                                        </div>
+                                                        <div class="col-sm-1 col-md-1 col-lg-1 meta text-center" data-toggle="tooltip" data-placement="top" data-delay="400" title="Add to favorite">
+                                                            <select class="favorite" name="favorite" aria-label="Add to favorite">
+                                                            <option></option>
+                                                            <option value="true">true</option>
+                                                        </select>
+                                                        </div>
+                                                        <div class="controls">
+                                                            <a href="#" type="button" class="edit"><i class="icon-edit"></i><span class="sr-only">Edit</span></a>
+                                                            <a aria-hidden="true" class="move"><i class="icon-move"></i><span class="sr-only">Move</span></a>
+                                                            <a href="#" type="button" class="remove"><i class="icon-remove"></i><span class="sr-only">Remove</span></a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="item" id="Bookmark5">
+                                                    <div class="row">
+                                                        <div class="col-xs-11 col-sm-7 col-md-7 col-lg-9 title">
+                                                            <i class="icon-page"></i>
+                                                            <a href="#">How the number of MEPs will change after the new procedure</a></div>
+                                                        <div class="col-sm-6 col-md-6 col-lg-4 meta hidden-xs">
+                                                            <span class="label label-color3"><i class="icon-web"></i>&nbsp;<i>Intranet</i></span>
+                                                            <span class="label">Human resources</span>
+                                                        </div>
+                                                        <div class="col-sm-1 col-md-1 col-lg-1 meta text-center" data-toggle="tooltip" data-placement="top" data-delay="400" title="Add to favorite">
+                                                            <select class="favorite" name="favorite" aria-label="Add to favorite">
+                                                            <option></option>
+                                                            <option value="true">true</option>
+                                                        </select>
+                                                        </div>
+                                                        <div class="controls">
+                                                            <a href="#" type="button" class="edit"><i class="icon-edit"></i><span class="sr-only">Edit</span></a>
+                                                            <a aria-hidden="true" class="move"><i class="icon-move"></i><span class="sr-only">Move</span></a>
+                                                            <a href="#" type="button" class="remove"><i class="icon-remove"></i><span class="sr-only">Remove</span></a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ol>
+                                        </li>
+                                    </ol>
+                                    <!-- Modal add a External bookmark -->
+                                <div class="modal fade" id="AddExternalBookmark" role="dialog" aria-labelledby="AddExternalBookmarkLabel">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                <h4 class="modal-title" id="AddExternalBookmarkLabel">Add bookmark</h4>
+                                            </div>
+                                            <form class="form-horizontal dashed">
+                                                <div class="modal-body">
+                                                        <div class="form-group">
+                                                            <label class="col-sm-4 control-label" for="BookmarkTitle">Title:</label>
+                                                            <div class="col-sm-9">
+                                                                <input type="text" class="form-control" id="BookmarkTitle" value="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                                    <label class="col-sm-4 control-label" for="BookmarkUrl">Url:</label>
+                                                                    <div class="col-sm-6">
+                                                                        <input type="text" id="BookmarkUrl" >
+                                                                    </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label class="col-sm-4 control-label" for="BookmarkFolder">Folder:</label>
+                                                            <div class="col-sm-10">
+                                                                <!-- Start tree view selection -->
+                                                                <ol class="treeview treeview-select">
+                                                                    <li>
+                                                                        <input type="radio" name="optionsRadios" id="optionsRadios0" checked class="check sr-only" value="">
+                                                                        <label for="optionsRadios0">
+                                                                              My bookmarks
+                                                                        </label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <ol>
+                                                                        <li class="folder">
+                                                                        <input type="radio" name="optionsRadios" id="optionsRadios1" class="check sr-only" value="">
+                                                                        <label for="optionsRadios1">
+                                                                              <i class="icon-folder"></i> Personal folder
+                                                                        </label>
+                                                                        <ol>
+                                                                            <li class="folder">
+                                                                                <input type="radio" name="optionsRadios" id="optionsRadios2" class="check sr-only" value="">
+                                                                        <label for="optionsRadios2">
+                                                                              <i class="icon-folder"></i> Personal folder 2
+                                                                        </label>
+
+                                                                            </li>
+                                                                            <li class="folder">
+                                                                                <input type="radio" name="optionsRadios" id="optionsRadios3" class="check sr-only" value="">
+                                                                        <label for="optionsRadios3">
+                                                                              <i class="icon-folder"></i> Personal folder 3
+                                                                        </label>
+                                                                            </li>
+                                                                        </ol>
+                                                                    </li>
+                                                                    <li class="folder">
+                                                                        <input type="radio" name="optionsRadios" id="optionsRadios4" class="check sr-only" value="">
+                                                                        <label for="optionsRadios4">
+                                                                              <i class="icon-folder"></i> Personal folder 4
+                                                                        </label>
+                                                                    </li>
+                                                                    </ol>
+                                                                    </li>
+                                                                </ol>
+                                                                <!-- End tree view selection -->
+                                                            </div>
+                                                        </div>
+                                                        
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                                    <button type="button" class="btn btn-primary">Add</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                 
+                                </div>
+                                <!-- My suscriptions -->
+                                <div role="tabpanel" class="tab-pane fade" id="mysuscriptions">
+                                    <ul class="nav nav-tabs3" role="tablist">
+                                        <li role="presentation" class="active">
+                                            <a href="#pages" aria-controls="pages" role="tab" data-toggle="tab">
+                                                <h3><i aria-hidden="true" class="icon-page"></i> Pages</h3></a>
+
+                                        </li>
+                                        <li role="presentation">
+                                            <a href="#documents" aria-controls="documents" role="tab" data-toggle="tab">
+                                                <h3><i aria-hidden="true" class="icon-doc2"></i> Documents</h3></a>
+                                        </li>
+                                    </ul>
+                                    <!-- Tab panel -->
+                                    <div class="tab-content">
+                                        <!-- Pages -->
+                                        <div role="tabpanel" class="tab-pane fade active in" id="pages">
+                                            <div class="row">
+                                                <div class="col-xs-16 col-sm-8">
+
+                                                </div>
+                                                <div class="col-xs-16 col-sm-8 text-right">
+                                                    <ul class="pager">
+                                                        <li class="prev disabled"><a title="previous page" href="#"><i class="icon-arrow-left"></i></a></li>
+                                                        <li><strong>1-5</strong> of 5</li>
+                                                        <li class="next disabled"><a title="next page" href="#"><i class="icon-arrow-right"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div role="toolbar" class="row">
+                                                <div class="col-xs-16">
+                                                    <!-- Dropdown custom -->
+                                                    <div class="btn-group">
+                                                        <button type="button" class="btn-select dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Actions <i aria-hidden="true" class="icon-arrow-down2"></i>
+                                                        </button>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="#">Select all</a>
+                                                            </li>
+                                                            <li><a class="disabled" href="#">Unsubscribe</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <!-- Dropdown custom -->
+                                                    <div class="btn-group">
+                                                        <button type="button" class="btn-select dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i aria-hidden="true" class="icon-sort"></i> Last update <i aria-hidden="true" class="icon-arrow-down2"></i>
+                                                        </button>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="#">Page name</a>
+                                                            </li>
+                                                            <li><a href="#">Topic</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <!-- Start content panel my pages suscritions -->
+                                            <table class="table-selec">
+                                                <thead>
+                                                    <tr>
+                                                        <th></th>
+                                                        <th>Page name</th>
+                                                        <th>Topic</th>
+                                                        <th>Last update</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <input type="checkbox" id="page01" class="check sr-only">
+                                                            <label class="label-hidden" for="page01">
+                                                            </label>
+                                                        </td>
+                                                        <!--<td><span class="label new">New</span></td>-->
+                                                        <td>
+                                                            <a href="#" class="page-name">How the number of MEPs will change after the new procedure</a>
+
+                                                        </td>
+                                                        <td><span class="label">Human resources</span></td>
+                                                        <td><span class="date"><i aria-hidden="true" class="icon-clock"></i>23.11.2015</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <input type="checkbox" id="page02" class="check sr-only">
+                                                            <label class="label-hidden" for="page02">
+                                                            </label>
+
+                                                        </td>
+                                                        <td>
+                                                            <a href="#" class="page-name">Annual medical check-up</a>
+
+                                                        </td>
+                                                        <td><span class="label">Human resources</span></td>
+                                                        <td><span class="date"><i aria-hidden="true" class="icon-clock"></i>19.11.2015</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <input type="checkbox" id="page03" class="check sr-only">
+                                                            <label class="label-hidden" for="page03">
+                                                            </label>
+
+                                                        </td>
+                                                        <td>
+                                                            <a href="#" class="page-name">COMAP procedure</a>
+
+                                                        </td>
+                                                        <td><span class="label">IT Support</span></td>
+                                                        <td><span class="date"><i aria-hidden="true" class="icon-clock"></i>04.11.2015</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <input type="checkbox" id="page04" class="check sr-only">
+                                                            <label class="label-hidden" for="page04">
+                                                            </label>
+
+                                                        </td>
+                                                        <td>
+                                                            <a href="#" class="page-name">Access and transport</a>
+
+                                                        </td>
+                                                        <td><span class="label">Buildings & offices</span></td>
+                                                        <td><span class="date"><i aria-hidden="true" class="icon-clock"></i>01.11.2015</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <input type="checkbox" id="page05" class="check sr-only">
+                                                            <label class="label-hidden" for="page05">
+                                                            </label>
+
+                                                        </td>
+                                                        <td>
+                                                            <a href="#" class="page-name">Access to car parks</a>
+
+                                                        </td>
+                                                        <td><span class="label">Buildings & offices</span></td>
+                                                        <td><span class="date"><i  aria-hidden="true" class="icon-clock"></i>25.10.2015</span></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <!-- End content panel my pages suscrition -->
+                                            <div class="row">
+                                                <div class="col-xs-16 text-right">
+                                                    <ul class="pager">
+                                                        <li class="prev disabled"><a title="previous page" href="#"><i class="icon-arrow-left"></i></a></li>
+                                                        <li><strong>1-5</strong> of 5</li>
+                                                        <li class="next disabled"><a title="next page" href="#"><i class="icon-arrow-right"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane fade" id="documents"></div>
+                                    </div>
+
+                                </div>
+                                <!-- My notifications -->
+                                <div role="tabpanel" class="tab-pane fade" id="mynotifications">
+                                    <div class="row">
+                                        <div class="col-md-11">
+                                            <div class="row">
+                                                <div class="col-sm-8">
+                                                    <h3>2 new notifications</h3>
+                                                </div>
+                                                <div class="col-sm-8 text-right">
+                                                    <ul class="pager">
+                                                        <li class="prev disabled"><a title="previous page" href="#"><i class="icon-arrow-left"></i></a></li>
+                                                        <li><strong>1-5</strong> of 5</li>
+                                                        <li class="next disabled"><a title="next page" href="#"><i class="icon-arrow-right"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div role="toolbar" class="row sorting">
+                                                <div class="col-xs-16">
+                                                    <!-- Dropdown custom -->
+                                                    <div class="btn-group">
+                                                        <button type="button" class="btn-select dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Actions <i aria-hidden="true" class="icon-arrow-down2"></i>
+                                                        </button>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="#">Select all</a>
+                                                            </li>
+                                                            <li><a class="disabled" href="#">Mark as read</a>
+                                                            </li>
+                                                            <li><a class="disabled" href="#">Mark as unread</a>
+                                                            </li>
+                                                            <li><a href="#">Mark all as read</a>
+                                                            </li>
+                                                            <li><a href="#">Delete</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <!-- Start timeline notifications -->
+                                            <ul class="timeline">
+                                                <li class="timeline-item unread">
+                                                    <div class="timeline-date">
+                                                        <span class="date"><i aria-hidden="true" class="icon-clock"></i>3hrs ago</span>
+                                                    </div>
+                                                    <div class="timeline-icon">
+                                                        <i aria-hidden="true" class="icon-page"></i>
+                                                    </div>
+                                                    <input type="checkbox" id="notif1" class="check sr-only">
+                                                    <label class="label-hidden" for="notif1">
+                                                    </label>
+                                                    <div class="timeline-content animated pulse">
+                                                        <span class="title"><span class="label new">new</span>Update of the page :</span>
+                                                        <a href="#">How to acces to the car park</a>
+                                                    </div>
+                                                </li>
+                                                <li class="timeline-item unread color-4">
+                                                    <div class="timeline-date">
+                                                        <span class="date"><i aria-hidden="true" class="icon-clock"></i>2 days ago</span>
+                                                    </div>
+                                                    <div class="timeline-icon">
+                                                        <i aria-hidden="true" class="icon-doc2"></i>
+                                                    </div>
+                                                    <input type="checkbox" id="notif2" class="check sr-only">
+                                                    <label class="label-hidden" for="notif2">
+                                                    </label>
+                                                    <div class="timeline-content animated pulse">
+                                                        <span class="title"><span class="label new">new</span>Update of the document :</span>
+                                                        <a href="#">car park sticker</a>
+                                                    </div>
+                                                </li>
+                                                <li class="timeline-item">
+                                                    <div class="timeline-date">
+                                                        <span class="date"><i aria-hidden="true" class="icon-clock"></i>12 days ago</span>
+                                                    </div>
+                                                    <div class="timeline-icon">
+                                                        <i aria-hidden="true" class="icon-page"></i>
+                                                    </div>
+                                                    <input type="checkbox" id="notif3" class="check sr-only">
+                                                    <label class="label-hidden" for="notif3">
+                                                    </label>
+                                                    <div class="timeline-content animated fadeIn">
+                                                        <span class="title">Update of the page :</span>
+                                                        <a href="#">How to acces to the car park</a>
+                                                    </div>
+                                                </li>
+                                                <li class="timeline-item">
+                                                    <div class="timeline-date">
+                                                        <span class="date"><i aria-hidden="true" class="icon-clock"></i>45 days ago</span>
+                                                    </div>
+                                                    <div class="timeline-icon">
+                                                        <i aria-hidden="true" class="icon-page"></i>
+                                                    </div>
+                                                    <input type="checkbox" id="notif4" class="check sr-only">
+                                                    <label class="label-hidden" for="notif4">
+                                                    </label>
+                                                    <div class="timeline-content animated fadeIn">
+                                                        <span class="title">Update of the page :</span>
+                                                        <a href="#">How to acces to the car park</a>
+                                                    </div>
+                                                </li>
+                                                <li class="timeline-item color-7">
+                                                    <div class="timeline-date">
+                                                        <span class="date"><i aria-hidden="true" class="icon-clock"></i>45 days ago</span>
+                                                    </div>
+                                                    <div class="timeline-icon">
+                                                        <i aria-hidden="true" class="icon-km"></i>
+                                                    </div>
+                                                    <input type="checkbox" id="notif5" class="check sr-only">
+                                                    <label class="label-hidden" for="notif5">
+                                                    </label>
+                                                    <div class="timeline-content animated fadeIn">
+                                                        <span class="title">New procedures :</span>
+                                                        <a href="#">Interim report on the inquiry into emission measurements in the automotive sector Committee on inquiry...</a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <div class="row">
+                                                <div class="col-sm-8">
+                                                </div>
+                                                <div class="col-sm-8 text-right">
+                                                    <ul class="pager">
+                                                        <li class="prev disabled"><a title="previous page" href="#"><i class="icon-arrow-left"></i></a></li>
+                                                        <li><strong>1-5</strong> of 5</li>
+                                                        <li class="next disabled"><a title="next page" href="#"><i class="icon-arrow-right"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <!-- Sidebar right content (filters)-->
+                                        <aside class="col-md-5">
+                                            <i aria-hidden="true" class="icon-filter"></i>
+                                            <strong> Your filters:</strong>
+                                            <a class="pull-right" href="">Clear all</a>
+                                            <ul class="filters">
+                                                <li class="label no-filters">No filters</li>
+                                            </ul>
+                                            <div class="box filters">
+                                                <h3 data-toggle="collapse" data-target="#filters-001">Status <i aria-hidden="true" class="icon-arrow-down"></i></h3>
+                                                <div id="filters-001" class="collapse in">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">Unread<span class="filter-count">02</span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Read<span class="filter-count">02</span></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="box filters">
+                                                <h3 data-toggle="collapse" data-target="#filters-002">Notifications type <i aria-hidden="true" class="icon-arrow-down"></i></h3>
+                                                <div id="filters-002" class="collapse in">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#"><i aria-hidden="true" class="icon-page"></i> Pages<span class="filter-count">02</span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><i aria-hidden="true" class="icon-doc2"></i> Documents<span class="filter-count">01</span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><i aria-hidden="true" class="icon-meeting"></i> Meetings<span class="filter-count">03</span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><i aria-hidden="true" class="icon-km"></i> KM Portal<span class="filter-count">06</span></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                        </aside>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <!-- Bloc Privacy -->
+                            <div class="publishedby">
+                                <div class="row">
+                                    <div class="col-xs-10 col-md-11">
+                                        <small><a href="#">Privacy statement</a>
+                                        
+                                    </small>
+                                    </div>
+                                    <div class="col-xs-6 col-md-5 text-right">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Bloc poll -->
+                            <div class="poll">
+                                <span class="question">Did you find what you were looking for? </span>
+                                <ul class="radiogroup" role="radiogroup">
+                                    <li>
+                                        <input type="radio" role="radio" name="optionsRadios" id="optionsRadios1" class="check sr-only" value="yes">
+                                        <label for="optionsRadios1">
+                                            <strong>Yes</strong>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" role="radio" name="optionsRadios" id="optionsRadios2" class="check sr-only" value="no">
+                                        <label for="optionsRadios2">
+                                            <strong>No</strong>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer role="contentinfo">
+        <div class="footer1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h2>Phone numbers</h2>
+                        <ul>
+                            <li>Emergencies <span class="pull-right">85112</span>
+                            </li>
+                            <li>IT support <span class="pull-right">46480</span>
+                            </li>
+                            <li>Info Desks <span class="pull-right">41600</span>
+                            </li>
+                        </ul>
+                        <a class="btn btn-primary" href="#">Other EU directories</a>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2 id="SearchForm">Search for a form</h2>
+                        <p>More than 200 administrative forms</p>
+                        <!-- Search bar -->
+                        <div class="search">
+                            <input type="text" id="search-form" placeholder="Type topic or keyword" aria-labelledby="SearchForm">
+                            <button type="submit" class="icon-search"><span class="sr-only">Search</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2 id="SearchEPDir">Search EP Directory</h2>
+                        <p>More than 900 people and services</p>
+                        <!-- Search bar -->
+                        <div class="search">
+                            <input type="text" id="search-epdir" placeholder="Type name, job or service" aria-labelledby="SearchEPDir">
+                            <button type="submit" class="icon-search"><span class="sr-only">Search</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2>Help</h2>
+                        <p>Questions about EP Intranet ?</p>
+                        <a class="btn btn-primary" href="#">Visit the Help Centre</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        The Intranet of the European Parliament - ©2016
+                    </div>
+                    <div class="col-sm-8 text-right">
+                        <a href="#">Legal mentions</a> - <a href="#">Cookie usage</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Button Scroll to top -->
+    <button aria-hidden="true" type="button" class="btn scrollToTop"><i aria-hidden="true" class="icon-arrow-up"></i><span class="sr-only">Scroll to top</span>
+    </button>
+    <!-- The Bootstrap Image Gallery lightbox DIV, should be a child element of the document body -->
+    <div id="blueimp-gallery" role="dialog" aria-label="Gallery" class="blueimp-gallery blueimp-gallery-controls">
+        <!-- The container for the modal slides -->
+        <div class="slides"></div>
+        <h3 class="title"><span class="sr-only">title</span></h3>
+        <p class="description"></p>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+        <a class="play-pause"></a>
+        <ol class="indicator"></ol>
+    </div>
+    <!-- JS -->
+    <script src="javascript/jquery-1.11.3.min.js"></script>
+    <script src="javascript/jquery-ui-1.11.4.custom.min.js"></script>
+    <script src="javascript/jquery-ui-timepicker-addon.min.js"></script>  
+    <!-- Jquery sortable in tree (dependance jquery ui) -->
+    <script src="javascript/jquery.mjs.nestedSortable.js"></script>
+    <script src="javascript/bootstrap.min.js"></script>
+    <!-- custom Select dropdown for Bootstrap -->
+    <script src="javascript/bootstrap-select.js"></script>
+    <script src="javascript/modernizr.custom.js"></script>
+    <!-- jpanelmenu for Off canvas menu (mobile) -->
+    <script src="javascript/jquery.jpanelmenu-custom.js"></script>
+    <!-- jRespond for manage javascript on responsive (used with jpanelmenu) -->
+    <script src="javascript/jRespond.min.js"></script>
+    <!-- Blueimp-gallery for gallery, lightbox and sliders -->
+    <script src="javascript/jquery.blueimp-gallery.min.js"></script>
+    <!-- JS for cookies -->
+    <script src="javascript/jquery.cookie.js"></script>
+    <!-- Rating plugin (& favorite checkbox) -->
+    <script src="javascript/jquery.barrating.js"></script>
+    <!-- Joyride Tour plugin -->
+    <script src="javascript/jquery.joyride-2.1.js"></script>
+    <!-- Scripts for EP Intranet -->
+    <script src="javascript/ep-scripts.js"></script>
+
+</body>
+
+</html>

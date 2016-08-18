@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<html xml:lang="en" lang="en" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DGs News - EP Intranet</title>
+    <meta name="description" content="EP Intranet" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png">
+    <!-- CSS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/ep-styles.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+		<script src="javascript/html5shiv.js"></script>
+		<script src="javascript/respond.min.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+     <header role="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-2 col-sm-1 col-md-4">
+                    <!-- Control for accesibility -->
+                    <div id="skip">
+                        <ul>
+                            <li><a href="#skip-content">Go to content</a></li>
+                            <li><a href="#search-desktop">Go to search</a></li>
+                            <li><a href="#nav-left">Go to navigation</a></li>
+                            <li>
+                                <button id="contrast" class="btn" title="Change the contrast">
+                                    Contrast
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Btn menu mobile -->
+                    <button type="button" class="navbar-toggle visible-sm visible-xs" aria-expanded="false" aria-controls="nav-left">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="sr-only">Toggle navigation</span>
+                    </button>
+                    <!-- Logo desktop -->
+                    <a class="ep-logo hidden-sm hidden-xs" href="#" title="Go to homepage">
+                        <img src="img/logo.svg" alt="">
+                        <span class="title">EP Intranet</span>
+                    </a>
+                </div>
+                <div class="col-xs-11 col-sm-12 col-md-8">
+                    <!-- Logo mobile -->
+                    <div class="ep-logo visible-xs visible-sm">
+                        <img src="img/logo.svg" alt="">
+                        <span class="title">EP Intranet</span>
+                    </div>
+                    <!-- Search bar -->
+                    <div class="search" role="search">
+                        <form method="get" id="s" action="/">
+                            <input type="text" id="search-desktop" placeholder="Search for people, documents, forms..." title="Search for people, documents, forms...">
+                            <button aria-label="Search" type="submit" class="icon-search">
+                            </button>
+                        </form>
+                        <!-- Panel auto suggestion -->
+                        <ul aria-hidden="true" class="animated flipInX auto-suggestion arrow">
+                            <li class="header-title">Best results - <small>56 results in total</small></li>
+                            <li class="item"><a href="#"><span class="title">EP Delegation <mark>trav</mark>els to Climate Change Conference</span>
+                                <span class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus urna</span>
+</a></li>
+                            <li class="item"><a href="#"><span class="title">EP Delegation <mark>trav</mark>els to Climate Change Conference</span>
+                                <span class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus urna</span>
+</a></li>
+                            <li class="item"><a href="#"><span class="title">EP Delegation <mark>trav</mark>els to Climate Change Conference</span>
+                                <span class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus urna</span>
+</a></li>
+                            <li class="header-title">Documents - <small>2 results in total <a class="pull-right" href="#">All results for documents</a></small></li>
+                            <li class="item">
+                                <a href="#">
+                                    <i class="icon-doc pdf"></i>
+                                    <span class="right">
+                                        <span class="title">EP Delegation <mark>trav</mark>els to Climate Change Conference</span>
+                                    <span class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus urna</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="header-title">Peoples - <small>1 result in total <a class="pull-right" href="#">All results for peoples</a></small></li>
+                            <li class="item">
+                                <a href="#">
+                                    <img class="img-circle" src="img/tmp/avatar01.jpg" alt="...">
+                                    <span class="right">
+                                                                    <span class="title">Mr Marcel DE<mark>GRA</mark>AFF</span>
+                                    <p>Member of the European Parliament
+                                        <br>
+                                        <span class="label" title="EP > Parliament's Secretariat > ... breadcrumb">Intranet Service</span>
+                                    </p>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li class="text-center"><a class="btn" role="button" href="#">View all</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-4 text-right">
+                    <!-- Languages -->
+                    <!-- Dropdown custom -->
+                    <div class="btn-group lang hidden-xs">
+                        <button type="button" class="btn-select btn-sm dropdown-toggle" data-toggle="dropdown" aria-label="Change language" aria-haspopup="true" aria-expanded="false">
+                            EN<i class="icon-arrow-down2"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a href="#">EN</a>
+                            </li>
+                            <li><a href="#">FR</a>
+                            </li>
+                            <li><a href="#">DE</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- User menu -->
+                    <div class="dropdown profile">
+                        <!-- Avatar -->
+                        <a class="btn dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true" aria-label="Show my personal menu" href="#">
+                            <div class="user-picture">
+                                <img class="img-circle" src="img/tmp/avatar01.jpg" alt="">
+                                <!--<span>JS</span>-->
+                            </div>
+                            <span aria-label="Nb of notifications" class="badge">12</span>
+                            <span class="title">John</span>
+                            <i aria-hidden="true" class="icon-arrow-down2"></i>
+                        </a>
+                        <!-- Menu popover user -->
+                        <ul class="navuser dropdown-menu dropdown-menu-right arrow ">
+                            <li class="lang-mobile visible-xs visible-sm">
+                                <!-- Dropdown custom -->
+                                <div class="btn-group lang">
+                                    <button type="button" class="btn-select btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        EN <i class="icon-arrow-down2"></i>
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-right">
+                                        <li><a href="#">EN</a>
+                                        </li>
+                                        <li><a href="#">FR</a>
+                                        </li>
+                                        <li><a href="#">DE</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#"><i aria-hidden="true" class="icon-setting"></i>My Settings</a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i aria-hidden="true" class="icon-contacts"></i>My Contacts
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i aria-hidden="true" class="icon-book"></i>My Bookmarks
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i aria-hidden="true" class="icon-suscribe"></i>My Suscriptions
+                                </a>
+                            </li>
+                            <li><a href="#"><i aria-hidden="true" class="icon-notif"></i>My Notifications</a>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i aria-hidden="true" class="icon-page"></i> Page
+                                            <span class="badge animated bounceIn">2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i aria-hidden="true" class="icon-doc2"></i> Documents
+                                            <span class="badge animated bounceIn">1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i aria-hidden="true" class="icon-meeting"></i> Meetings
+                                            <span class="badge animated bounceIn">3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i aria-hidden="true" class="icon-km"></i> KM Portal
+                                            <span class="badge animated bounceIn">6</span>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <!--<li class="notifications">
+                                <div class="alert alert-notif alert-dismissible" role="alert">
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <i aria-hidden="true" class="icon-page"></i>
+                                    <strong>Karen updated the page :</strong>
+                                    <br>
+                                    <a href="#">
+                                    How to access the car park</a>
+                                    <time datetime="2016-04-02"><i aria-hidden="true" class="icon-clock"></i> 02.04.2016
+                                    </time>
+                                </div>
+                            </li>-->
+                            <li role="separator" class="divider"></li>
+                            <li class="logout">
+                                <a href="#">
+                                    <i aria-hidden="true" class="icon-power"></i> Log out from EPNet
+                                    <span class="timeout">Session: 03:55:35</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Bandeau Alert 
+                <div class="alert alert-warning alert-dismissible text-center" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <strong><i class="icon-alert"></i> Avertissement :</strong> cet élément de structure se situe à un endroit inapproprié.
+                </div>-->
+    <!-- End Bandeau Alert -->
+    <div id="content" class="container">
+        <div class="row">
+            <!-- Nav left -->
+            <div class="col-md-4 col-lg-3">
+                <nav role="navigation" id="nav-left" class="navmenu">
+                    <ul class="nav">
+                        <li>
+                            <!-- Selectbox browseas -->
+                            <div class="browseas">
+                                <p>Browse As:</p>
+                                <!-- Dropdown custom -->
+                                <div class="btn-group">
+                                    <button type="button" class="btn-select dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Administrative staff <i aria-hidden="true" class="icon-arrow-down2"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Administrative staff</a>
+                                        </li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Member of Parliament</a>
+                                        </li>
+                                        <li><a href="#">Parliamentary assistant</a>
+                                        </li>
+                                        <li><a href="#">External staff</a>
+                                        </li>
+                                        <li><a href="#">Trainee</a>
+                                        </li>
+                                        <li><a href="#">Retired staff</a>
+                                        </li>
+                                        <li><a href="#">Retired Member</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <i aria-hidden="true" class="icon-arrow-down2"></i>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/human-resources.svg">Human resources</a>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/buildings.svg">Buildings and offices</a>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/meetings.svg">Meetings and events</a>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/missions.svg">Missions and travel</a>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/finance.svg">Finance</a>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/training.svg">Training</a>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/communication.svg">Communication </a>
+                        </li>
+                        <li>
+                            <a href="#"><img alt="" src="img/icons/it-support.svg">IT support</a>
+                        </li>
+                    </ul>
+                    <ul class="nav2 nav-accordion" role="tablist" aria-multiselectable="true">
+                        <li class="panel" role="presentation">
+                            <button role="tab" type="button" data-toggle="collapse" data-target="#nav-collapse1" data-parent=".nav-accordion" aria-expanded="false" class="collapsed">DG<small>s</small> and Services<i aria-hidden="true" class="icon-arrow-down2"></i>
+                            </button>
+                            <ul id="nav-collapse1" class="collapse" role="tabpanel">
+                                <li><a href="#">DG PERS</a></li>
+                                <li><a href="#">DG COMM</a></li>
+                                <li><a href="#">DG ITEC</a></li>
+                                <li><a href="#">DG PRES</a></li>
+                                <li><a href="#">DG FINS</a></li>
+                                <li><a href="#">DG SAFE</a></li>
+                                <li><a href="#">DG INTE</a></li>
+                                <li><a href="#">DG INLO</a></li>
+                                <li><a href="#">DG IPOL</a></li>
+                                <li><a href="#">DG EPRS</a></li>
+                                <li><a href="#">DG EXPO</a></li>
+                                <li><a href="#">DG TRAD</a></li>
+                                <li><a href="#">Legal Service</a></li>
+                                <li><a href="#">Secretary-General</a></li>
+                                <li><a href="#">Deputy Secretary-General</a></li>
+                                <li><a href="#">Staff Committee</a></li>
+                                <li><a href="#">Organisation chart</a></li>
+                            </ul>
+                        </li>
+                        <li class="panel" role="presentation">
+                            <button role="tab" type="button" data-toggle="collapse" data-target="#nav-collapse2" data-parent=".nav-accordion" aria-expanded="false" class="collapsed">Parliamentary life<i aria-hidden="true" class="icon-arrow-down2"></i></button>
+                            <ul id="nav-collapse2" class="collapse" role="tabpanel">
+                                <li><a href="#">Today in Parliament</a></li>
+                                <li><a href="#">Today's press</a></li>
+                                <li><a href="#">Plenary session</a></li>
+                                <li><a href="#">President and Members</a></li>
+                                <li><a href="#">Conference of Presidents</a></li>
+                                <li><a href="#">Bureau and Quaestors</a></li>
+                                <li><a href="#">Conference of Committee Chairs</a></li>
+                                <li><a href="#">Committees</a></li>
+                                <li><a href="#">Delegations</a></li>
+                                <li><a href="#">Parliament's secretariat</a></li>
+                                <li><a href="#">Political groups</a></li>
+                                <li><a href="#">Legislative activities</a></li>
+                                <li><a href="#">Documents</a></li>
+                            </ul>
+                        </li>
+                        <li class="panel" role="presentation">
+                            <button role="tab" type="button" data-toggle="collapse" data-target="#nav-collapse3" data-parent=".nav-accordion" aria-expanded="false" class="collapsed">Life outside work<i aria-hidden="true" class="icon-arrow-down2"></i></button>
+                            <ul id="nav-collapse3" class="collapse" role="tabpanel">
+                                <li><a href="#">In Brussels</a></li>
+                                <li><a href="#">In Luxembourg</a></li>
+                                <li><a href="#">In Strasbourg</a></li>
+                                <li><a href="#">Small ads</a></li>
+                            </ul>
+                        </li>
+                        <li class="panel" role="presentation">
+                            <button role="tab" type="button" data-toggle="collapse" data-target="#nav-collapse4" data-parent=".nav-accordion" aria-expanded="false" class="collapsed">EP Intranet Help centre<i aria-hidden="true" class="icon-arrow-down2"></i></button>
+                            <ul id="nav-collapse4" class="collapse" role="tabpanel">
+                                <li><a href="#">Features and customisation</a></li>
+                                <li><a href="#">Contributing to EP Intranet</a></li>
+                                <li><a href="#">EP Intranet mobile</a></li>
+                                <li><a href="#">EP Directory</a></li>
+                                <li><a href="#">EP Intranet team</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Content right -->
+            <div class="col-md-12 col-lg-13">
+                <!-- Start message error
+                <div class="alert alert-danger alert-dismissible" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <strong><i class="icon-alert"></i> Avertissement :</strong> cet élément de structure se situe à un endroit inapproprié.
+                </div>-->
+                <!-- End message error -->
+                <!-- Breadcrumb -->
+                <ul class="breadcrumb">
+                    <li class="sr-only">You are here :</li>
+                    <li><a href="#">Home</a></li>
+                    <li>DGs News</li>
+                </ul>
+                <div class="bg-content">
+                    <!-- Main content -->
+                    <div id="skip-content" role="main" class="main-content col-md-11 col-lg-11 ">
+                        <section class="newslistlight-page">
+                            <h1>DGs News</h1>
+                            <!-- Pager -->
+                            <div class="row">
+                                <div class="col-lg-16 text-right">
+                                    <ul class="pager">
+                                        <li class="prev disabled"><a title="previous page" href="#"><i aria-hidden="true" class="icon-arrow-left"></i></a></li>
+                                        <li><strong>1-8</strong> of 8</li>
+                                        <li class="next"><a title="next page" href="#"><i aria-hidden="true" class="icon-arrow-right"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <ul class="row list-results">
+                                <li>
+                                    <a href="#" title="Screening of the movie 'A haunting story' today in the Yehudi Menuhin space">
+                                        <div class="row">
+                                            <!--  texte -->
+                                            <div class="col-sm-16">
+                                                <h3>Screening of the movie 'A haunting story' today in the Yehudi Menuhin space</h3>
+                                                <div class="meta">
+                                                    <time datetime="2016-04-11"><i aria-hidden="true" class="icon-clock"></i> 20.04.2016
+                                                    </time>
+                                                    <span class="label label-color9">DG COMM</span>
+                                                    
+                                                </div>
+                                                <!--<p>Today Sakharov Prize Laureate Salih Osman will be participating in a debate on the conflict in South Sudan in the European Parliament. The debate will follow the screening of the movie 'A haunting history', organised by DG EXPO in the frame of the One World Human Rights Film Festival.</p>-->
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="How the number of MEPs will change after the 2015 elections">
+                                        <div class="row">
+                                            <!--  texte -->
+                                            <div class="col-sm-16">
+                                                <h3>Before organising your next meeting... read this on PRESnet ;-)!</h3>
+                                                <div class="meta">
+                                                    <time datetime="2016-04-11"><i aria-hidden="true" class="icon-clock"></i> 05.04.2016
+                                                    </time>
+                                                    <span class="label label-color10">DG PRES</span>
+                                                </div>
+                                                <!--<p>The press dedicates at this moment many articles to a "meetingitis", a "disease" which some companies and governments suffer from. We have selected a few for you in our "managers' corner".</p>-->
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Understanding US Presidential elections">
+                                        <div class="row">
+                                            <!--  texte -->
+                                            <div class="col-sm-16">
+                                                <h3>Understanding US Presidential elections</h3>
+                                                <div class="meta">
+                                                    <time datetime="2016-04-11"><i aria-hidden="true" class="icon-clock"></i> 11.04.2015
+                                                    </time>
+                                                    <span class="label label-color4">DG EPRS</span>
+                                                    
+                                                </div>
+                                                <!--<p>In July 2016, the two major US parties will nominate their respective official candidate for the 58th US presidential election which takes place in November. </p>-->
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Information on bank accounts – new rules in force">
+                                        <div class="row">
+                                            <!--  texte -->
+                                            <div class="col-sm-16">
+                                                <h3>Information on bank accounts – new rules in force</h3>
+                                                <div class="meta">
+                                                    <time datetime="2016-04-11"><i aria-hidden="true" class="icon-clock"></i> 11.04.2016
+                                                    </time>
+                                                    <span class="label label-color8">DG PERS</span>
+                                                   
+                                                </div>
+                                                <!--<p>According to new legislation, all banks must declare financial and personal information linked to your bank accounts to the competent national authority.</p>-->
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Screening of the movie 'A haunting story' today in the Yehudi Menuhin space">
+                                        <div class="row">
+                                            <!--  texte -->
+                                            <div class="col-sm-16">
+                                                <h3>Screening of the movie 'A haunting story' today in the Yehudi Menuhin space</h3>
+                                                <div class="meta">
+                                                    <time datetime="2016-04-11"><i aria-hidden="true" class="icon-clock"></i> 20.04.2016
+                                                    </time>
+                                                    <span class="label label-color9">DG COMM</span>
+                                                    
+                                                </div>
+                                                <!--<p>Today Sakharov Prize Laureate Salih Osman will be participating in a debate on the conflict in South Sudan in the European Parliament. The debate will follow the screening of the movie 'A haunting history', organised by DG EXPO in the frame of the One World Human Rights Film Festival.</p>-->
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="How the number of MEPs will change after the 2015 elections">
+                                        <div class="row">
+                                            <!--  texte -->
+                                            <div class="col-sm-16">
+                                                <h3>Before organising your next meeting... read this on PRESnet ;-)!</h3>
+                                                <div class="meta">
+                                                    <time datetime="2016-04-11"><i aria-hidden="true" class="icon-clock"></i> 05.04.2016
+                                                    </time>
+                                                    <span class="label label-color10">DG PRES</span>
+                                                    
+                                                </div>
+                                               <!--<p>The press dedicates at this moment many articles to a "meetingitis", a "disease" which some companies and governments suffer from. We have selected a few for you in our "managers' corner".</p>-->
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Understanding US Presidential elections">
+                                        <div class="row">
+                                            <!--  texte -->
+                                            <div class="col-sm-16">
+                                                <h3>Understanding US Presidential elections</h3>
+                                                <div class="meta">
+                                                    <time datetime="2016-04-11"><i aria-hidden="true" class="icon-clock"></i> 11.04.2015
+                                                    </time>
+                                                    <span class="label label-color4">DG EPRS</span>
+                                                    
+                                                </div>
+                                                <!--<p>In July 2016, the two major US parties will nominate their respective official candidate for the 58th US presidential election which takes place in November. </p>-->
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Information on bank accounts – new rules in force">
+                                        <div class="row">
+                                            <!--  texte -->
+                                            <div class="col-sm-16">
+                                                <h3>Information on bank accounts – new rules in force</h3>
+                                                <div class="meta">
+                                                    <time datetime="2016-04-11"><i aria-hidden="true" class="icon-clock"></i> 11.04.2016
+                                                    </time>
+                                                    <span class="label label-color8">DG PERS</span>
+                                                   
+                                                </div>
+                                               <!-- <p>According to new legislation, all banks must declare financial and personal information linked to your bank accounts to the competent national authority.</p>-->
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- Pager -->
+                            <div class="row">
+                                <div class="col-lg-16 text-right">
+                                    <ul class="pager">
+                                        <li class="prev disabled"><a title="previous page" href="#"><i aria-hidden="true" class="icon-arrow-left"></i></a></li>
+                                        <li><strong>1-8</strong> of 8</li>
+                                        <li class="next"><a title="next page" href="#"><i aria-hidden="true" class="icon-arrow-right"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <!-- Sidebar right content -->
+                    <aside class="col-md-5 col-lg-5">
+                        <div class="box">
+                            <ul class="tools">
+                                <li><i aria-hidden="true" class="icon-rss"></i> <a href="#">RSS Feed</a></li>
+                                <li><i aria-hidden="true" class="icon-bookmark"></i> <a href="#">Bookmark this page</a></li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <i aria-hidden="true" class="icon-filter"></i>
+                        <strong> Your filters:</strong>
+                        <!--<a class="pull-right" href="">Clear all</a>-->
+                        <ul class="filters">
+                            <a class="pull-right hidden" href="">Clear all</a>
+                            <li class="label no-filters">No filters</li>
+                            <!--<li class="label"><a href="#" title="Delete this filter">Brussels <i aria-hidden="true" class="icon-remove"></i></a></li>
+                            <li class="label"><a href="#" title="Delete this filter">Administative staff <i aria-hidden="true" class="icon-remove"></i></a></li>-->
+                        </ul>
+                        <hr class="dotted">
+                        <strong>See your results for:</strong>
+                        <div class="box filters">
+                            <h3 data-toggle="collapse" data-target="#filters-1">Category <i aria-hidden="true" class="icon-arrow-down"></i></h3>
+                            <div id="filters-1" class="collapse in">
+                                <ul>
+                                    <li>
+                                        <a href="#">DG PRES<span class="filter-count">32</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#">DG COMM<span class="filter-count">16</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#">DG EPRS<span class="filter-count">21</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#">DG ITEC<span class="filter-count">09</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#">DG TRAD<span class="filter-count">04</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="box filters">
+                            <h3 data-toggle="collapse" data-target="#filters-2">Date range <i aria-hidden="true" class="icon-arrow-down"></i></h3>
+                            <div id="filters-2" class="collapse in">
+
+                                <strong>After:</strong>
+                                <!-- Date input -->
+                                <div class="date-input">
+                                    <input type="text" class="datepicker" id="date-start" placeholder="JJ/MM/YY" title="Date after: (JJ/MM/YY)">
+                                    <button type="button" class="icon-calendar" aria-label="Show calendar">
+                                    </button>
+                                </div>
+
+                                <strong>Before:</strong>
+                                <!-- Date input -->
+                                <div class="date-input">
+                                    <input type="text" class="datepicker" id="date-end" placeholder="JJ/MM/YY" title="Date before: (JJ/MM/YY)">
+                                    <button type="button" class="icon-calendar" aria-label="Show calendar">
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="box filters">
+                            <h3 data-toggle="collapse" data-target="#filters-3">Location <i aria-hidden="true" class="icon-arrow-down"></i></h3>
+                            <div id="filters-3" class="collapse in">
+                                <ul>
+                                    <li>
+                                        <a href="#">Brussels<span class="filter-count">32</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Luxembourg<span class="filter-count">16</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Strasbourg<span class="filter-count">21</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+  <footer role="contentinfo">
+        <div class="footer1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h2>Phone numbers</h2>
+                        <ul>
+                            <li>Emergencies <span class="pull-right">85112</span>
+                            </li>
+                            <li>IT support <span class="pull-right">46480</span>
+                            </li>
+                            <li>Info Desks <span class="pull-right">41600</span>
+                            </li>
+                        </ul>
+                        <a class="btn btn-primary" href="#">Other EU directories</a>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2 id="SearchForm">Search for a form</h2>
+                        <p>More than 200 administrative forms</p>
+                        <!-- Search bar -->
+                        <div class="search">
+                            <input type="text" id="search-form" placeholder="Type topic or keyword" aria-labelledby="SearchForm">
+                            <button type="submit" class="icon-search"><span class="sr-only">Search</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2 id="SearchEPDir">Search EP Directory</h2>
+                        <p>More than 900 people and services</p>
+                        <!-- Search bar -->
+                        <div class="search">
+                            <input type="text" id="search-epdir" placeholder="Type name, job or service" aria-labelledby="SearchEPDir">
+                            <button type="submit" class="icon-search"><span class="sr-only">Search</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2>Help</h2>
+                        <p>Questions about EP Intranet ?</p>
+                        <a class="btn btn-primary" href="#">Visit the Help Centre</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        The Intranet of the European Parliament - ©2016
+                    </div>
+                    <div class="col-sm-8 text-right">
+                        <a href="#">Legal mentions</a> - <a href="#">Cookie usage</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Button Scroll to top -->
+    <button aria-hidden="true" type="button" class="btn scrollToTop"><i aria-hidden="true" class="icon-arrow-up"></i><span class="sr-only">Scroll to top</span>
+    </button>
+    <!-- The Bootstrap Image Gallery lightbox DIV, should be a child element of the document body -->
+    <div id="blueimp-gallery" role="dialog" aria-label="Gallery" class="blueimp-gallery blueimp-gallery-controls">
+        <!-- The container for the modal slides -->
+        <div class="slides"></div>
+        <h3 class="title"><span class="sr-only">title</span></h3>
+        <p class="description"></p>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+        <a class="play-pause"></a>
+        <ol class="indicator"></ol>
+    </div>
+
+    <!-- JS -->
+    <script src="javascript/jquery-1.11.3.min.js"></script>
+    <script src="javascript/jquery-ui-1.11.4.custom.min.js"></script>
+    <script src="javascript/jquery-ui-timepicker-addon.min.js"></script>  
+    <!-- Jquery sortable in tree (dependance jquery ui) -->
+    <script src="javascript/jquery.mjs.nestedSortable.js"></script>
+    <script src="javascript/bootstrap.min.js"></script>
+    <!-- custom Select dropdown for Bootstrap -->
+    <script src="javascript/bootstrap-select.js"></script>
+    <script src="javascript/modernizr.custom.js"></script>
+    <!-- jpanelmenu for Off canvas menu (mobile) -->
+    <script src="javascript/jquery.jpanelmenu-custom.js"></script>
+    <!-- jRespond for manage javascript on responsive (used with jpanelmenu) -->
+    <script src="javascript/jRespond.min.js"></script>
+    <!-- Blueimp-gallery for gallery, lightbox and sliders -->
+    <script src="javascript/jquery.blueimp-gallery.min.js"></script>
+    <!-- JS for cookies -->
+    <script src="javascript/jquery.cookie.js"></script>
+    <!-- Joyride Tour plugin -->
+    <script src="javascript/jquery.joyride-2.1.js"></script>
+    <!-- Rating plugin (for illustrate template) -->
+    <script src="javascript/jquery.barrating.js"></script>
+    <!-- Scripts for EP Intranet -->
+    <script src="javascript/ep-scripts.js"></script>
+
+</body>
+
+</html>
